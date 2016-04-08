@@ -1,11 +1,5 @@
 include("SimulationModel.jl")
-include("models/PassRate.jl")
-include("models/GaussianBayes.jl")
-include("models/GaussianProcess.jl")
-include("models/Mixtures.jl")
-include("models/MaxProb.jl")
 include("curriculums/CPE.jl")
-include("lib/course_helper.jl")
 
 f1 = [:HSGPA, :ACTCOMP, :ATTEMPTS]
 f2 = [:GPA]
