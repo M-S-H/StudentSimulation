@@ -1,9 +1,19 @@
+# Types
 include("types/course.jl")
 include("types/student.jl")
 include("types/term.jl")
+
+# Helper Files
 include("lib/helper.jl")
 include("lib/students_helper.jl")
 include("lib/course_helper.jl")
+
+# Models
+include("models/PassRate.jl")
+include("models/GaussianBayes.jl")
+include("models/GaussianProcess.jl")
+include("models/Mixtures.jl")
+include("models/MaxProb.jl")
 
 # Simulation Type
 type Simulation
