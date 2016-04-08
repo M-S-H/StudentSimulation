@@ -64,7 +64,7 @@ module GaussianBayes
 		# features = [student.actengl student.actmath student.actscir student.hsgpa]'
 
 		# println(sample)
-		sample = sample'
+		sample = vec(sample)
 
 		# Probablities
 		probabilities = []
