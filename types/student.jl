@@ -1,7 +1,8 @@
 type Student
-	id::Int						# Unique ID for student
+	id::Int						# Unique ID for student				
 	termcredits::Int					# Indicates how many credits a student is enrolled in during a term
 	stopout::Bool					# Indicates wheter the student has stoped out
+	stopsem::Int 					# The term a student stops out
 	enrollment::Array				# Keeps track of the courses a student has passed
 	performance::Dict				# Stores the grades the student has made in each class
 	gpa::Float64					# The student's GPA
@@ -14,7 +15,6 @@ type Student
 	# Constructors
 	function Student(id, attributes)
 		this = new()
-
 		this.id = id
 		this.termcredits = 0
 		this.performance = Dict()

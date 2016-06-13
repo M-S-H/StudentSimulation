@@ -1,11 +1,15 @@
-include("SimulationModel.jl")
-include("curriculums/CPE.jl")
+include("NewSimulationModel.jl");
+include("curriculums/CPE.jl");
 
-f1 = [:HSGPA, :ACTCOMP, :ATTEMPTS]
-f2 = [:GPA]
+f1 = [];
+f2 = [];
 
-students = courseStudents(ece101, f1)
+c = Curriculum(terms);
 
-sim = Simulation(terms, f1, f2, GaussianBayes)
-simulate(sim, students, numTerms = 8)
-simInfo(sim)
+# students = studentsFromFile("geng", f1)
+students = passRateStudents(1000);
+
+sim = Simulation(c, f1, f2, PassRate);
+simulate(sim, students, numTerms = 12, stopouts = false, locked_terms = false);
+
+simInfo(sim);

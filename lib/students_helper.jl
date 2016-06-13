@@ -20,10 +20,33 @@ function courseStudents(course, features)
 end
 
 
+function studentsFromFile(file, features)
+	students = Student[]
+
+	data = readtable("data/$(file).csv")
+	for i=1:size(data)[1]
+		attributes = Dict()
+		for (j, key) in enumerate(features)
+			if in(key, [:ATTEMPTS])
+				continue
+			end
+
+			attributes[key] = data[i, key]
+		end
+
+		student = Student(i, attributes)
+		push!(students, student)
+	end
+
+	return students
+end
+
+
 function passRateStudents(number)
 	students = Student[]
 	for i=1:number
 		student = Student(i, Dict())
+		student.attributes[:ROLL] = rand()
 		push!(students, student)
 	end
 	return students

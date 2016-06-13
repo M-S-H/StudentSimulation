@@ -1,30 +1,42 @@
 module PassRate
+	include("../lib/grades_helper.jl")
 	include("../lib/helper.jl")
 
 
 	function train(course, f)
-		# Get Data
-		features = []
-		X, Y = formatData(course, features, removeNonGrades=false)
-
 		model = Dict()
 
-		# Determine pass rate
-		passing = Y[Y .>= 2.0]
+		if course.passrate == 0
+			# Get Data
+			features = []
+			X, Y = formatData(course, features, removeNonGrades=false)
 
-		model[:passrate] = 1.0 # length(passing) / length(Y)
+			# Determine pass rate
+			passing = Y[Y .>= 1.67]
 
-		course.passrate = model[:passrate]
-		
-		model[:rmse] = "NA"
+			model[:passrate] = length(passing) / length(Y)
+
+			course.passrate = model[:passrate]
+		else
+			model[:passrate] = course.passrate
+		end
 
 		course.model = model
+
+		rates = 0
+		for i=1:1000
+			if predict_grade(course, [rand()]) > 0
+				rates += 1
+			end
+		end
+		model[:rmse] = abs((rates / 1000) - course.model[:passrate])
 	end
 
 
-	function predict(course, sample)
-		roll = rand()
-		if roll <= course.model[:passrate]
+	function predict_grade(course, sample)
+		roll = rand(1:100)
+
+		if roll <= course.model[:passrate]*100
 			return 4.0
 		else
 			return 0.0
