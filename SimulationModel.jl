@@ -21,20 +21,21 @@ include("models/PassRate.jl")
 # This type keeps track of all simulation information
 type Simulation
 	# Attributes
-	curriculum::Curriculum 			# The Curriculum that will be simulated
-	numTerms::Int 					# The number of terms the simulation will run for
+	curriculum::Curriculum 							# The Curriculum that will be simulated
+	numTerms::Int												# The number of terms the simulation will run for
 
-	freshmanFeatures::Array			# Array of features used to train first semester courses
-	regularFeatures::Array			# Array of features used to train in non first semester courses
-	model::Module					# Module that implements training and predicting student performance
+	freshmanFeatures::Array							# Array of features used to train first semester courses
+	regularFeatures::Array							# Array of features used to train in non first semester courses
+	model::Module												# Module that implements training and predicting student performance
 
-	numStudents::Int 				# Number of students in the simulation
-	enrolledStudents::Array{Student}	# Array of students who are enrolled in the program
-	graduatedStudents::Array{Student}	# Array of students who graduated
-	stopoutStudents::Array{Student}		# Array of students who stoped out
-	studentEnrollment::Array			# Track whichs students have completed the various courses
+	numStudents::Int 										# Number of students in the simulation
+	enrolledStudents::Array{Student}		# Array of students who are enrolled in the program
+	graduatedStudents::Array{Student}		# Array of students who graduated
+	stopoutStudents::Array{Student}			# Array of students who stoped out
+	studentEnrollment::Array						# Track whichs students have completed the various courses
 
 	gradRate::Float64
+	termGradRates::Array{Float64}
 	timeToDegree::Float64
 	stopoutRate::Float64
 	termStopouts::Array{Float64}
@@ -80,7 +81,7 @@ end
 
 # The function that simulates students flowing through a curriculum
 # The function requres a simulation type and an array of students
-function simulate(simulation, students; numTerms = 8, stopouts = true, withdraws = true, locked_terms = true)
+function simulate(simulation, students; max_credits = 18, numTerms = 8, stopouts = true, withdraws = true, locked_terms = true)
 	# Determine the number of students used in the simulation
 	numStudents = length(students)
 
@@ -91,6 +92,7 @@ function simulate(simulation, students; numTerms = 8, stopouts = true, withdraws
 	simulation.graduatedStudents = Student[]
 	simulation.stopoutStudents = Student[]
 	simulation.gradRate = 0.0
+	simulation.termGradRates = zeros(numTerms)
 	simulation.stopoutRate = 0.0
 
 	# Assign each student a unique id
@@ -117,6 +119,8 @@ function simulate(simulation, students; numTerms = 8, stopouts = true, withdraws
 		course.students = Student[]
 	end
 
+	terms = simulation.curriculum.terms
+
 
 	# Loop through the number of terms the user specified for simulation
 	for currentTerm = 1:numTerms
@@ -139,7 +143,7 @@ function simulate(simulation, students; numTerms = 8, stopouts = true, withdraws
 						# Detemine whether the student can be enrolled in the current course.
 						# A student must not have already completed the course, must have completed
 						# the current course prereqs and must not be enrolled in more than 18 credit hours
-						if (length(course.prereqs) == 0 || sum(studentEnrollment[student.id, prereqids]) == length(course.prereqs)) && studentEnrollment[student.id, course.id] == 0.0 && student.termcredits + course.credits <= 18
+						if (length(course.prereqs) == 0 || sum(studentEnrollment[student.id, prereqids]) == length(course.prereqs)) && studentEnrollment[student.id, course.id] == 0.0 && student.termcredits + course.credits <= max_credits
 							# If the requirements are met, push the student into the course's array of enrolled students
 							push!(course.students, student)
 
@@ -234,6 +238,7 @@ function simulate(simulation, students; numTerms = 8, stopouts = true, withdraws
 				push!(graduatedStudentIds, i)
 			end
 		end
+		simulation.termGradRates[currentTerm] = length(simulation.graduatedStudents) / numStudents 
 
 		# Remove graduated students from the array of enrolled students
 		deleteat!(simulation.enrolledStudents, graduatedStudentIds)

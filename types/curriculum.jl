@@ -2,10 +2,10 @@ import JSON
 
 type Curriculum
 	# Attributes
+	terms::Array{Term}			# Array of terms
 	courses::Array{Course}		# Array of courses in the curriculum
 	numCourses::Int				# Number of courses
 	complexity::Int				# Sum of course crucialities
-	terms::Array{Term}			# Array of terms
 
 	#Constructors
 	function Curriculum(terms::Array{Term})

@@ -1,11 +1,11 @@
 # Define Courses
-engl110 	= Course("ENGL110", 3, Course[]);
+engl101 	= Course("ENGL101", 3, Course[]);
 math162 	= Course("MATH162", 4, Course[]);
 ece101 	= Course("ECE101", 1, Course[]);
 ece131 	= Course("ECE131", 3, Course[]);
 phyc160 	= Course("PHYC160", 3, Course[]);
 
-engl120 	= Course("ENGL120", 3, [engl110]);
+engl102 	= Course("ENGL102", 3, [engl101]);
 math163	= Course("MATH163", 4, [math162]);
 phyc161	= Course("PHYC161", 3, [phyc160]);
 phyc161l	= Course("PHYC161L", 1, [phyc160]);
@@ -15,10 +15,10 @@ ece203	= Course("ECE203", 3, [ece131, math163]);
 ece238l	= Course("ECE238L", 4, [ece131]);
 biol110	= Course("BIOL110", 3, Course[]);
 biol112l	= Course("BIOL112L", 1, Course[]);
-engl219	= Course("ENGL219", 3, [engl120]);
+engl219	= Course("ENGL219", 3, [engl102]);
 econ105	= Course("ECON105", 3, Course[]);
 
-ece206l	= Course("ECE206L", 2, [ece203, engl120]);
+ece206l	= Course("ECE206L", 2, [ece203]);
 ece213 	= Course("ECE213", 3, [ece203, math163]);
 ece300	= Course("ECE300", 4, [math163]);
 math264	= Course("MATH264", 4, [math163]);
@@ -48,8 +48,8 @@ hist101	= Course("HIST101", 3, Course[]);
 arth101	= Course("ARTH101", 3, Course[]);
 
 # Define Terms
-t1 = Term([engl110, math162, ece101, ece131, phyc160]);
-t2 = Term([engl120, math163, phyc161, phyc161l, ece231]);
+t1 = Term([engl101, math162, ece101, ece131, phyc160]);
+t2 = Term([engl102, math163, phyc161, phyc161l, ece231]);
 t3 = Term([ece203, ece238l, biol110, biol112l, engl219, econ105]);
 t4 = Term([ece206l, ece213, ece300, math264, ece330]);
 t5 = Term([ece321l, math327, ece314, ece340, span101]);

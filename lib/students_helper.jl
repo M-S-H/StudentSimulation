@@ -23,7 +23,7 @@ end
 function studentsFromFile(file, features)
 	students = Student[]
 
-	data = readtable("data/$(file).csv")
+	data = readtable("students/$(file).csv")
 	for i=1:size(data)[1]
 		attributes = Dict()
 		for (j, key) in enumerate(features)

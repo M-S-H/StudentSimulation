@@ -6,6 +6,7 @@
 			"credits": 0,
 			"passrate": 0.8,
 			"term": 1,
+			"corequisites": [],
 			"prerequisites": []
 		},
 		{
@@ -13,6 +14,7 @@
 			"credits": 0,
 			"passrate": 0.8,
 			"term": 1,
+			"corequisites": [],
 			"prerequisites": []
 		},
 		{
@@ -20,6 +22,7 @@
 			"credits": 0,
 			"passrate": 0.8,
 			"term": 1,
+			"corequisites": [],
 			"prerequisites": []
 		},
 		{
@@ -27,6 +30,7 @@
 			"credits": 0,
 			"passrate": 0.8,
 			"term": 1,
+			"corequisites": [],
 			"prerequisites": []
 		},
 		{
@@ -34,6 +38,7 @@
 			"credits": 0,
 			"passrate": 0.8,
 			"term": 1,
+			"corequisites": [],
 			"prerequisites": []
 		},
 		{
@@ -41,6 +46,7 @@
 			"credits": 0,
 			"passrate": 0.8,
 			"term": 1,
+			"corequisites": [],
 			"prerequisites": []
 		},
 		{
@@ -48,6 +54,7 @@
 			"credits": 0,
 			"passrate": 0.8,
 			"term": 2,
+			"corequisites": [],
 			"prerequisites": ["ENGL 110"]
 		},
 		{
@@ -55,6 +62,7 @@
 			"credits": 0,
 			"passrate": 0.8,
 			"term": 2,
+			"corequisites": [],
 			"prerequisites": ["MATH 162"]
 		},
 		{
@@ -62,6 +70,7 @@
 			"credits": 0,
 			"passrate": 0.8,
 			"term": 2,
+			"corequisites": [],
 			"prerequisites": []
 		},
 		{
@@ -69,6 +78,7 @@
 			"credits": 0,
 			"passrate": 0.8,
 			"term": 2,
+			"corequisites": [],
 			"prerequisites": ["MATH 162"]
 		},
 		{
@@ -76,6 +86,7 @@
 			"credits": 0,
 			"passrate": 0.8,
 			"term": 2,
+			"corequisites": [],
 			"prerequisites": []
 		},
 		{
@@ -83,6 +94,7 @@
 			"credits": 0,
 			"passrate": 0.8,
 			"term": 2,
+			"corequisites": [],
 			"prerequisites": []
 		},
 		{
@@ -90,6 +102,7 @@
 			"credits": 0,
 			"passrate": 0.8,
 			"term": 3,
+			"corequisites": [],
 			"prerequisites": ["PHYC 160", "MATH 163"]
 		},
 		{
@@ -97,6 +110,7 @@
 			"credits": 0,
 			"passrate": 0.8,
 			"term": 3,
+			"corequisites": [],
 			"prerequisites": ["ME 160L","CHEM 121","CHEM 123L"]
 		},
 		{
@@ -104,6 +118,7 @@
 			"credits": 0,
 			"passrate": 0.8,
 			"term": 3,
+			"corequisites": [],
 			"prerequisites": ["MATH 163"]
 		},
 		{
@@ -111,6 +126,7 @@
 			"credits": 0,
 			"passrate": 0.8,
 			"term": 3,
+			"corequisites": [],
 			"prerequisites": ["PHYC 160","MATH 163"]
 		},
 		{
@@ -118,6 +134,7 @@
 			"credits": 0,
 			"passrate": 0.8,
 			"term": 3,
+			"corequisites": [],
 			"prerequisites": []
 		},
 		{
@@ -125,6 +142,7 @@
 			"credits": 0,
 			"passrate": 0.8,
 			"term": 4,
+			"corequisites": [],
 			"prerequisites": ["CE 202", "MATH 264"]
 		},
 		{
@@ -132,6 +150,7 @@
 			"credits": 0,
 			"passrate": 0.8,
 			"term": 4,
+			"corequisites": [],
 			"prerequisites": ["MATH 163","CS 151L"]
 		},
 		{
@@ -139,6 +158,7 @@
 			"credits": 0,
 			"passrate": 0.8,
 			"term": 4,
+			"corequisites": [],
 			"prerequisites": ["ECE 131","MATH 163","PHYC 161"]
 		},
 		{
@@ -146,6 +166,7 @@
 			"credits": 0,
 			"passrate": 0.8,
 			"term": 4,
+			"corequisites": [],
 			"prerequisites": ["MATH 264","PHYC 161"]
 		},
 		{
@@ -153,6 +174,7 @@
 			"credits": 0,
 			"passrate": 0.8,
 			"term": 4,
+			"corequisites": [],
 			"prerequisites": []
 		},
 		{
@@ -160,6 +182,7 @@
 			"credits": 0,
 			"passrate": 0.8,
 			"term": 5,
+			"corequisites": [],
 			"prerequisites": ["ME 306","ME 318L","MATH 264","MATH 316"]
 		},
 		{
@@ -167,6 +190,7 @@
 			"credits": 0,
 			"passrate": 0.8,
 			"term": 5,
+			"corequisites": [],
 			"prerequisites": ["CHEM 121","CHEM 123L","PHYC 161","MATH 163","MATH 264"]
 		},
 		{
@@ -174,6 +198,7 @@
 			"credits": 0,
 			"passrate": 0.8,
 			"term": 5,
+			"corequisites": [],
 			"prerequisites": ["CE 202","MATH 316"]
 		},
 		{
@@ -181,6 +206,7 @@
 			"credits": 0,
 			"passrate": 0.8,
 			"term": 5,
+			"corequisites": [],
 			"prerequisites": []
 		},
 		{
@@ -188,6 +214,7 @@
 			"credits": 0,
 			"passrate": 0.8,
 			"term": 5,
+			"corequisites": [],
 			"prerequisites": []
 		},
 		{
@@ -195,6 +222,7 @@
 			"credits": 0,
 			"passrate": 0.8,
 			"term": 6,
+			"corequisites": [],
 			"prerequisites": ["ME 260L","CE 302","MATH 264","MATH 316"]
 		},
 		{
@@ -202,6 +230,7 @@
 			"credits": 0,
 			"passrate": 0.8,
 			"term": 6,
+			"corequisites": [],
 			"prerequisites": ["ME 306","MATH 316"]
 		},
 		{
@@ -209,6 +238,7 @@
 			"credits": 0,
 			"passrate": 0.8,
 			"term": 6,
+			"corequisites": [],
 			"prerequisites": ["ME 260L","CE 302"]
 		},
 		{
@@ -216,6 +246,7 @@
 			"credits": 0,
 			"passrate": 0.8,
 			"term": 6,
+			"corequisites": [],
 			"prerequisites": []
 		},
 		{
@@ -223,6 +254,7 @@
 			"credits": 0,
 			"passrate": 0.8,
 			"term": 6,
+			"corequisites": [],
 			"prerequisites": []
 		},
 		{
@@ -230,6 +262,7 @@
 			"credits": 0,
 			"passrate": 0.8,
 			"term": 6,
+			"corequisites": [],
 			"prerequisites": []
 		},
 		{
@@ -237,6 +270,7 @@
 			"credits": 0,
 			"passrate": 0.8,
 			"term": 7,
+			"corequisites": [],
 			"prerequisites": ["ME 301","ME 317L","MATH 316"]
 		},
 		{
@@ -244,6 +278,7 @@
 			"credits": 0,
 			"passrate": 0.8,
 			"term": 7,
+			"corequisites": [],
 			"prerequisites": ["CE 302"]
 		},
 		{
@@ -251,6 +286,7 @@
 			"credits": 0,
 			"passrate": 0.8,
 			"term": 7,
+			"corequisites": [],
 			"prerequisites": ["ME 357", "MATH 316"]
 		},
 		{
@@ -258,6 +294,7 @@
 			"credits": 0,
 			"passrate": 0.8,
 			"term": 7,
+			"corequisites": [],
 			"prerequisites": ["ME 357","ME 406L"]
 		},
 		{
@@ -265,6 +302,7 @@
 			"credits": 0,
 			"passrate": 0.8,
 			"term": 8,
+			"corequisites": [],
 			"prerequisites": ["ME 320L","ME 380","ME 459","ME 407"]
 		},
 		{
@@ -272,6 +310,7 @@
 			"credits": 0,
 			"passrate": 0.8,
 			"term": 8,
+			"corequisites": [],
 			"prerequisites": []
 		},
 		{
@@ -279,6 +318,7 @@
 			"credits": 0,
 			"passrate": 0.8,
 			"term": 8,
+			"corequisites": [],
 			"prerequisites": []
 		},
 		{
@@ -286,6 +326,7 @@
 			"credits": 0,
 			"passrate": 0.8,
 			"term": 8,
+			"corequisites": [],
 			"prerequisites": []
 		}
 	]

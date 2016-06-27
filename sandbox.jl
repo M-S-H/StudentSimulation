@@ -1,15 +1,16 @@
-include("NewSimulationModel.jl");
+include("SimulationModel.jl");
 include("curriculums/CPE.jl");
+include("models/ProbitPassRate.jl");
 
-f1 = [];
+f1 = [:HSGPA, :ACTCOMP];
 f2 = [];
 
 c = Curriculum(terms);
 
-# students = studentsFromFile("geng", f1)
-students = passRateStudents(1000);
+students = studentsFromFile("geng", f1)
+# students = passRateStudents(1000);
 
-sim = Simulation(c, f1, f2, PassRate);
-simulate(sim, students, numTerms = 12, stopouts = false, locked_terms = false);
+sim = Simulation(c, f1, f2, ProbitPassRate);
+simulate(sim, students, numTerms = 8, stopouts = true, locked_terms = true);
 
 simInfo(sim);

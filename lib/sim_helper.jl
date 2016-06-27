@@ -38,7 +38,7 @@ function simFlow(simulation)
 	for i=1:simulation.numTerms
 		println("\nTerm $(i)")
 
-		for term in terms
+		for term in simulation.curriculum.terms
 			for course in term.courses
 				println("\t$(course.name): $(course.termenrollment[i]) -> $(course.termpassed[i])")
 			end
