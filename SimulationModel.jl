@@ -84,6 +84,7 @@ end
 function simulate(simulation, students; max_credits = 18, numTerms = 8, stopouts = true, withdraws = true, locked_terms = true)
 	# Determine the number of students used in the simulation
 	numStudents = length(students)
+	simulation.numStudents = numStudents
 
 	# Populate the enrolled students array with the students passed in.
 	simulation.enrolledStudents = copy(students)
