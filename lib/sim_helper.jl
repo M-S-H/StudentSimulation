@@ -74,5 +74,5 @@ function passTable(simulation)
   end
   push!(frame, rates)
 
-  println(frame)
+  frame
 end
