@@ -56,3 +56,4 @@ students = passRateStudents(10000)
 sim = Simulation(curriculum, f1, f2, PassRate);
 simulate(sim, students, max_credits = 9, numTerms = 4, stopouts = false, locked_terms = false);
 passTable(sim)
+println(simJSON(sim))

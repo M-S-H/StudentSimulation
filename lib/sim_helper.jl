@@ -1,3 +1,5 @@
+import JSON
+
 function simInfo(simulation)
   println("Graduation Rate: $(simulation.gradRate)")
 
@@ -75,4 +77,35 @@ function passTable(simulation)
   push!(frame, rates)
 
   frame
+end
+
+
+function simJSON(simulation)
+  # Object to be returned
+  data = Dict()
+
+  # Basic simulation info
+  data[:simulationLength] = simulation.numTerms
+  data[:numStudents] = simulation.numStudents
+  data[:termGradRates] = simulation.termGradRates
+  data[:curriculumComplexity] = simulation.curriculum.complexity
+
+  # Course Information
+  data[:courseData] = []
+  for course in simulation.curriculum.courses
+    courseInfo = Dict()
+    courseInfo[:name] = course.name
+    courseInfo[:credits] = course.credits
+    courseInfo[:delay] = course.delay
+    courseInfo[:blocking] = course.blocking
+    courseInfo[:cruciality] = course.cruciality
+    courseInfo[:enrolled] = course.enrolled
+    courseInfo[:failures] = course.failures
+    courseInfo[:passrate] = course.passrate
+    courseInfo[:termEnrollment] = course.termenrollment
+    courseInfo[:termPassed] = course.termpassed
+    push!(data[:courseData], courseInfo)
+  end
+
+  return JSON.json(data)
 end

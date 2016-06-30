@@ -58,6 +58,13 @@ function backward(course, paths, l=0)
 end
 
 
+function setPassRate(courses, rate)
+	for course in courses
+		course.passrate = rate
+	end
+end
+
+
 function gradeHistActual(course)
 	plot(x=course.model[:Y], Geom.histogram)
 end
