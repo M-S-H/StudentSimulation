@@ -6,6 +6,8 @@ type Curriculum
   courses::Array{Course}    # Array of courses in the curriculum
   numCourses::Int       # Number of courses
   complexity::Int       # Sum of course crucialities
+  delay::Int
+  blocking::Int
 
   #Constructors
   function Curriculum(terms::Array{Term})
@@ -31,6 +33,8 @@ type Curriculum
     end
 
     this.complexity = sum(map(x->x.cruciality, this.courses))
+    this.delay = sum(map(x->x.delay, this.courses))
+    this.blocking = sum(map(x->x.blocking, this.courses))
     this.numCourses = length(this.courses)
 
     return this
