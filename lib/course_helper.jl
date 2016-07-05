@@ -48,7 +48,7 @@ function forward(course, paths, l=0)
 end
 
 function backward(course, paths, l=0)
-	for c in course.prereqs
+	for c in [course.prereqs; course.coreqs]
 		backward(c, paths, l+1)
 	end
 

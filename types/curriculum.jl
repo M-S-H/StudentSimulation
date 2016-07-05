@@ -24,6 +24,10 @@ type Curriculum
         for prereq in course.prereqs
           push!(prereq.postreqs, course)
         end
+
+        for coreq in course.coreqs
+          push!(coreq.postreqs, course)
+        end
       end
     end
 
@@ -55,11 +59,40 @@ type Curriculum
 
     allCourses = Course[]
 
+    # for course in data["courses"]
+    #   name = course["name"]
+    #   credits = course["credits"]
+    #   passrate = course["passrate"]
+
+    #   prereqs = Course[]
+    #   for prereq in course["prerequisites"]
+    #     ind = findfirst(x -> x.name == prereq, allCourses)
+    #     if ind != 0
+    #       push!(prereqs, allCourses[ind])
+    #     end
+    #   end
+
+    #   c = Course(name, credits, passrate, prereqs)
+    #   push!(courses[course["term"]], c)
+    #   push!(allCourses, c)
+    # end
+
+    # Create Courses First
     for course in data["courses"]
       name = course["name"]
       credits = course["credits"]
       passrate = course["passrate"]
 
+      c = Course(name, credits, passrate, Course[], Course[])
+      push!(courses[course["term"]], c)
+      push!(allCourses, c)
+    end
+
+    # Assign Pre and Co-Reqs
+    for (i, course) in enumerate(data["courses"])
+      c = allCourses[i]
+
+      # prereqs
       prereqs = Course[]
       for prereq in course["prerequisites"]
         ind = findfirst(x -> x.name == prereq, allCourses)
@@ -68,9 +101,17 @@ type Curriculum
         end
       end
 
-      c = Course(name, credits, passrate, prereqs)
-      push!(courses[course["term"]], c)
-      push!(allCourses, c)
+      # coreqs
+      coreqs = Course[]
+      for prereq in course["corequisites"]
+        ind = findfirst(x -> x.name == prereq, allCourses)
+        if ind != 0
+          push!(coreqs, allCourses[ind])
+        end
+      end
+
+      c.prereqs = prereqs
+      c.coreqs = coreqs
     end
 
     terms = Term[]

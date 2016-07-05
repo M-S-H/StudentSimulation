@@ -11,6 +11,7 @@ type Course
   cruciality::Int       # The sum of the delay and blocking factor
 
   prereqs::Array{Course}    # Array of courses that are prereqs to this course
+  coreqs::Array{Course}
   postreqs::Array{Course}   # Array of courses that has this course as a prereq
 
   students::Array{Student}    # Array of students enrolled in the course
@@ -25,7 +26,7 @@ type Course
   termpassed::Array{Int}    # An array of the number of students who pass each term
 
   # Constructors
-  function Course(name::AbstractString, credits::Int, prereqs::Array{Course})
+  function Course(name::AbstractString, credits::Int, prereqs::Array{Course}, coreqs::Array{Course})
     this = new()
 
     this.name = name
@@ -42,7 +43,7 @@ type Course
   end
 
   # With Passrate
-  function Course(name::AbstractString, credits::Int, passrate::Float64, prereqs::Array{Course})
+  function Course(name::AbstractString, credits::Int, passrate::Float64, prereqs::Array{Course}, coreqs::Array{Course})
     this = new()
 
     this.name = name
