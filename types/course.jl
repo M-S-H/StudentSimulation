@@ -2,7 +2,7 @@ include("student.jl")
 
 type Course
   # Attributes
-  name::ASCIIString     # Name of the course
+  name::AbstractString     # Name of the course
   id::Int         # Unique id for course
 
   credits::Int        # Course credit hours
@@ -25,7 +25,7 @@ type Course
   termpassed::Array{Int}    # An array of the number of students who pass each term
 
   # Constructors
-  function Course(name::ASCIIString, credits::Int, prereqs::Array{Course})
+  function Course(name::AbstractString, credits::Int, prereqs::Array{Course})
     this = new()
 
     this.name = name
@@ -42,7 +42,7 @@ type Course
   end
 
   # With Passrate
-  function Course(name::ASCIIString, credits::Int, passrate::Float64, prereqs::Array{Course})
+  function Course(name::AbstractString, credits::Int, passrate::Float64, prereqs::Array{Course})
     this = new()
 
     this.name = name
