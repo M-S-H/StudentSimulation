@@ -3,3 +3,5 @@ students
 *.ipynb
 
 *.jl
+!server.jl
+!SimulationModel.jl
