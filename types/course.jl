@@ -26,7 +26,7 @@ type Course
   termpassed::Array{Int}    # An array of the number of students who pass each term
 
   # Constructors
-  function Course(name::AbstractString, credits::Int, prereqs::Array{Course}, coreqs::Array{Course})
+  function Course(name::AbstractString, credits::Number, prereqs::Array{Course}, coreqs::Array{Course})
     this = new()
 
     this.name = name
@@ -43,7 +43,7 @@ type Course
   end
 
   # With Passrate
-  function Course(name::AbstractString, credits::Int, passrate::Float64, prereqs::Array{Course}, coreqs::Array{Course})
+  function Course(name::AbstractString, credits::Number, passrate::Number, prereqs::Array{Course}, coreqs::Array{Course})
     this = new()
 
     this.name = name
