@@ -34,11 +34,11 @@ type Simulation
 	stopoutStudents::Array{Student}			# Array of students who stoped out
 	studentEnrollment::Array						# Track whichs students have completed the various courses
 
-	gradRate::Float64
-	termGradRates::Array{Float64}
+	gradRate::Float64										# Graduate rate at the end of the simulation
+	termGradRates::Array{Float64}				# Array of graduation rates at the end of each term
 	timeToDegree::Float64
-	stopoutRate::Float64
-	termStopouts::Array{Float64}
+	stopoutRate::Float64								# Stopout rate at the end of the simulation
+	termStopouts::Array{Float64}				# Array of stopout rates at the end of each term
 
 
 	# Constructor
@@ -123,6 +123,14 @@ function simulate(simulation, students; max_credits = 18, numTerms = 8, stopouts
 	terms = simulation.curriculum.terms
 
 
+	freeCourses = find(x -> length(x.prereqs) == 0 && length(x.postreqs) == 0, simulation.curriculum.courses)
+	freeCourses = simulation.curriculum.courses[freeCourses]
+
+	nonFree = find(x -> length(x.prereqs) > 0 || length(x.postreqs) > 0, simulation.curriculum.courses)
+	nonFree = simulation.curriculum.courses[nonFree]
+
+	sort!(nonFree, by=x->length(x.postreqs), rev=true)
+
 	# Loop through the number of terms the user specified for simulation
 	for currentTerm = 1:numTerms
 		# Student Enrollment
@@ -138,13 +146,11 @@ function simulate(simulation, students; max_credits = 18, numTerms = 8, stopouts
 					course.students = Student[]
 
 					for student in simulation.enrolledStudents
-						# Find the prereq ids of the current course
-						prereqids = map(x -> x.id, course.prereqs)
-
 						# Detemine whether the student can be enrolled in the current course.
 						# A student must not have already completed the course, must have completed
 						# the current course prereqs and must not be enrolled in more than 18 credit hours
-						if (length(course.prereqs) == 0 || sum(studentEnrollment[student.id, prereqids]) == length(course.prereqs)) && studentEnrollment[student.id, course.id] == 0.0 && student.termcredits + course.credits <= max_credits
+						if canEnroll(student, course, studentEnrollment, max_credits, currentTerm)
+							# (length(course.prereqs) == 0 || sum(studentEnrollment[student.id, prereqids]) == length(course.prereqs)) && studentEnrollment[student.id, course.id] == 0.0 && student.termcredits + course.credits <= max_credits
 							# If the requirements are met, push the student into the course's array of enrolled students
 							push!(course.students, student)
 
@@ -266,10 +272,32 @@ function simulate(simulation, students; max_credits = 18, numTerms = 8, stopouts
 		end
 	end
 
-
 	# Compute Graduation Rate
 	simulation.gradRate = length(simulation.graduatedStudents) / numStudents
 
 	# Compute Stopout Rate
 	simulation.stopoutRate = length(simulation.stopoutStudents) / numStudents
+end
+
+
+function canEnroll(student, course, studentEnrollment, max_credits, term)
+	# Find the prereq ids of the current course
+	prereqids = map(x -> x.id, course.prereqs)
+
+	(length(course.prereqs) == 0 || sum(studentEnrollment[student.id, prereqids]) == length(course.prereqs)) &&	# No Prereqs or the student has completed them
+	studentEnrollment[student.id, course.id] == 0.0 &&																													# The student has not already completed the course
+	student.termcredits + course.credits <= max_credits &&																											# The student will not exceed the maximum number of credit hours
+	course.termReq <= term &&																																										# The student must wait until the term req has been met
+	enrolledInCoreqs(student, course, studentEnrollment)																												# The student is enrolled in or passed coreqs
+end
+
+
+function enrolledInCoreqs(student, course, studentEnrollment)
+	enrolled = true
+
+	for coreq in course.coreqs
+		enrolled = enrolled && (in(student, coreq.students) || studentEnrollment[student.id, coreq.id] == 1.0)
+	end
+
+	return true
 end

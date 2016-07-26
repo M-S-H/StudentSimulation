@@ -70,7 +70,7 @@
 			"credits": 0,
 			"passrate": 0.8,
 			"term": 2,
-			"corequisites": [],
+			"corequisites": ["MATH 163"],
 			"prerequisites": []
 		},
 		{

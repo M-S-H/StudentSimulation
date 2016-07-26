@@ -2,10 +2,10 @@ import JSON
 
 type Curriculum
   # Attributes
-  terms::Array{Term}      # Array of terms
+  terms::Array{Term}        # Array of terms
   courses::Array{Course}    # Array of courses in the curriculum
-  numCourses::Int       # Number of courses
-  complexity::Int       # Sum of course crucialities
+  numCourses::Int           # Number of courses
+  complexity::Int           # Sum of course crucialities
   delay::Int
   blocking::Int
 
@@ -59,31 +59,14 @@ type Curriculum
 
     allCourses = Course[]
 
-    # for course in data["courses"]
-    #   name = course["name"]
-    #   credits = course["credits"]
-    #   passrate = course["passrate"]
-
-    #   prereqs = Course[]
-    #   for prereq in course["prerequisites"]
-    #     ind = findfirst(x -> x.name == prereq, allCourses)
-    #     if ind != 0
-    #       push!(prereqs, allCourses[ind])
-    #     end
-    #   end
-
-    #   c = Course(name, credits, passrate, prereqs)
-    #   push!(courses[course["term"]], c)
-    #   push!(allCourses, c)
-    # end
-
     # Create Courses First
     for course in data["courses"]
       name = course["name"]
       credits = course["credits"]
       passrate = course["passrate"]
+      haskey(data, "termReq") ? termReq = data["termReq"] : termReq = 0
 
-      c = Course(name, credits, passrate, Course[], Course[])
+      c = Course(name, credits, termReq, passrate, Course[], Course[])
       push!(courses[course["term"]], c)
       push!(allCourses, c)
     end
@@ -103,8 +86,8 @@ type Curriculum
 
       # coreqs
       coreqs = Course[]
-      for prereq in course["corequisites"]
-        ind = findfirst(x -> x.name == prereq, allCourses)
+      for coreq in course["corequisites"]
+        ind = findfirst(x -> x.name == coreq, allCourses)
         if ind != 0
           push!(coreqs, allCourses[ind])
         end
