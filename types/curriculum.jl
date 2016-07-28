@@ -8,6 +8,7 @@ type Curriculum
   complexity::Int           # Sum of course crucialities
   delay::Int
   blocking::Int
+  passrate::Float64
 
   #Constructors
   function Curriculum(terms::Array{Term})
@@ -40,6 +41,7 @@ type Curriculum
     this.delay = sum(map(x->x.delay, this.courses))
     this.blocking = sum(map(x->x.blocking, this.courses))
     this.numCourses = length(this.courses)
+    this.passrate = sum(map(x->x.passrate, this.courses)) / this.numCourses
 
     return this
   end

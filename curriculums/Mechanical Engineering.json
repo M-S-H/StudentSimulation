@@ -11,7 +11,7 @@
 
       ],
       "credits": 3,
-      "passrate": 0.75
+      "passrate": 0.8957995578481945
     },
     {
       "name": "MATH 162",
@@ -23,7 +23,7 @@
 
       ],
       "credits": 4,
-      "passrate": 0.75
+      "passrate": 0.7585499316005472
     },
     {
       "name": "ME 160L",
@@ -35,7 +35,7 @@
 
       ],
       "credits": 3,
-      "passrate": 0.75
+      "passrate": 0.9123997532387416
     },
     {
       "name": "CHEM 121",
@@ -47,7 +47,7 @@
 
       ],
       "credits": 3,
-      "passrate": 0.75
+      "passrate": 0.8048548310328415
     },
     {
       "name": "CHEM 123L",
@@ -59,7 +59,7 @@
 
       ],
       "credits": 1,
-      "passrate": 0.75
+      "passrate": 0.8904161174919978
     },
     {
       "name": "Fine Arts",
@@ -71,7 +71,7 @@
 
       ],
       "credits": 3,
-      "passrate": 0.75
+      "passrate": 0.9
     },
     {
       "name": "ENGL 120",
@@ -83,7 +83,7 @@
 
       ],
       "credits": 3,
-      "passrate": 0.75
+      "passrate": 0.9188377956537399
     },
     {
       "name": "MATH 163",
@@ -95,7 +95,7 @@
 
       ],
       "credits": 4,
-      "passrate": 0.75
+      "passrate": 0.7502086811352254
     },
     {
       "name": "CS 151L",
@@ -107,7 +107,7 @@
 
       ],
       "credits": 3,
-      "passrate": 0.75
+      "passrate": 0.8884596813133752
     },
     {
       "name": "PHYC 160",
@@ -119,7 +119,7 @@
 
       ],
       "credits": 3,
-      "passrate": 0.75
+      "passrate": 0.7925674034491135
     },
     {
       "name": "PHYC 160L",
@@ -131,7 +131,7 @@
         "PHYC 160"
       ],
       "credits": 1,
-      "passrate": 0.75
+      "passrate": 0.9650485436893204
     },
     {
       "name": "Humanities",
@@ -143,7 +143,7 @@
 
       ],
       "credits": 3,
-      "passrate": 0.75
+      "passrate": 0.9
     },
     {
       "name": "CE 202",
@@ -156,7 +156,7 @@
 
       ],
       "credits": 3,
-      "passrate": 0.75
+      "passrate": 0.9171270718232044
     },
     {
       "name": "ME 260L",
@@ -169,7 +169,7 @@
         "CHEM 123L"
       ],
       "credits": 3,
-      "passrate": 0.75
+      "passrate": 0.9908883826879271
     },
     {
       "name": "MATH 264",
@@ -181,7 +181,7 @@
 
       ],
       "credits": 4,
-      "passrate": 0.75
+      "passrate": 0.8398674765323026
     },
     {
       "name": "PHYC 161",
@@ -193,7 +193,7 @@
         "MATH 163"
       ],
       "credits": 3,
-      "passrate": 0.75
+      "passrate": 0.8497234173325138
     },
     {
       "name": "ME 217",
@@ -205,7 +205,7 @@
 
       ],
       "credits": 3,
-      "passrate": 0.75
+      "passrate": 0.9213483146067416
     },
     {
       "name": "ME 306",
@@ -218,7 +218,7 @@
 
       ],
       "credits": 3,
-      "passrate": 0.75
+      "passrate": 0.9472247497725205
     },
     {
       "name": "MATH 316",
@@ -230,7 +230,7 @@
         "CS 151L"
       ],
       "credits": 3,
-      "passrate": 0.75
+      "passrate": 0.8633398564905415
     },
     {
       "name": "ECE 203",
@@ -242,7 +242,7 @@
         "PHYC 161"
       ],
       "credits": 3,
-      "passrate": 0.75
+      "passrate": 0.934052757793765
     },
     {
       "name": "ME 318L",
@@ -256,7 +256,7 @@
         "MATH 316"
       ],
       "credits": 4,
-      "passrate": 0.75
+      "passrate": 0.9630996309963099
     },
     {
       "name": "ENGL 219",
@@ -268,7 +268,7 @@
 
       ],
       "credits": 3,
-      "passrate": 0.75
+      "passrate": 0.9316770186335404
     },
     {
       "name": "ME 301",
@@ -283,7 +283,7 @@
 
       ],
       "credits": 3,
-      "passrate": 0.75
+      "passrate": 0.9528415961305925
     },
     {
       "name": "ME 317",
@@ -298,7 +298,7 @@
         "ME 301"
       ],
       "credits": 4,
-      "passrate": 0.75
+      "passrate": 0.9
     },
     {
       "name": "CE 302",
@@ -310,7 +310,7 @@
         "MATH 316"
       ],
       "credits": 3,
-      "passrate": 0.75
+      "passrate": 0.9229494614747308
     },
     {
       "name": "Math Elective",
@@ -322,7 +322,7 @@
 
       ],
       "credits": 3,
-      "passrate": 0.75,
+      "passrate": 0.9,
       "termReq": 4
     },
     {
@@ -335,7 +335,7 @@
 
       ],
       "credits": 3,
-      "passrate": 0.75
+      "passrate": 0.9
     },
     {
       "name": "ME 360L",
@@ -350,7 +350,7 @@
 
       ],
       "credits": 3,
-      "passrate": 0.75
+      "passrate": 0.9736111111111111
     },
     {
       "name": "ME 357",
@@ -363,7 +363,7 @@
 
       ],
       "credits": 3,
-      "passrate": 0.75
+      "passrate": 0.9820441988950276
     },
     {
       "name": "ME 370L",
@@ -376,7 +376,7 @@
 
       ],
       "credits": 3,
-      "passrate": 0.75
+      "passrate": 0.9359605911330049
     },
     {
       "name": "ME 352L",
@@ -388,7 +388,7 @@
         "ME 370L"
       ],
       "credits": 1,
-      "passrate": 0.75
+      "passrate": 1.0
     },
     {
       "name": "ECON 105",
@@ -400,7 +400,7 @@
 
       ],
       "credits": 3,
-      "passrate": 0.75
+      "passrate": 0.7903576158940397
     },
     {
       "name": "Second Language",
@@ -412,7 +412,7 @@
 
       ],
       "credits": 3,
-      "passrate": 0.75
+      "passrate": 0.9
     },
     {
       "name": "ME 320L",
@@ -426,7 +426,7 @@
 
       ],
       "credits": 4,
-      "passrate": 0.75
+      "passrate": 0.9878542510121457
     },
     {
       "name": "ME 459",
@@ -438,7 +438,7 @@
 
       ],
       "credits": 3,
-      "passrate": 0.75
+      "passrate": 0.9958217270194986
     },
     {
       "name": "ME 380",
@@ -451,7 +451,7 @@
 
       ],
       "credits": 3,
-      "passrate": 0.75
+      "passrate": 0.9678714859437751
     },
     {
       "name": "Tech Elective",
@@ -463,7 +463,7 @@
 
       ],
       "credits": 3,
-      "passrate": 0.75,
+      "passrate": 0.9,
       "termReq": 5
     },
     {
@@ -478,7 +478,7 @@
 
       ],
       "credits": 4,
-      "passrate": 0.75
+      "passrate": 0.997624703087886
     },
     {
       "name": "Tech Elective",
@@ -490,7 +490,7 @@
 
       ],
       "credits": 3,
-      "passrate": 0.75,
+      "passrate": 0.9,
       "termReq": 5
     },
     {
@@ -503,7 +503,7 @@
 
       ],
       "credits": 3,
-      "passrate": 0.75,
+      "passrate": 0.9,
       "termReq": 5
     },
     {
@@ -516,7 +516,7 @@
 
       ],
       "credits": 3,
-      "passrate": 0.75,
+      "passrate": 0.9,
       "termReq": 5
     }
   ]
