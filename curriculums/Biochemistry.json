@@ -1,0 +1,502 @@
+{
+  "courses": [
+    {
+      "name": "ENGL 110",
+      "term": 1,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.75
+    },
+    {
+      "name": "Freshman Academic Choice",
+      "term": 1,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.75
+    },
+    {
+      "name": "MATH 162",
+      "term": 1,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.75
+    },
+    {
+      "name": "CHEM 121",
+      "term": 1,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.75
+    },
+    {
+      "name": "CHEM 123L",
+      "term": 1,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+        "CHEM 121"
+      ],
+      "credits": 1,
+      "passrate": 0.75
+    },
+    {
+      "name": "Second Language",
+      "term": 1,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.75
+    },
+    {
+      "name": "ENGL 120",
+      "term": 2,
+      "prerequisites": [
+        "ENGL 110"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.75
+    },
+    {
+      "name": "CHEM 122",
+      "term": 2,
+      "prerequisites": [
+        "CHEM 121",
+        "CHEM 123L"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.75
+    },
+    {
+      "name": "CHEM 124L",
+      "term": 2,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+        "CHEM 122"
+      ],
+      "credits": 1,
+      "passrate": 0.75
+    },
+    {
+      "name": "BIOL 201L",
+      "term": 2,
+      "prerequisites": [
+        "CHEM 121",
+        "CHEM 123"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.75
+    },
+    {
+      "name": "MATH 163",
+      "term": 2,
+      "prerequisites": [
+        "MATH 162"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.75
+    },
+    {
+      "name": "BIOL 202L",
+      "term": 3,
+      "prerequisites": [
+        "BIOL 201L"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.75
+    },
+    {
+      "name": "CHEM 301",
+      "term": 3,
+      "prerequisites": [
+        "CHEM 122"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.75
+    },
+    {
+      "name": "CHEM 303L",
+      "term": 3,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+        "CHEM 301"
+      ],
+      "credits": 1,
+      "passrate": 0.75
+    },
+    {
+      "name": "PHYC 151",
+      "term": 3,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.75
+    },
+    {
+      "name": "PHYC 151L",
+      "term": 3,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+        "PHYC 151"
+      ],
+      "credits": 1,
+      "passrate": 0.75
+    },
+    {
+      "name": "ENGL 219",
+      "term": 3,
+      "prerequisites": [
+        "ENGL 120"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.75
+    },
+    {
+      "name": "PHYC 152",
+      "term": 4,
+      "prerequisites": [
+        "PHYC 151"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.75
+    },
+    {
+      "name": "PHYC 152L",
+      "term": 4,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+        "PHYC 152"
+      ],
+      "credits": 1,
+      "passrate": 0.75
+    },
+    {
+      "name": "CHEM 302",
+      "term": 4,
+      "prerequisites": [
+        "CHEM 301"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.75
+    },
+    {
+      "name": "CHEM 304L",
+      "term": 4,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+        "CHEM 302"
+      ],
+      "credits": 1,
+      "passrate": 0.75
+    },
+    {
+      "name": "CHEM 253L",
+      "term": 4,
+      "prerequisites": [
+        "CHEM 122",
+        "CHEM 124L"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.75
+    },
+    {
+      "name": "Fine Arts Core",
+      "term": 4,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.75
+    },
+    {
+      "name": "BIOC 445",
+      "term": 5,
+      "prerequisites": [
+        "CHEM 302"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.75
+    },
+    {
+      "name": "CHEM 315",
+      "term": 5,
+      "prerequisites": [
+        "CHEM 122",
+        "CHEM 124",
+        "MATH 163",
+        "PHYC 152"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.75
+    },
+    {
+      "name": "Humanities Core",
+      "term": 5,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.75
+    },
+    {
+      "name": "Social & Behavioral Science",
+      "term": 5,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.75
+    },
+    {
+      "name": "Upper Division Elective",
+      "term": 5,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.75
+    },
+    {
+      "name": "BIOC 446",
+      "term": 6,
+      "prerequisites": [
+        "BIOC 445"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.75
+    },
+    {
+      "name": "BIOC 448L",
+      "term": 6,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+        "BIOC 446"
+      ],
+      "credits": 3,
+      "passrate": 0.75
+    },
+    {
+      "name": "BIOC 451L",
+      "term": 6,
+      "prerequisites": [
+        "BIOC 445"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.75
+    },
+    {
+      "name": "Humanities Core",
+      "term": 6,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.75
+    },
+    {
+      "name": "Social & Behavioral Science",
+      "term": 6,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.75
+    },
+    {
+      "name": "BIOC Upper Division Elective",
+      "term": 7,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.75
+    },
+    {
+      "name": "Upper Division Elective",
+      "term": 7,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.75
+    },
+    {
+      "name": "Upper Division Elective",
+      "term": 7,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.75
+    },
+    {
+      "name": "Upper Division Elective",
+      "term": 7,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.75
+    },
+    {
+      "name": "Upper Division Elective",
+      "term": 7,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.75
+    },
+    {
+      "name": "BIOC Upper Division Elective",
+      "term": 8,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.75
+    },
+    {
+      "name": "Elective Any Level",
+      "term": 8,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.75
+    },
+    {
+      "name": "Elective Any Level",
+      "term": 8,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.75
+    }
+  ]
+}

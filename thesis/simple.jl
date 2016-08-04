@@ -1,4 +1,3 @@
-tic();
 include("SimulationModel.jl");
 # include("curriculums/CPE.jl");
 # include("models/ProbitPassRate.jl");
@@ -49,7 +48,7 @@ println(sqrt(sum((rates .- mean(rates)).^2)/length(rates)))
 
 println(mean(times))
 println(sqrt(sum((times .- mean(times)).^2)/length(times)))
-toc()
+
 
 # plot(x=ittr, y=dev, Geom.line)
 

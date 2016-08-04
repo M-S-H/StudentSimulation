@@ -10,6 +10,7 @@ include("lib/grades_helper.jl")
 include("lib/students_helper.jl")
 include("lib/course_helper.jl")
 include("lib/sim_helper.jl")
+include("lib/sims.jl")
 
 # Models
 include("models/FrequencyModel.jl")
@@ -243,6 +244,8 @@ function simulate(simulation, students; max_credits = 18, numTerms = 8, stopouts
 
 				# Record the index of the student so it can be removed from the array of enrolled students
 				push!(graduatedStudentIds, i)
+
+				simulation.timeToDegree += currentTerm
 			end
 		end
 		simulation.termGradRates[currentTerm] = length(simulation.graduatedStudents) / numStudents 
@@ -269,6 +272,12 @@ function simulate(simulation, students; max_credits = 18, numTerms = 8, stopouts
 
 			# Remove graduated students from the array of enrolled students
 			deleteat!(simulation.enrolledStudents, stopoutStudentIds)
+		end
+
+		if length(simulation.enrolledStudents) == 0
+			simulation.numTerms = currentTerm
+			simulation.timeToDegree /= numStudents
+			break
 		end
 	end
 

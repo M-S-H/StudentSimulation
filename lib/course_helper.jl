@@ -1,4 +1,5 @@
 using Gadfly
+using Compose
 
 Gadfly.set_default_plot_size(1280px, 800px)
 
@@ -58,8 +59,15 @@ function backward(course, paths, l=0)
 end
 
 
-function setPassRate(courses, rate)
+function setPassRate(courses::Array, rate)
 	for course in courses
+		course.model = rate
+	end
+end
+
+
+function setPassRate(curriculum::Curriculum, rate)
+	for course in curriculum.courses
 		course.passrate = rate
 	end
 end
@@ -88,4 +96,33 @@ end
 function passScatterSim(course)
 	labels = map(x -> x >= 1.67 ? "pass" : "fail", course.model[:predictions])
 	plot(x=course.model[:X][:,1], y=course.model[:X][:,2], color=labels)
+end
+
+
+function graphCurriculum(curriculum)
+	radius = 15px;
+	y_spacing = 100px;
+	x_spacing = 100px;
+    font_size = 12px;
+    
+    max_courses = map(x->length(x.courses), curriculum.terms)
+    max_courses = maximum(max_courses)
+    
+    Compose.set_default_graphic_size(length(curriculum.terms)*x_spacing, (max_courses)*y_spacing)
+
+    graph = compose(context(), rectangle(), fill("white"));
+
+	for (termNum, term) in enumerate(curriculum.terms)
+		for (courseNum, course) in enumerate(term.courses)
+			course_x = (termNum-1)*x_spacing + radius
+			course_y = (courseNum-1)*y_spacing + radius
+			text_x = (termNum-1)*x_spacing
+            text_y = (courseNum-1)*x_spacing + 2*radius + font_size;
+			graph = compose(graph,
+            (context(), circle(course_x, course_y, radius), fill("black")),
+            (context(), text(text_x, text_y, course.name), fill("black"), fontsize(font_size))
+			)
+		end
+	end
+    graph
 end
