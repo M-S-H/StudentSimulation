@@ -1,0 +1,773 @@
+{
+  "courses": [
+    {
+      "name": "HIST 1378",
+      "term": 2,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "position": {
+        "x": 238.79220779220776,
+        "y": 50
+      },
+      "credits": 0,
+      "passrate": 0
+    },
+    {
+      "name": "ENGL 2304",
+      "term": 4,
+      "prerequisites": [
+        "ENGL 1304",
+        "ECE 2201"
+      ],
+      "corequisites": [
+
+      ],
+      "position": {
+        "x": 592.5584415584416,
+        "y": 50
+      },
+      "credits": 0,
+      "passrate": 0
+    },
+    {
+      "name": "POLS 1337",
+      "term": 6,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "position": {
+        "x": 946.3246753246752,
+        "y": 50
+      },
+      "credits": 0,
+      "passrate": 0
+    },
+    {
+      "name": "ECE 4336",
+      "term": 8,
+      "prerequisites": [
+        "ECE 4335"
+      ],
+      "corequisites": [
+
+      ],
+      "position": {
+        "x": 1300.090909090909,
+        "y": 50
+      },
+      "credits": 0,
+      "passrate": 0
+    },
+    {
+      "name": "HIST 1377",
+      "term": 1,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "position": {
+        "x": 61.90909090909088,
+        "y": 100
+      },
+      "credits": 0,
+      "passrate": 0
+    },
+    {
+      "name": "POLS 1336",
+      "term": 3,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "position": {
+        "x": 415.67532467532465,
+        "y": 100
+      },
+      "credits": 0,
+      "passrate": 0
+    },
+    {
+      "name": "Art",
+      "term": 5,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "position": {
+        "x": 769.4415584415584,
+        "y": 100
+      },
+      "credits": 0,
+      "passrate": 0
+    },
+    {
+      "name": "ECON 2304",
+      "term": 7,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "position": {
+        "x": 1123.2077922077924,
+        "y": 100
+      },
+      "credits": 0,
+      "passrate": 0
+    },
+    {
+      "name": "ENGL 1304",
+      "term": 2,
+      "prerequisites": [
+        "ENGL 1303"
+      ],
+      "corequisites": [
+
+      ],
+      "position": {
+        "x": 238.79220779220776,
+        "y": 150
+      },
+      "credits": 0,
+      "passrate": 0
+    },
+    {
+      "name": "ECE 3331",
+      "term": 4,
+      "prerequisites": [
+        "ECE 2201",
+        "MATH 3321"
+      ],
+      "corequisites": [
+
+      ],
+      "position": {
+        "x": 592.5584415584416,
+        "y": 150
+      },
+      "credits": 0,
+      "passrate": 0
+    },
+    {
+      "name": "INDE 2333",
+      "term": 6,
+      "prerequisites": [
+        "ENGI 1331",
+        "MATH 3321"
+      ],
+      "corequisites": [
+
+      ],
+      "position": {
+        "x": 946.3246753246752,
+        "y": 150
+      },
+      "credits": 0,
+      "passrate": 0
+    },
+    {
+      "name": "Elective Lab 3",
+      "term": 8,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "position": {
+        "x": 1300.090909090909,
+        "y": 150
+      },
+      "credits": 0,
+      "passrate": 0
+    },
+    {
+      "name": "ENGL 1303",
+      "term": 1,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "position": {
+        "x": 61.90909090909088,
+        "y": 200
+      },
+      "credits": 0,
+      "passrate": 0
+    },
+    {
+      "name": "ECE 2201",
+      "term": 3,
+      "prerequisites": [
+        "ENGL 1304",
+        "ENGI 1331",
+        "MATH 1432"
+      ],
+      "corequisites": [
+        "MATH 3321",
+        "MATH 2433",
+        "PHYS 1122"
+      ],
+      "position": {
+        "x": 415.67532467532465,
+        "y": 200
+      },
+      "credits": 0,
+      "passrate": 0
+    },
+    {
+      "name": "ECE 3155",
+      "term": 5,
+      "prerequisites": [
+        "ENGL 2304",
+        "ECE 2100"
+      ],
+      "corequisites": [
+
+      ],
+      "position": {
+        "x": 769.4415584415584,
+        "y": 200
+      },
+      "credits": 0,
+      "passrate": 0
+    },
+    {
+      "name": "ECE 4335",
+      "term": 7,
+      "prerequisites": [
+        "ECE 3340",
+        "INDE 2333",
+        "ECE 3355",
+        "ECE 3436",
+        "ECE 3317"
+      ],
+      "corequisites": [
+        "ECON 2304"
+      ],
+      "position": {
+        "x": 1123.2077922077924,
+        "y": 200
+      },
+      "credits": 0,
+      "passrate": 0
+    },
+    {
+      "name": "ENGI 1331",
+      "term": 2,
+      "prerequisites": [
+        "ENGI 1100",
+        "MATH 1431"
+      ],
+      "corequisites": [
+
+      ],
+      "position": {
+        "x": 238.79220779220776,
+        "y": 250
+      },
+      "credits": 0,
+      "passrate": 0
+    },
+    {
+      "name": "ECE 3337",
+      "term": 4,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+        "ECE 2202"
+      ],
+      "position": {
+        "x": 592.5584415584416,
+        "y": 250
+      },
+      "credits": 0,
+      "passrate": 0
+    },
+    {
+      "name": "ECE Elective 2",
+      "term": 6,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "position": {
+        "x": 946.3246753246752,
+        "y": 250
+      },
+      "credits": 0,
+      "passrate": 0
+    },
+    {
+      "name": "Elective Lab 4",
+      "term": 8,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "position": {
+        "x": 1300.090909090909,
+        "y": 250
+      },
+      "credits": 0,
+      "passrate": 0
+    },
+    {
+      "name": "ENGI 1100",
+      "term": 1,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+        "MATH 1431"
+      ],
+      "position": {
+        "x": 61.90909090909088,
+        "y": 300
+      },
+      "credits": 0,
+      "passrate": 0
+    },
+    {
+      "name": "MATH 3321",
+      "term": 3,
+      "prerequisites": [
+        "MATH 1432"
+      ],
+      "corequisites": [
+
+      ],
+      "position": {
+        "x": 415.67532467532465,
+        "y": 300
+      },
+      "credits": 0,
+      "passrate": 0
+    },
+    {
+      "name": "Concentration Elective 1",
+      "term": 5,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "position": {
+        "x": 769.4415584415584,
+        "y": 300
+      },
+      "credits": 0,
+      "passrate": 0
+    },
+    {
+      "name": "Tech Elective 1",
+      "term": 7,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "position": {
+        "x": 1123.2077922077924,
+        "y": 300
+      },
+      "credits": 0,
+      "passrate": 0
+    },
+    {
+      "name": "MATH 1432",
+      "term": 2,
+      "prerequisites": [
+        "MATH 1431"
+      ],
+      "corequisites": [
+
+      ],
+      "position": {
+        "x": 238.79220779220776,
+        "y": 350
+      },
+      "credits": 0,
+      "passrate": 0
+    },
+    {
+      "name": "ECE 2202",
+      "term": 4,
+      "prerequisites": [
+        "ECE 2201"
+      ],
+      "corequisites": [
+
+      ],
+      "position": {
+        "x": 592.5584415584416,
+        "y": 350
+      },
+      "credits": 0,
+      "passrate": 0
+    },
+    {
+      "name": "Elective Lab 1",
+      "term": 6,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "position": {
+        "x": 946.3246753246752,
+        "y": 350
+      },
+      "credits": 0,
+      "passrate": 0
+    },
+    {
+      "name": "Concentration Elective 4",
+      "term": 8,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "position": {
+        "x": 1300.090909090909,
+        "y": 350
+      },
+      "credits": 0,
+      "passrate": 0
+    },
+    {
+      "name": "MATH 1431",
+      "term": 1,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "position": {
+        "x": 61.90909090909088,
+        "y": 400
+      },
+      "credits": 0,
+      "passrate": 0
+    },
+    {
+      "name": "MATH 2433",
+      "term": 3,
+      "prerequisites": [
+        "MATH 1432"
+      ],
+      "corequisites": [
+
+      ],
+      "position": {
+        "x": 415.67532467532465,
+        "y": 400
+      },
+      "credits": 0,
+      "passrate": 0
+    },
+    {
+      "name": "ECE 3355",
+      "term": 5,
+      "prerequisites": [
+        "ECE 3337"
+      ],
+      "corequisites": [
+        "ECE 3155"
+      ],
+      "position": {
+        "x": 769.4415584415584,
+        "y": 400
+      },
+      "credits": 0,
+      "passrate": 0
+    },
+    {
+      "name": "Elective Lab 2",
+      "term": 7,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "position": {
+        "x": 1123.2077922077924,
+        "y": 400
+      },
+      "credits": 0,
+      "passrate": 0
+    },
+    {
+      "name": "PHYS 1121",
+      "term": 2,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+        "MATH 1432"
+      ],
+      "position": {
+        "x": 238.79220779220776,
+        "y": 450
+      },
+      "credits": 0,
+      "passrate": 0
+    },
+    {
+      "name": "ECE 2100",
+      "term": 4,
+      "prerequisites": [
+        "PHYS 1122L"
+      ],
+      "corequisites": [
+        "ECE 2202"
+      ],
+      "position": {
+        "x": 592.5584415584416,
+        "y": 450
+      },
+      "credits": 0,
+      "passrate": 0
+    },
+    {
+      "name": "Concentration Elective 2",
+      "term": 6,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "position": {
+        "x": 946.3246753246752,
+        "y": 450
+      },
+      "credits": 0,
+      "passrate": 0
+    },
+    {
+      "name": "Concentration Elective 5",
+      "term": 8,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "position": {
+        "x": 1300.090909090909,
+        "y": 450
+      },
+      "credits": 0,
+      "passrate": 0
+    },
+    {
+      "name": "CHEM 1331",
+      "term": 1,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "position": {
+        "x": 61.90909090909088,
+        "y": 500
+      },
+      "credits": 0,
+      "passrate": 0
+    },
+    {
+      "name": "PHYS 1122",
+      "term": 3,
+      "prerequisites": [
+        "PHYS 1121"
+      ],
+      "corequisites": [
+        "MATH 2433"
+      ],
+      "position": {
+        "x": 415.67532467532465,
+        "y": 500
+      },
+      "credits": 0,
+      "passrate": 0
+    },
+    {
+      "name": "ECE 3317",
+      "term": 5,
+      "prerequisites": [
+        "PHYS 1122",
+        "PHYS 1122L",
+        "ECE 3337"
+      ],
+      "corequisites": [
+
+      ],
+      "position": {
+        "x": 769.4415584415584,
+        "y": 500
+      },
+      "credits": 0,
+      "passrate": 0
+    },
+    {
+      "name": "Concentration Elective 3",
+      "term": 7,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "position": {
+        "x": 1123.2077922077924,
+        "y": 500
+      },
+      "credits": 0,
+      "passrate": 0
+    },
+    {
+      "name": "PHYS 1121L",
+      "term": 2,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+        "PHYS 1121"
+      ],
+      "position": {
+        "x": 238.79220779220776,
+        "y": 550
+      },
+      "credits": 0,
+      "passrate": 0
+    },
+    {
+      "name": "ECE 3436",
+      "term": 4,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+        "ECE 3331",
+        "ECE 2100"
+      ],
+      "position": {
+        "x": 592.5584415584416,
+        "y": 550
+      },
+      "credits": 0,
+      "passrate": 0
+    },
+    {
+      "name": "ECE 3340",
+      "term": 6,
+      "prerequisites": [
+        "ECE 3331"
+      ],
+      "corequisites": [
+
+      ],
+      "position": {
+        "x": 946.3246753246752,
+        "y": 550
+      },
+      "credits": 0,
+      "passrate": 0
+    },
+    {
+      "name": "Concentration Elective 6",
+      "term": 8,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "position": {
+        "x": 1300.090909090909,
+        "y": 550
+      },
+      "credits": 0,
+      "passrate": 0
+    },
+    {
+      "name": "CHEM 1111",
+      "term": 1,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+        "CHEM 1331"
+      ],
+      "position": {
+        "x": 61.90909090909088,
+        "y": 600
+      },
+      "credits": 0,
+      "passrate": 0
+    },
+    {
+      "name": "PHYS 1122L",
+      "term": 3,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+        "PHYS 1122"
+      ],
+      "position": {
+        "x": 415.67532467532465,
+        "y": 600
+      },
+      "credits": 0,
+      "passrate": 0
+    },
+    {
+      "name": "ECE Elective 1",
+      "term": 5,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "position": {
+        "x": 769.4415584415584,
+        "y": 600
+      },
+      "credits": 0,
+      "passrate": 0
+    }
+  ],
+  "terms": 8
+}

@@ -1,0 +1,667 @@
+{
+  "courses": [
+    {
+      "name": "CH200",
+      "term": 1,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "MA136",
+      "term": 1,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "EE1000",
+      "term": 1,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "GS1001",
+      "term": 1,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "MA137",
+      "term": 2,
+      "prerequisites": [
+        "MA136"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "CE1901",
+      "term": 2,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "EE1910",
+      "term": 2,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "GS1002",
+      "term": 2,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "MA231",
+      "term": 3,
+      "prerequisites": [
+        "MA137"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "EE2050",
+      "term": 3,
+      "prerequisites": [
+        "MA136"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "CE1911",
+      "term": 3,
+      "prerequisites": [
+        "CE1901"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "GS1003",
+      "term": 3,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "PH2011",
+      "term": 4,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+        "MA136"
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "MA235",
+      "term": 4,
+      "prerequisites": [
+        "MA231"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "EE2060",
+      "term": 4,
+      "prerequisites": [
+        "MA137",
+        "EE2050"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "EE2920",
+      "term": 4,
+      "prerequisites": [
+        "EE2050",
+        "EE1910"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "PH2021",
+      "term": 5,
+      "prerequisites": [
+        "PH2011"
+      ],
+      "corequisites": [
+        "MA137"
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "MA232",
+      "term": 5,
+      "prerequisites": [
+        "MA231"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "MA262",
+      "term": 5,
+      "prerequisites": [
+        "MA137"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "EE2070",
+      "term": 5,
+      "prerequisites": [
+        "MA235",
+        "EE2060"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "EE2931",
+      "term": 5,
+      "prerequisites": [
+        "EE2920"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "PH2031",
+      "term": 6,
+      "prerequisites": [
+        "PH2021"
+      ],
+      "corequisites": [
+        "MA232"
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "MA383",
+      "term": 6,
+      "prerequisites": [
+        "MA231"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "EE2510",
+      "term": 6,
+      "prerequisites": [
+        "EE1910",
+        "MA137"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "MS2220",
+      "term": 6,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "HUSS",
+      "term": 6,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "ME354",
+      "term": 7,
+      "prerequisites": [
+        "MA231",
+        "PH2031"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "EE3050",
+      "term": 7,
+      "prerequisites": [
+        "PH2011",
+        "EE2070"
+      ],
+      "corequisites": [
+        "MA383"
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "EE3102",
+      "term": 7,
+      "prerequisites": [
+        "EE2070"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "EE3921",
+      "term": 7,
+      "prerequisites": [
+        "CE1911",
+        "EE1910"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "EE3204",
+      "term": 8,
+      "prerequisites": [
+        "PH2021",
+        "MA232"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "EE3720",
+      "term": 8,
+      "prerequisites": [
+        "EE3050"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "EE3112",
+      "term": 8,
+      "prerequisites": [
+        "EE3102"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "EE3032",
+      "term": 8,
+      "prerequisites": [
+        "EE2070"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "GE300",
+      "term": 8,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 1,
+      "passrate": 0.0
+    },
+    {
+      "name": "EE3214",
+      "term": 9,
+      "prerequisites": [
+        "MA235",
+        "EE3204"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "EE3401",
+      "term": 9,
+      "prerequisites": [
+        "PH2021",
+        "EE2060"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "EE3221",
+      "term": 9,
+      "prerequisites": [
+        "EE3032",
+        "EE1910"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "IE423",
+      "term": 9,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "PH360",
+      "term": 10,
+      "prerequisites": [
+        "PH2031"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "MASCI",
+      "term": 10,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "EE407",
+      "term": 10,
+      "prerequisites": [
+        "EE2070",
+        "EE2931",
+        "EE3921"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "TECH",
+      "term": 10,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "EE4022",
+      "term": 10,
+      "prerequisites": [
+        "EE3032",
+        "MA262"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "EE408",
+      "term": 11,
+      "prerequisites": [
+        "EE407"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "TECH",
+      "term": 11,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "TECH",
+      "term": 11,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "HUSS",
+      "term": 11,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "HUSS",
+      "term": 11,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "EE409",
+      "term": 12,
+      "prerequisites": [
+        "EE408"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "TECH",
+      "term": 12,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "HUSS",
+      "term": 12,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "HU432",
+      "term": 12,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "HUSS",
+      "term": 12,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    }
+  ],
+  "terms": 12
+}

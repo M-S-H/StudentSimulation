@@ -1,0 +1,510 @@
+{
+  "terms": 8,
+  "courses": [
+    {
+      "name": "MATH 121",
+      "term": 1,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.7324054278109865
+    },
+    {
+      "name": "ENGL 110",
+      "term": 1,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.9117579647031859
+    },
+    {
+      "name": "HIST 101",
+      "term": 1,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.82748823581639
+    },
+    {
+      "name": "ASTR 101",
+      "term": 1,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.8827713059472716
+    },
+    {
+      "name": "MGMT 113",
+      "term": 1,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.8938714499252616
+    },
+    {
+      "name": "MATH 180",
+      "term": 2,
+      "prerequisites": [
+        "MATH 121"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.7320338828672921
+    },
+    {
+      "name": "ENGL 120",
+      "term": 2,
+      "prerequisites": [
+        "ENGL 110"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.9240454076367389
+    },
+    {
+      "name": "CHEM 121",
+      "term": 2,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.8055092551978243
+    },
+    {
+      "name": "CHEM 123L",
+      "term": 2,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+        "CHEM 121"
+      ],
+      "credits": 1,
+      "passrate": 0.8943919209282338
+    },
+    {
+      "name": "ECON 105",
+      "term": 2,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.7878170816848964
+    },
+    {
+      "name": "SPAN 101",
+      "term": 2,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.8710051733307548
+    },
+    {
+      "name": "ENGL 219",
+      "term": 3,
+      "prerequisites": [
+        "ENGL 120"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.9333477446317914
+    },
+    {
+      "name": "ARTH 101",
+      "term": 3,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.8249612544443431
+    },
+    {
+      "name": "ECON 106",
+      "term": 3,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.7999240121580548
+    },
+    {
+      "name": "STAT 145",
+      "term": 3,
+      "prerequisites": [
+        "MATH 121"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.8641281239665517
+    },
+    {
+      "name": "CJ 130",
+      "term": 3,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.9156370738334819
+    },
+    {
+      "name": "CS 150L",
+      "term": 4,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.826515524889108
+    },
+    {
+      "name": "MGMT 202",
+      "term": 4,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.7956479057591623
+    },
+    {
+      "name": "PSY 105",
+      "term": 4,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.7609853910054426
+    },
+    {
+      "name": "RELG 107",
+      "term": 4,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.7927009171958181
+    },
+    {
+      "name": "MGMT 300",
+      "term": 5,
+      "prerequisites": [
+        "STAT 145"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.9627687467226009
+    },
+    {
+      "name": "MGMT 303",
+      "term": 5,
+      "prerequisites": [
+        "MGMT 202"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.9316115702479338
+    },
+    {
+      "name": "MGMT 306",
+      "term": 5,
+      "prerequisites": [
+        "ENGL 120"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.9834813499111901
+    },
+    {
+      "name": "MGMT 308",
+      "term": 5,
+      "prerequisites": [
+        "ENGL 120"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.9809872667015525
+    },
+    {
+      "name": "MGMT 340",
+      "term": 5,
+      "prerequisites": [
+        "MGMT 202"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.8855751673767498
+    },
+    {
+      "name": "MGMT 398",
+      "term": 5,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 1,
+      "passrate": 0.9926565874730021
+    },
+    {
+      "name": "MGMT 310",
+      "term": 6,
+      "prerequisites": [
+        "ENGL 120"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.9734532689776217
+    },
+    {
+      "name": "MGMT 322",
+      "term": 6,
+      "prerequisites": [
+        "ECON 106"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.9495652173913044
+    },
+    {
+      "name": "MGMT 326",
+      "term": 6,
+      "prerequisites": [
+        "MGMT 202",
+        "CS 150L",
+        "ECON 106",
+        "MATH 180",
+        "STAT 145"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.8544558071585099
+    },
+    {
+      "name": "MGMT 341",
+      "term": 6,
+      "prerequisites": [
+        "MGMT 340"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.9351395730706076
+    },
+    {
+      "name": "MGMT 346",
+      "term": 6,
+      "prerequisites": [
+        "MGMT 303"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.9654631083202512
+    },
+    {
+      "name": "MGMT 450",
+      "term": 7,
+      "prerequisites": [
+        "MGMT 300",
+        "MGMT 303",
+        "MGMT 306",
+        "MGMT 322"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.9877618263120734
+    },
+    {
+      "name": "MGMT 343",
+      "term": 7,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.9317460317460318
+    },
+    {
+      "name": "HIST 311",
+      "term": 7,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.8763736263736264,
+      "termReq": 6
+    },
+    {
+      "name": "MGMT 444",
+      "term": 7,
+      "prerequisites": [
+        "MGMT 340"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.9
+    },
+    {
+      "name": "MGMT 342",
+      "term": 7,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.9530612244897959
+    },
+    {
+      "name": "MGMT 328",
+      "term": 8,
+      "prerequisites": [
+        "ECON 106"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.981198808637379
+    },
+    {
+      "name": "MGMT 443",
+      "term": 8,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+        "MGMT 341"
+      ],
+      "credits": 3,
+      "passrate": 0.9806560134566863
+    },
+    {
+      "name": "MGMT 449",
+      "term": 8,
+      "prerequisites": [
+        "MGMT 340"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.9751286449399656
+    },
+    {
+      "name": "MGMT 498",
+      "term": 8,
+      "prerequisites": [
+        "MGMT 300",
+        "MGMT 303",
+        "MGMT 306",
+        "MGMT 308",
+        "MGMT 310",
+        "MGMT 322"
+      ],
+      "corequisites": [
+        "MGMT 328"
+      ],
+      "credits": 3,
+      "passrate": 0.9894759450171822
+    },
+    {
+      "name": "MGMT 348",
+      "term": 8,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.9444444444444444
+    }
+  ]
+}

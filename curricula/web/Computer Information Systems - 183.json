@@ -1,0 +1,533 @@
+{
+  "courses": [
+    {
+      "name": "BUS 1000",
+      "term": 1,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 1,
+      "passrate": 0.0
+    },
+    {
+      "name": "BUS 1750",
+      "term": 1,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "ENGL 1050",
+      "term": 1,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "CIS 1020",
+      "term": 1,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "MATH 1160",
+      "term": 1,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "STAT 2160",
+      "term": 2,
+      "prerequisites": [
+        "MATH 1160"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "ECON 2010",
+      "term": 2,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "ACTY 2100",
+      "term": 2,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "AREA 1",
+      "term": 2,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "COM 1000",
+      "term": 2,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "CIS 2600",
+      "term": 3,
+      "prerequisites": [
+        "CIS 1020"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "ECON 2020",
+      "term": 3,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "ACTY 2110",
+      "term": 3,
+      "prerequisites": [
+        "ACTY 2100"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "MAJOR 1",
+      "term": 3,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "BUS 2200",
+      "term": 3,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "CIS 2700",
+      "term": 3,
+      "prerequisites": [
+        "CIS 1020",
+        "ENGL 1050"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "MAJOR 2",
+      "term": 4,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "MGMT 2500",
+      "term": 4,
+      "prerequisites": [
+        "BUS 1750"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "MKTG 2500",
+      "term": 4,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "BCM 3700",
+      "term": 4,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "AREA 2",
+      "term": 4,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "AREA 3",
+      "term": 4,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "CIS 3600",
+      "term": 5,
+      "prerequisites": [
+        "CIS 2700"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "BUS 3750",
+      "term": 5,
+      "prerequisites": [
+        "MGMT 2500",
+        "STAT 2160"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "FIN 3200",
+      "term": 5,
+      "prerequisites": [
+        "ACTY 2100",
+        "STAT 2160"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "LAW 3800",
+      "term": 5,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "AREA 4",
+      "term": 5,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "Elective 1",
+      "term": 5,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "BUS 4000",
+      "term": 6,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 1,
+      "passrate": 0.0
+    },
+    {
+      "name": "AREA 5",
+      "term": 6,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "BUS 4500",
+      "term": 6,
+      "prerequisites": [
+        "CIS 2700",
+        "FIN 3200",
+        "MGMT 2500",
+        "MKTG 2500"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "BUS 4750",
+      "term": 6,
+      "prerequisites": [
+        "ACTY 2110",
+        "ECON 2020",
+        "MGMT 2500",
+        "MKTG 2500",
+        "CIS 2700",
+        "BUS 3750"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "CIS 4600",
+      "term": 6,
+      "prerequisites": [
+        "CIS 3600"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "Elective 2",
+      "term": 6,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "CIS 4640",
+      "term": 7,
+      "prerequisites": [
+        "CIS 2700",
+        "MGMT 2500"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "Elective 3",
+      "term": 7,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "CHEM 1100",
+      "term": 7,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+        "CHEM 1110"
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "CHEM 1110",
+      "term": 7,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 1,
+      "passrate": 0.0
+    },
+    {
+      "name": "Elective 4",
+      "term": 8,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "CIS 4990",
+      "term": 8,
+      "prerequisites": [
+        "CIS 4600"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "AREA 7",
+      "term": 8,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "AREA 8",
+      "term": 8,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "Elective 5",
+      "term": 8,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    }
+  ],
+  "terms": 8
+}

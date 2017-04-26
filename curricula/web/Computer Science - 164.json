@@ -1,0 +1,464 @@
+{
+  "courses": [
+    {
+      "name": "CSELECTIVE",
+      "term": 1,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "CS1110",
+      "term": 1,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "MATH1220",
+      "term": 1,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "IEE1020",
+      "term": 1,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "CS1120",
+      "term": 2,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "STAT2600",
+      "term": 2,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "ECE2500",
+      "term": 2,
+      "prerequisites": [
+        "MATH1110"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "CS1110",
+      "term": 2,
+      "prerequisites": [
+        "MATH1220"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "CS1310",
+      "term": 3,
+      "prerequisites": [
+        "MATH1220"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "CS3500",
+      "term": 3,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "CS4430",
+      "term": 3,
+      "prerequisites": [
+        "CS1120"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "COM1040",
+      "term": 3,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "GENEDUII",
+      "term": 3,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "CS3310",
+      "term": 4,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "CS2230",
+      "term": 4,
+      "prerequisites": [
+        "CS1120",
+        "CS1310"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "MATH2300",
+      "term": 4,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "GEDEDUIII",
+      "term": 4,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "ELECTIVE",
+      "term": 4,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "CS4310",
+      "term": 5,
+      "prerequisites": [
+        "CS3310"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "CS2240",
+      "term": 5,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "ELECTIVE",
+      "term": 5,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "GENEDUVI",
+      "term": 5,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "GENEDUVIII",
+      "term": 5,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 2,
+      "passrate": 0.0
+    },
+    {
+      "name": "ELECTIVE",
+      "term": 6,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "CS4540",
+      "term": 6,
+      "prerequisites": [
+        "CS3310",
+        "CS2240",
+        "CS3240"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "GEDEDUV",
+      "term": 6,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "ELECTIVE",
+      "term": 6,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "ELECTIVE",
+      "term": 6,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "CS4900",
+      "term": 7,
+      "prerequisites": [
+        "CS3310"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "ELECTIVE",
+      "term": 7,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "GENEDUV",
+      "term": 7,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "ELECTIVE",
+      "term": 7,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "ELECTIVE",
+      "term": 7,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "CS4910",
+      "term": 8,
+      "prerequisites": [
+        "CS4900"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 2,
+      "passrate": 0.0
+    },
+    {
+      "name": "CS4980",
+      "term": 8,
+      "prerequisites": [
+        "CS4900"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 1,
+      "passrate": 0.0
+    },
+    {
+      "name": "ELECTIVE",
+      "term": 8,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "GENEDUVIII",
+      "term": 8,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "ELECTIVE",
+      "term": 8,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    }
+  ],
+  "terms": 8
+}

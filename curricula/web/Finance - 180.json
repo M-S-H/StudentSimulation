@@ -1,0 +1,533 @@
+{
+  "courses": [
+    {
+      "name": "BUS 1000",
+      "term": 1,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 1,
+      "passrate": 0.0
+    },
+    {
+      "name": "ENGL 1050",
+      "term": 1,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "BUS 1750",
+      "term": 1,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "CIS 1020",
+      "term": 1,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "MATH 1160",
+      "term": 1,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "COM 1000",
+      "term": 2,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "AREA 1",
+      "term": 2,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "ECON 2010",
+      "term": 2,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "ACTY 2100",
+      "term": 2,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "ACTY 2110",
+      "term": 3,
+      "prerequisites": [
+        "ACTY 2100"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "ECON 2020",
+      "term": 3,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "STAT 2160",
+      "term": 3,
+      "prerequisites": [
+        "MATH 1160"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "BUS 2200",
+      "term": 3,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "AREA 2",
+      "term": 3,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "CIS 2700",
+      "term": 4,
+      "prerequisites": [
+        "CIS 1020",
+        "ENGL 1050"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "MKTG 2500",
+      "term": 4,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "BCM 3700",
+      "term": 4,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "AREA 3",
+      "term": 4,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "Elective 1",
+      "term": 4,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "MGMT 2500",
+      "term": 4,
+      "prerequisites": [
+        "BUS 1750"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "AREA 4",
+      "term": 5,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "MAJOR",
+      "term": 5,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "FIN 3200",
+      "term": 5,
+      "prerequisites": [
+        "ACTY 2100",
+        "STAT 2160"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "LAW 3800",
+      "term": 5,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "AREA 5",
+      "term": 5,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "BUS 3750",
+      "term": 5,
+      "prerequisites": [
+        "MGMT 2500"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "CHEM 1100",
+      "term": 6,
+      "prerequisites": [
+        "MATH 1180"
+      ],
+      "corequisites": [
+        "CHEM 1110"
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "CHEM 1110",
+      "term": 6,
+      "prerequisites": [
+        "MATH 1180"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 1,
+      "passrate": 0.0
+    },
+    {
+      "name": "BUS 4000",
+      "term": 6,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 1,
+      "passrate": 0.0
+    },
+    {
+      "name": "BUS 4500",
+      "term": 6,
+      "prerequisites": [
+        "MGMT 2500",
+        "MKTG 2500",
+        "FIN 3200",
+        "CIS 2700"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "AREA 7",
+      "term": 6,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "Elective 2",
+      "term": 6,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "MAJOR1",
+      "term": 7,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "ECON 3040",
+      "term": 7,
+      "prerequisites": [
+        "ECON 2010"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "FIN 3300",
+      "term": 7,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "FIN 3310",
+      "term": 7,
+      "prerequisites": [
+        "FIN 3200"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "FIN 3350",
+      "term": 7,
+      "prerequisites": [
+        "FIN 3200"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "AREA 8",
+      "term": 7,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 2,
+      "passrate": 0.0
+    },
+    {
+      "name": "FIN 3510",
+      "term": 7,
+      "prerequisites": [
+        "FIN 3200"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "BUS 4750",
+      "term": 8,
+      "prerequisites": [
+        "ACTY 2110",
+        "ECON 2020",
+        "MGMT 2500",
+        "MKTG 2500",
+        "CIS 2700",
+        "BUS 3750",
+        "FIN 3200",
+        "LAW 3800"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "FIN 3100",
+      "term": 8,
+      "prerequisites": [
+        "ACTY 2100"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "FIN 3450",
+      "term": 8,
+      "prerequisites": [
+        "FIN 3200"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "FIN 5530",
+      "term": 8,
+      "prerequisites": [
+        "FIN 3510"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    }
+  ],
+  "terms": 8
+}

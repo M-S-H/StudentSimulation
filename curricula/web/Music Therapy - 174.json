@@ -1,0 +1,682 @@
+{
+  "courses": [
+    {
+      "name": "MUS1010",
+      "term": 1,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 0,
+      "passrate": 0.0
+    },
+    {
+      "name": "MUS 1590",
+      "term": 1,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+        "MUS1590"
+      ],
+      "credits": 2,
+      "passrate": 0.0
+    },
+    {
+      "name": "MUS 1600",
+      "term": 1,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "MUS 1620",
+      "term": 1,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 1,
+      "passrate": 0.0
+    },
+    {
+      "name": "Performance elective ",
+      "term": 1,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 1,
+      "passrate": 0.0
+    },
+    {
+      "name": "MUS 2810",
+      "term": 1,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 1,
+      "passrate": 0.0
+    },
+    {
+      "name": "PSY 1000",
+      "term": 1,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "General Education elective",
+      "term": 1,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "MUS 2000 ",
+      "term": 2,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 2,
+      "passrate": 0.0
+    },
+    {
+      "name": "MUS 1610",
+      "term": 2,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "MUS 1630",
+      "term": 2,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 1,
+      "passrate": 0.0
+    },
+    {
+      "name": "MUS 1700 ",
+      "term": 2,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 2,
+      "passrate": 0.0
+    },
+    {
+      "name": "Performance elective ",
+      "term": 2,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 1,
+      "passrate": 0.0
+    },
+    {
+      "name": "MUS 1200 ",
+      "term": 2,
+      "prerequisites": [
+        "MUS 1600"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 1,
+      "passrate": 0.0
+    },
+    {
+      "name": "MUS 3830",
+      "term": 2,
+      "prerequisites": [
+        "MUS 2810"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 1,
+      "passrate": 0.0
+    },
+    {
+      "name": "MUS 1260",
+      "term": 2,
+      "prerequisites": [
+        "MUS 1600"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 1,
+      "passrate": 0.0
+    },
+    {
+      "name": "General Education elective ",
+      "term": 2,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "Applied music",
+      "term": 3,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 2,
+      "passrate": 0.0
+    },
+    {
+      "name": "MUS 2600 ",
+      "term": 3,
+      "prerequisites": [
+        "MUS 1610"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "MUS 2590 ",
+      "term": 3,
+      "prerequisites": [
+        "MUS 1630"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 1,
+      "passrate": 0.0
+    },
+    {
+      "name": "MUS 2700 ",
+      "term": 3,
+      "prerequisites": [
+        "MUS 1700"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "MUS 1210 ",
+      "term": 3,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 1,
+      "passrate": 0.0
+    },
+    {
+      "name": "MUS 2890",
+      "term": 3,
+      "prerequisites": [
+        "MUS 1260",
+        "MUS 2810"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 2,
+      "passrate": 0.0
+    },
+    {
+      "name": "Performance elective ",
+      "term": 3,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 1,
+      "passrate": 0.0
+    },
+    {
+      "name": "MUS 2800",
+      "term": 3,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 1,
+      "passrate": 0.0
+    },
+    {
+      "name": "General Education elective ",
+      "term": 3,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "Applied music",
+      "term": 4,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 2,
+      "passrate": 0.0
+    },
+    {
+      "name": "MUS 2610 ",
+      "term": 4,
+      "prerequisites": [
+        "MUS 1610",
+        "MUS 2600"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "MUS 2650 ",
+      "term": 4,
+      "prerequisites": [
+        "MUS 2590"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 1,
+      "passrate": 0.0
+    },
+    {
+      "name": "MUS 2710 ",
+      "term": 4,
+      "prerequisites": [
+        "MUS 1700"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "MUS 2200 ",
+      "term": 4,
+      "prerequisites": [
+        "MUS 1210"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 1,
+      "passrate": 0.0
+    },
+    {
+      "name": "Performance elective ",
+      "term": 4,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 1,
+      "passrate": 0.0
+    },
+    {
+      "name": "MUS 2150 ",
+      "term": 4,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 1,
+      "passrate": 0.0
+    },
+    {
+      "name": "MUS 2900",
+      "term": 4,
+      "prerequisites": [
+        "MUS 1260",
+        "MUS 2810"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 2,
+      "passrate": 0.0
+    },
+    {
+      "name": "MUS 1170 ",
+      "term": 4,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 1,
+      "passrate": 0.0
+    },
+    {
+      "name": "MUS 4720",
+      "term": 5,
+      "prerequisites": [
+        "MUS 2810",
+        "MUS 2890",
+        "MUS 2900"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 2,
+      "passrate": 0.0
+    },
+    {
+      "name": "MUS 3800* ",
+      "term": 5,
+      "prerequisites": [
+        "PSY 1000"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 2,
+      "passrate": 0.0
+    },
+    {
+      "name": "General Education electives (8credit)",
+      "term": 5,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 8,
+      "passrate": 0.0
+    },
+    {
+      "name": "MUS 2210 ",
+      "term": 5,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 1,
+      "passrate": 0.0
+    },
+    {
+      "name": "Professional electives",
+      "term": 5,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 2,
+      "passrate": 0.0
+    },
+    {
+      "name": "MUS 4730",
+      "term": 6,
+      "prerequisites": [
+        "MUS 4720"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 2,
+      "passrate": 0.0
+    },
+    {
+      "name": "MUS 3810",
+      "term": 6,
+      "prerequisites": [
+        "MUS 3800"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 2,
+      "passrate": 0.0
+    },
+    {
+      "name": "General Education electives (7credit)",
+      "term": 6,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 7,
+      "passrate": 0.0
+    },
+    {
+      "name": "MUS 5300 ",
+      "term": 6,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "MUS 2790 ",
+      "term": 6,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 1,
+      "passrate": 0.0
+    },
+    {
+      "name": "MUS 2500 ",
+      "term": 7,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "MUS 4790",
+      "term": 7,
+      "prerequisites": [
+        "MUS 4720"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "General Education electives (6credit)",
+      "term": 7,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 6,
+      "passrate": 0.0
+    },
+    {
+      "name": "MUS 3200 ",
+      "term": 7,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 1,
+      "passrate": 0.0
+    },
+    {
+      "name": "Professional electives ",
+      "term": 7,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "Dance elective ",
+      "term": 7,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 1,
+      "passrate": 0.0
+    },
+    {
+      "name": "Free electives ",
+      "term": 8,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "MUS 4800",
+      "term": 8,
+      "prerequisites": [
+        "MUS 4720"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "MUS 3210 ",
+      "term": 8,
+      "prerequisites": [
+        "MUS 3200"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 1,
+      "passrate": 0.0
+    },
+    {
+      "name": "General Education elective ",
+      "term": 8,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "MUS 4810",
+      "term": 8,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 2,
+      "passrate": 0.0
+    }
+  ],
+  "terms": 8
+}

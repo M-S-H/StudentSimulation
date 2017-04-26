@@ -1,0 +1,520 @@
+{
+  "courses": [
+    {
+      "name": "MAT 265",
+      "key": "MAT 265",
+      "term": 1,
+      "credits": 0,
+      "passrate": 0,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ]
+    },
+    {
+      "name": "ASU 101",
+      "key": "ASU 101",
+      "term": 1,
+      "credits": 0,
+      "passrate": 0,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ]
+    },
+    {
+      "name": "FSE 100",
+      "key": "FSE 100",
+      "term": 1,
+      "credits": 0,
+      "passrate": 0,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ]
+    },
+    {
+      "name": "CHM 114",
+      "key": "CHM 114",
+      "term": 1,
+      "credits": 0,
+      "passrate": 0,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ]
+    },
+    {
+      "name": "ENG 101",
+      "key": "ENG 101",
+      "term": 1,
+      "credits": 0,
+      "passrate": 0,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ]
+    },
+    {
+      "name": "MAT 266",
+      "key": "MAT 266",
+      "term": 2,
+      "credits": 0,
+      "passrate": 0,
+      "prerequisites": [
+        "MAT 265"
+      ],
+      "corequisites": [
+
+      ]
+    },
+    {
+      "name": "PHY 121",
+      "key": "PHY 121",
+      "term": 2,
+      "credits": 0,
+      "passrate": 0,
+      "prerequisites": [
+        "MAT 265"
+      ],
+      "corequisites": [
+        "MAT 266"
+      ]
+    },
+    {
+      "name": "PHY 122",
+      "key": "PHY 122",
+      "term": 2,
+      "credits": 0,
+      "passrate": 0,
+      "prerequisites": [
+        "MAT 265"
+      ],
+      "corequisites": [
+        "MAT 266"
+      ]
+    },
+    {
+      "name": "EEE 120",
+      "key": "EEE 120",
+      "term": 2,
+      "credits": 0,
+      "passrate": 0,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ]
+    },
+    {
+      "name": "ENG 102",
+      "key": "ENG 102",
+      "term": 2,
+      "credits": 0,
+      "passrate": 0,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ]
+    },
+    {
+      "name": "Humanities 1",
+      "key": "Humanities 1",
+      "term": 2,
+      "credits": 0,
+      "passrate": 0,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ]
+    },
+    {
+      "name": "MAT 267",
+      "key": "MAT 267",
+      "term": 3,
+      "credits": 0,
+      "passrate": 0,
+      "prerequisites": [
+        "MAT 266"
+      ],
+      "corequisites": [
+
+      ]
+    },
+    {
+      "name": "MAT 275",
+      "key": "MAT 275",
+      "term": 3,
+      "credits": 0,
+      "passrate": 0,
+      "prerequisites": [
+        "MAT 266"
+      ],
+      "corequisites": [
+
+      ]
+    },
+    {
+      "name": "PHY 132",
+      "key": "PHY 132",
+      "term": 3,
+      "credits": 0,
+      "passrate": 0,
+      "prerequisites": [
+        "PHY 121",
+        "PHY 122"
+      ],
+      "corequisites": [
+
+      ]
+    },
+    {
+      "name": "PHY 131",
+      "key": "PHY 131",
+      "term": 3,
+      "credits": 0,
+      "passrate": 0,
+      "prerequisites": [
+        "PHY 121",
+        "PHY 122"
+      ],
+      "corequisites": [
+
+      ]
+    },
+    {
+      "name": "EEE 202",
+      "key": "EEE 202",
+      "term": 3,
+      "credits": 0,
+      "passrate": 0,
+      "prerequisites": [
+        "FSE 100"
+      ],
+      "corequisites": [
+        "PHY 131"
+      ]
+    },
+    {
+      "name": "MAT 342",
+      "key": "MAT 342",
+      "term": 4,
+      "credits": 0,
+      "passrate": 0,
+      "prerequisites": [
+        "MAT 267"
+      ],
+      "corequisites": [
+        "EEE 203"
+      ]
+    },
+    {
+      "name": "EEE 203",
+      "key": "EEE 203",
+      "term": 4,
+      "credits": 0,
+      "passrate": 0,
+      "prerequisites": [
+        "MAT 267",
+        "EEE 202"
+      ],
+      "corequisites": [
+
+      ]
+    },
+    {
+      "name": "EEE 241",
+      "key": "EEE 241",
+      "term": 4,
+      "credits": 0,
+      "passrate": 0,
+      "prerequisites": [
+        "MAT 267",
+        "MAT 275"
+      ],
+      "corequisites": [
+
+      ]
+    },
+    {
+      "name": "Humanitites 2",
+      "key": "Humanitites 2",
+      "term": 4,
+      "credits": 0,
+      "passrate": 0,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ]
+    },
+    {
+      "name": "PHY 241",
+      "key": "PHY 241",
+      "term": 4,
+      "credits": 0,
+      "passrate": 0,
+      "prerequisites": [
+        "PHY 131"
+      ],
+      "corequisites": [
+
+      ]
+    },
+    {
+      "name": "EEE 350",
+      "key": "EEE 350",
+      "term": 5,
+      "credits": 0,
+      "passrate": 0,
+      "prerequisites": [
+        "EEE 203"
+      ],
+      "corequisites": [
+
+      ]
+    },
+    {
+      "name": "EEE 230",
+      "key": "EEE 230",
+      "term": 5,
+      "credits": 0,
+      "passrate": 0,
+      "prerequisites": [
+        "CSE 100",
+        "EEE 120"
+      ],
+      "corequisites": [
+
+      ]
+    },
+    {
+      "name": "EEE 334",
+      "key": "EEE 334",
+      "term": 5,
+      "credits": 0,
+      "passrate": 0,
+      "prerequisites": [
+        "EEE 202"
+      ],
+      "corequisites": [
+
+      ]
+    },
+    {
+      "name": "EEE 333",
+      "key": "EEE 333",
+      "term": 5,
+      "credits": 0,
+      "passrate": 0,
+      "prerequisites": [
+        "EEE 202"
+      ],
+      "corequisites": [
+
+      ]
+    },
+    {
+      "name": "EEE 304",
+      "key": "EEE 304",
+      "term": 6,
+      "credits": 0,
+      "passrate": 0,
+      "prerequisites": [
+        "EEE 230"
+      ],
+      "corequisites": [
+
+      ]
+    },
+    {
+      "name": "EEE 335",
+      "key": "EEE 335",
+      "term": 6,
+      "credits": 0,
+      "passrate": 0,
+      "prerequisites": [
+        "EEE 334"
+      ],
+      "corequisites": [
+
+      ]
+    },
+    {
+      "name": "EEE 341",
+      "key": "EEE 341",
+      "term": 6,
+      "credits": 0,
+      "passrate": 0,
+      "prerequisites": [
+        "EEE 203"
+      ],
+      "corequisites": [
+
+      ]
+    },
+    {
+      "name": "ECN 211",
+      "key": "ECN 211",
+      "term": 6,
+      "credits": 0,
+      "passrate": 0,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ]
+    },
+    {
+      "name": "EEE 488",
+      "key": "EEE 488",
+      "term": 7,
+      "credits": 0,
+      "passrate": 0,
+      "prerequisites": [
+        "EEE 350",
+        "EEE 334",
+        "EEE 335"
+      ],
+      "corequisites": [
+
+      ]
+    },
+    {
+      "name": "Upper Division Tech Elective 1",
+      "key": "Upper Division Tech Elective 1",
+      "term": 7,
+      "credits": 0,
+      "passrate": 0,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ]
+    },
+    {
+      "name": "Upper Division Tech Elective 2",
+      "key": "Upper Division Tech Elective 2",
+      "term": 7,
+      "credits": 0,
+      "passrate": 0,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ]
+    },
+    {
+      "name": "Social Sciences",
+      "key": "Social Sciences",
+      "term": 7,
+      "credits": 0,
+      "passrate": 0,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ]
+    },
+    {
+      "name": "EEE 489",
+      "key": "EEE 489",
+      "term": 8,
+      "credits": 0,
+      "passrate": 0,
+      "prerequisites": [
+        "EEE 488",
+        "EEE 230"
+      ],
+      "corequisites": [
+
+      ]
+    },
+    {
+      "name": "Upper Division Tech Elective 3",
+      "key": "Upper Division Tech Elective 3",
+      "term": 8,
+      "credits": 0,
+      "passrate": 0,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ]
+    },
+    {
+      "name": "Upper Division Tech Elective 4",
+      "key": "Upper Division Tech Elective 4",
+      "term": 8,
+      "credits": 0,
+      "passrate": 0,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ]
+    },
+    {
+      "name": "Upper Division Tech Elective 5",
+      "key": "Upper Division Tech Elective 5",
+      "term": 8,
+      "credits": 0,
+      "passrate": 0,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ]
+    },
+    {
+      "name": "Humanities 3",
+      "key": "Humanities 3",
+      "term": 8,
+      "credits": 0,
+      "passrate": 0,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ]
+    },
+    {
+      "name": "CSE 100",
+      "key": "CSE 100",
+      "term": 1,
+      "credits": 0,
+      "passrate": 0,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ]
+    }
+  ],
+  "terms": 8
+}

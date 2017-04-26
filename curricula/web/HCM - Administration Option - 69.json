@@ -1,0 +1,731 @@
+{
+  "courses": [
+    {
+      "name": "BIO200",
+      "term": 1,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 2,
+      "passrate": 0.0
+    },
+    {
+      "name": "BUS101",
+      "term": 1,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "MATH111",
+      "term": 1,
+      "prerequisites": [
+        "MATH100"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "PSY201",
+      "term": 1,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "WRI121",
+      "term": 1,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "BUS223",
+      "term": 2,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "ECO201",
+      "term": 2,
+      "prerequisites": [
+        "MATH111"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "MIS102",
+      "term": 2,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 1,
+      "passrate": 0.0
+    },
+    {
+      "name": "SPE111",
+      "term": 2,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "WRI122",
+      "term": 2,
+      "prerequisites": [
+        "WRI121"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "ECO202",
+      "term": 3,
+      "prerequisites": [
+        "MATH111"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "SOC204",
+      "term": 3,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "SPE321",
+      "term": 3,
+      "prerequisites": [
+        "SPE111"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "WRI227",
+      "term": 3,
+      "prerequisites": [
+        "WRI122"
+      ],
+      "corequisites": [
+        "SPE111"
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "ELEC",
+      "term": 3,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "ACC201",
+      "term": 4,
+      "prerequisites": [
+        "MATH100"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "BUS313",
+      "term": 4,
+      "prerequisites": [
+        "WRI227"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "BIO103",
+      "term": 4,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "MIS113",
+      "term": 4,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "BUS256",
+      "term": 5,
+      "prerequisites": [
+        "BUS101",
+        "WRI122"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "BUS316",
+      "term": 5,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "COM205",
+      "term": 5,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "MATH361",
+      "term": 5,
+      "prerequisites": [
+        "MATH111"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "HUM",
+      "term": 5,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "ACC203",
+      "term": 6,
+      "prerequisites": [
+        "ACC201"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "BUS317",
+      "term": 6,
+      "prerequisites": [
+        "WRI121"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "SOC225",
+      "term": 6,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "ELEC",
+      "term": 6,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "ELEC",
+      "term": 6,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "ACC325",
+      "term": 7,
+      "prerequisites": [
+        "ACC203",
+        "MATH111"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "BUS308",
+      "term": 7,
+      "prerequisites": [
+        "WRI121"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "MGT321",
+      "term": 7,
+      "prerequisites": [
+        "BUS317"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "PSY336",
+      "term": 7,
+      "prerequisites": [
+        "PSY201"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "BUS ELEC",
+      "term": 7,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "BUS349",
+      "term": 8,
+      "prerequisites": [
+        "BUS317"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "COM346",
+      "term": 8,
+      "prerequisites": [
+        "WRI122",
+        "COM205"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "PHIL342",
+      "term": 8,
+      "prerequisites": [
+        "WRI122"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "SOC325",
+      "term": 8,
+      "prerequisites": [
+        "SOC204"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "STAT414",
+      "term": 8,
+      "prerequisites": [
+        "MATH361"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "BUS356",
+      "term": 9,
+      "prerequisites": [
+        "SPE111",
+        "WRI122"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "BUS397",
+      "term": 9,
+      "prerequisites": [
+        "BUS349"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "MGT335",
+      "term": 9,
+      "prerequisites": [
+        "BUS317"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "SOC335",
+      "term": 9,
+      "prerequisites": [
+        "SOC225"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "HUM",
+      "term": 9,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "BUS441",
+      "term": 10,
+      "prerequisites": [
+        "BUS349"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "BUS457",
+      "term": 10,
+      "prerequisites": [
+        "BUS317",
+        "MATH361"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "BUS467",
+      "term": 10,
+      "prerequisites": [
+        "BUS317"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "BUS495",
+      "term": 10,
+      "prerequisites": [
+        "MGT335"
+      ],
+      "corequisites": [
+        "BUS457"
+      ],
+      "credits": 1,
+      "passrate": 0.0
+    },
+    {
+      "name": "ELEC",
+      "term": 10,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "MIS345",
+      "term": 10,
+      "prerequisites": [
+        "BUS317 BUS313"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "BUS442",
+      "term": 11,
+      "prerequisites": [
+        "BUS441"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "BUS496",
+      "term": 11,
+      "prerequisites": [
+        "BUS495"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 2,
+      "passrate": 0.0
+    },
+    {
+      "name": "ELEC",
+      "term": 11,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "ELEC",
+      "term": 11,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "ELEC",
+      "term": 11,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "BUS478",
+      "term": 12,
+      "prerequisites": [
+        "ACC203",
+        "WRI227"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "BUS497",
+      "term": 12,
+      "prerequisites": [
+        "BUS496"
+      ],
+      "corequisites": [
+        "BUS356"
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "PSY347",
+      "term": 12,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "WRI410",
+      "term": 12,
+      "prerequisites": [
+        "WRI227"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "ELEC",
+      "term": 12,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    }
+  ],
+  "terms": 12
+}

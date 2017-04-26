@@ -1,0 +1,45 @@
+{
+  "terms": 4,
+  "courses": [
+    {
+      "name": "Course A",
+      "credits": 3,
+      "passrate": 0.5,
+      "term": 1,
+      "corequisites": [],
+      "prerequisites": []
+    },
+    {
+      "name": "Course B",
+      "credits": 3,
+      "passrate": 0.5,
+      "term": 2,
+      "corequisites": [],
+      "prerequisites": ["Course A"]
+    },
+    {
+      "name": "Course C",
+      "credits": 3,
+      "passrate": 0.5,
+      "term": 3,
+      "corequisites": [],
+      "prerequisites": ["Course B"]
+    },
+    {
+      "name": "Course D",
+      "credits": 3,
+      "passrate": 0.5,
+      "term": 3,
+      "corequisites": [],
+      "prerequisites": ["Course A"]
+    },
+    {
+      "name": "Course E",
+      "credits": 3,
+      "passrate": 0.5,
+      "term": 4,
+      "corequisites": [],
+      "prerequisites": ["Course C", "Course D"]
+    }
+  ]
+}

@@ -1,0 +1,689 @@
+{
+  "courses": [
+    {
+      "name": "MATH 111",
+      "term": 1,
+      "prerequisites": [
+        "MATH 100"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "MIS 255",
+      "term": 1,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "SPE 111",
+      "term": 1,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "WRI 121",
+      "term": 1,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "BIO 200",
+      "term": 2,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 2,
+      "passrate": 0.0
+    },
+    {
+      "name": "ECO 201",
+      "term": 2,
+      "prerequisites": [
+        "MATH 100"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "MIS 102",
+      "term": 2,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 1,
+      "passrate": 0.0
+    },
+    {
+      "name": "MIS 145",
+      "term": 2,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "WRI 122",
+      "term": 2,
+      "prerequisites": [
+        "WRI 121"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "HUM",
+      "term": 2,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "ECO 202",
+      "term": 3,
+      "prerequisites": [
+        "MATH 100"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "MATH 361",
+      "term": 3,
+      "prerequisites": [
+        "MATH 111"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "MIS 251",
+      "term": 3,
+      "prerequisites": [
+        "MIS 145"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "MIS 311",
+      "term": 3,
+      "prerequisites": [
+        "WRI 121"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "MIS 275",
+      "term": 3,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "ACC 201",
+      "term": 4,
+      "prerequisites": [
+        "MATH 100"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "BUS 317",
+      "term": 4,
+      "prerequisites": [
+        "WRI 121"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "MIS 118",
+      "term": 4,
+      "prerequisites": [
+        "MATH 100"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "WRI 227",
+      "term": 4,
+      "prerequisites": [
+        "WRI 122"
+      ],
+      "corequisites": [
+        "SPE 111"
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "MATH 362",
+      "term": 5,
+      "prerequisites": [
+        "MATH 361"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "MIS 218",
+      "term": 5,
+      "prerequisites": [
+        "MIS 118",
+        "MIS 275"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "MIS 357",
+      "term": 5,
+      "prerequisites": [
+        "MIS 255"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "SOC 225",
+      "term": 5,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "ACC 203",
+      "term": 6,
+      "prerequisites": [
+        "ACC 201"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "BIO 103",
+      "term": 6,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "BUS 223",
+      "term": 6,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "MGT 335",
+      "term": 6,
+      "prerequisites": [
+        "BUS 317"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "ACC 325",
+      "term": 7,
+      "prerequisites": [
+        "ACC 203",
+        "MATH 111"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "BUS 313",
+      "term": 7,
+      "prerequisites": [
+        "WRI 227"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "MIS 312",
+      "term": 7,
+      "prerequisites": [
+        "MIS 275",
+        "MIS 311"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "MIS 334",
+      "term": 7,
+      "prerequisites": [
+        "MATH 362"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "BUS 356",
+      "term": 8,
+      "prerequisites": [
+        "SPE 111",
+        "WRI 122"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "MIS 322",
+      "term": 8,
+      "prerequisites": [
+        "MIS 218",
+        "MIS 312",
+        "MGT 335"
+      ],
+      "corequisites": [
+        "MIS 341"
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "MIS 341",
+      "term": 8,
+      "prerequisites": [
+        "MIS 118",
+        "MIS 275"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "PHIL 342",
+      "term": 8,
+      "prerequisites": [
+        "WRI 122"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "SOC 305",
+      "term": 8,
+      "prerequisites": [
+        "SOC 225"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "BUS 316",
+      "term": 9,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "MIS 344",
+      "term": 9,
+      "prerequisites": [
+        "MIS 334"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "MIS 442",
+      "term": 9,
+      "prerequisites": [
+        "MIS 218",
+        "MIS 341"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "MIS 495",
+      "term": 9,
+      "prerequisites": [
+        "MIS 322"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 1,
+      "passrate": 0.0
+    },
+    {
+      "name": "SPE 321",
+      "term": 9,
+      "prerequisites": [
+        "SPE 111"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "BUS 457",
+      "term": 10,
+      "prerequisites": [
+        "BUS 317",
+        "MATH 361"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "MIS 345",
+      "term": 10,
+      "prerequisites": [
+        "BUS 313",
+        "BUS 317"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "MIS 445",
+      "term": 10,
+      "prerequisites": [
+        "BUS 313"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "MIS 496",
+      "term": 10,
+      "prerequisites": [
+        "MIS 495"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "WRI 410",
+      "term": 10,
+      "prerequisites": [
+        "WRI 227"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "ANTH 452",
+      "term": 11,
+      "prerequisites": [
+        "WRI 122"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "MIS 446",
+      "term": 11,
+      "prerequisites": [
+        "MIS 334",
+        "MIS 344"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "MIS 497",
+      "term": 11,
+      "prerequisites": [
+        "MIS 496"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "STAT 414",
+      "term": 11,
+      "prerequisites": [
+        "MATH 361"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "ELEC",
+      "term": 11,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "BUS 478",
+      "term": 12,
+      "prerequisites": [
+        "ACC 203",
+        "WRI 227"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "MIS 498",
+      "term": 12,
+      "prerequisites": [
+        "MIS 497"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "PSY 347",
+      "term": 12,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "ELEC",
+      "term": 12,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "HUM",
+      "term": 12,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    }
+  ],
+  "terms": 12
+}

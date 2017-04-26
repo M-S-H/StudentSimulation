@@ -1,0 +1,677 @@
+{
+  "courses": [
+    {
+      "name": "CH200",
+      "term": 1,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "GS1001",
+      "term": 1,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "MA136",
+      "term": 1,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "SE1011",
+      "term": 1,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "GS1002",
+      "term": 2,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "MA137",
+      "term": 2,
+      "prerequisites": [
+        "MA136"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "PH2011",
+      "term": 2,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+        "MA136"
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "SE1021",
+      "term": 2,
+      "prerequisites": [
+        "SE1011"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "CS2852",
+      "term": 3,
+      "prerequisites": [
+        "SE1021"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "GS1003",
+      "term": 3,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "MA231",
+      "term": 3,
+      "prerequisites": [
+        "MA137"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "PH2021",
+      "term": 3,
+      "prerequisites": [
+        "PH1011"
+      ],
+      "corequisites": [
+        "MA137"
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "CS2911",
+      "term": 4,
+      "prerequisites": [
+        "SE1011"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "MA2310",
+      "term": 4,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "SE2030",
+      "term": 4,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+        "CS2852"
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "Math/Science Elective",
+      "term": 4,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "Business Elective",
+      "term": 4,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "CS2711",
+      "term": 5,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "SE2811",
+      "term": 5,
+      "prerequisites": [
+        "SE2030"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "SE2840",
+      "term": 5,
+      "prerequisites": [
+        "CS2911"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "Science Elective",
+      "term": 5,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "MA262",
+      "term": 6,
+      "prerequisites": [
+        "MA136"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "MS344",
+      "term": 6,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "SE2040",
+      "term": 6,
+      "prerequisites": [
+        "CS2852"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "SE2800",
+      "term": 6,
+      "prerequisites": [
+        "SE2030"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "SE2832",
+      "term": 6,
+      "prerequisites": [
+        "MA2310"
+      ],
+      "corequisites": [
+        "CS2852"
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "CS3860",
+      "term": 7,
+      "prerequisites": [
+        "MA2310"
+      ],
+      "corequisites": [
+        "CS2852"
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "OR402",
+      "term": 7,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 1,
+      "passrate": 0.0
+    },
+    {
+      "name": "SE3010",
+      "term": 7,
+      "prerequisites": [
+        "SE2800"
+      ],
+      "corequisites": [
+        "SE2811"
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "SE3800",
+      "term": 7,
+      "prerequisites": [
+        "SE2800"
+      ],
+      "corequisites": [
+        "SE2832"
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "SE3821",
+      "term": 7,
+      "prerequisites": [
+        "SE2030"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "CS3840",
+      "term": 8,
+      "prerequisites": [
+        "SE2040"
+      ],
+      "corequisites": [
+        "CS2711"
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "MA3320",
+      "term": 8,
+      "prerequisites": [
+        "MA2310"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "SE3020",
+      "term": 8,
+      "prerequisites": [
+        "SE3010"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "SE3810",
+      "term": 8,
+      "prerequisites": [
+        "SE3821"
+      ],
+      "corequisites": [
+        "SE2811"
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "Humanities/Social Science Elective",
+      "term": 8,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "CS3851",
+      "term": 9,
+      "prerequisites": [
+        "MA3320"
+      ],
+      "corequisites": [
+        "CS2852"
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "HU432",
+      "term": 9,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "MA383",
+      "term": 9,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "SE3030",
+      "term": 9,
+      "prerequisites": [
+        "SE3020"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "Free Elective",
+      "term": 9,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "SE3910",
+      "term": 10,
+      "prerequisites": [
+        "CS3840"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "SE400",
+      "term": 10,
+      "prerequisites": [
+        "SE3030"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "Technical Elective",
+      "term": 10,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "Math/Science Elective",
+      "term": 10,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "Humanities/Social Science Elective",
+      "term": 10,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "IE423",
+      "term": 11,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "SE401",
+      "term": 11,
+      "prerequisites": [
+        "SE400"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "Technical Elective",
+      "term": 11,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "Math/Science Elective",
+      "term": 11,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "Humanities/Social Science Elective",
+      "term": 11,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "SE402",
+      "term": 12,
+      "prerequisites": [
+        "SE401"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "Technical Elective",
+      "term": 12,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "Humanities/Social Science Elective",
+      "term": 12,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "Humanities/Social Science Elective",
+      "term": 12,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "Free Elective",
+      "term": 12,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    }
+  ],
+  "terms": 12
+}

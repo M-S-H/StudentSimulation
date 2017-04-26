@@ -1,0 +1,294 @@
+{
+  "courses": [
+    {
+      "name": "MATH 11A",
+      "term": 1,
+      "prerequisites": [
+        "MATH 3"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 5,
+      "passrate": 0.8
+    },
+    {
+      "name": "CHEM 1A",
+      "term": 1,
+      "prerequisites": [
+        "MATH 3"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 5,
+      "passrate": 0.8
+    },
+    {
+      "name": "MATH 11B",
+      "term": 2,
+      "prerequisites": [
+        "MATH 11A"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 5,
+      "passrate": 0.8
+    },
+    {
+      "name": "CHEM 1BM",
+      "term": 2,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 7,
+      "passrate": 0.8
+    },
+    {
+      "name": "MATH 21",
+      "term": 3,
+      "prerequisites": [
+        "MATH 11A"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 5,
+      "passrate": 0.8
+    },
+    {
+      "name": "CHEM 1CN",
+      "term": 3,
+      "prerequisites": [
+        "CHEM 1A"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 7,
+      "passrate": 0.8
+    },
+    {
+      "name": "CHEM 8AL",
+      "term": 4,
+      "prerequisites": [
+        "CHEM 1BM",
+        "CHEM 1CN"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 7,
+      "passrate": 0.8
+    },
+    {
+      "name": "PHYS 6AL",
+      "term": 4,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+        "MATH 11A"
+      ],
+      "credits": 6,
+      "passrate": 0.8
+    },
+    {
+      "name": "CHEM 8BM",
+      "term": 5,
+      "prerequisites": [
+        "CHEM 8AL"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 7,
+      "passrate": 0.8
+    },
+    {
+      "name": "MATH 22",
+      "term": 5,
+      "prerequisites": [
+        "MATH 11B"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 5,
+      "passrate": 0.8
+    },
+    {
+      "name": "CHEM 110L",
+      "term": 6,
+      "prerequisites": [
+        "CHEM 8BM"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 7,
+      "passrate": 0.8
+    },
+    {
+      "name": "PHYS 6BM",
+      "term": 6,
+      "prerequisites": [
+        "PHYS 6AL",
+        "MATH 11A"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 6,
+      "passrate": 0.8
+    },
+    {
+      "name": "CHEM 163A",
+      "term": 7,
+      "prerequisites": [
+        "CHEM 1BM",
+        "CHEM 1CN"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 5,
+      "passrate": 0.8
+    },
+    {
+      "name": "PHYS 6CN",
+      "term": 7,
+      "prerequisites": [
+        "PHYS 6AL",
+        "MATH 11B"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 6,
+      "passrate": 0.8
+    },
+    {
+      "name": "CHEM 163B",
+      "term": 8,
+      "prerequisites": [
+        "CHEM 1B",
+        "CHEM 1C",
+        "MATH 22",
+        "PHYS 6CN"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 5,
+      "passrate": 0.8
+    },
+    {
+      "name": "CHEM 164",
+      "term": 8,
+      "prerequisites": [
+        "CHEM 1B",
+        "CHEM 1C",
+        "MATH 22",
+        "PHYS 6CN"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 5,
+      "passrate": 0.8
+    },
+    {
+      "name": "CHEM 163C",
+      "term": 9,
+      "prerequisites": [
+        "CHEM 163A",
+        "CHEM 163B"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 5,
+      "passrate": 0.8
+    },
+    {
+      "name": "CHEM Elective 1",
+      "term": 10,
+      "prerequisites": [
+        "CHEM 110L"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 5,
+      "passrate": 0.8
+    },
+    {
+      "name": "CHEM 103",
+      "term": 11,
+      "prerequisites": [
+        "CHEM 8BM"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 5,
+      "passrate": 0.8
+    },
+    {
+      "name": "CHEM 151AL",
+      "term": 11,
+      "prerequisites": [
+        "CHEM 8BM",
+        "CHEM 163A"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 7,
+      "passrate": 0.8
+    },
+    {
+      "name": "CHEM Elective 2",
+      "term": 12,
+      "prerequisites": [
+        "CHEM 110L"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 5,
+      "passrate": 0.8
+    },
+    {
+      "name": "CHEM 146 LAB",
+      "term": 12,
+      "prerequisites": [
+        "CHEM 151AL",
+        "CHEM 163A"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.8
+    },
+    {
+      "name": "Comprehensive Req",
+      "term": 12,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 0,
+      "passrate": 0.0
+    }
+  ],
+  "terms": 12
+}

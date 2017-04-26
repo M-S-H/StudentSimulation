@@ -1,0 +1,573 @@
+{
+  "courses": [
+    {
+      "name": "MATH 1220",
+      "term": 1,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "CHEM 1100",
+      "term": 1,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+        "CHEM 1110"
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "CHEM 1110",
+      "term": 1,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 1,
+      "passrate": 0.0
+    },
+    {
+      "name": "IEE 1020",
+      "term": 1,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "EDMM 1420",
+      "term": 1,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "AREA 1",
+      "term": 1,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "MATH 1230",
+      "term": 2,
+      "prerequisites": [
+        "MATH 1220"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "PHYS 2050",
+      "term": 2,
+      "prerequisites": [
+        "MATH 1220"
+      ],
+      "corequisites": [
+        "PHYS 2060"
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "PHYS 2060",
+      "term": 2,
+      "prerequisites": [
+        "MATH 1220"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 1,
+      "passrate": 0.0
+    },
+    {
+      "name": "CS 1022",
+      "term": 2,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 1,
+      "passrate": 0.0
+    },
+    {
+      "name": "ME 2615",
+      "term": 2,
+      "prerequisites": [
+        "MATH 1220"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "AREA 2",
+      "term": 2,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "MATH 2720",
+      "term": 3,
+      "prerequisites": [
+        "MATH 1230"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "PHYS 2070",
+      "term": 3,
+      "prerequisites": [
+        "PHYS 2050",
+        "MATH 1230"
+      ],
+      "corequisites": [
+        "PHYS 2080"
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "PHYS 2080",
+      "term": 3,
+      "prerequisites": [
+        "PHYS 2050",
+        "MATH 1230"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 1,
+      "passrate": 0.0
+    },
+    {
+      "name": "ME 2320",
+      "term": 3,
+      "prerequisites": [
+        "MATH 1230",
+        "PHYS 2050",
+        "PHYS 2060"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "ME 2560",
+      "term": 3,
+      "prerequisites": [
+        "MATH 1230",
+        "PHYS 2050",
+        "PHYS 2060"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "MATH 3740",
+      "term": 4,
+      "prerequisites": [
+        "MATH 2720"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "ME 2500",
+      "term": 4,
+      "prerequisites": [
+        "MATH 1220",
+        "ME 2615",
+        "CHEM 1100",
+        "CHEM 1110"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "ME 2570",
+      "term": 4,
+      "prerequisites": [
+        "ME 2560"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "ECE 2100",
+      "term": 4,
+      "prerequisites": [
+        "MATH 1230",
+        "PHYS 2070"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "ME 2580",
+      "term": 4,
+      "prerequisites": [
+        "ME 2560",
+        "PHYS 2050",
+        "PHYS 2060"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "ME 3560",
+      "term": 5,
+      "prerequisites": [
+        "ME 2580",
+        "MATH 3740"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "ME 3580",
+      "term": 5,
+      "prerequisites": [
+        "ME 2580",
+        "CS 1022"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "ME 3620",
+      "term": 5,
+      "prerequisites": [
+        "MATH 1230",
+        "CS 1022"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "CHEM 1120",
+      "term": 5,
+      "prerequisites": [
+        "CHEM 1100",
+        "CHEM 1110"
+      ],
+      "corequisites": [
+        "CHEM 1130"
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "CHEM 1130",
+      "term": 5,
+      "prerequisites": [
+        "CHEM 1100",
+        "CHEM 1110"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 1,
+      "passrate": 0.0
+    },
+    {
+      "name": "ME 3650",
+      "term": 5,
+      "prerequisites": [
+        "EDMM 1420",
+        "ME 2570",
+        "ME 2580",
+        "ME 2500",
+        "ME 2615"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "ME 3350",
+      "term": 6,
+      "prerequisites": [
+        "ME 2570",
+        "ME 3620",
+        "ECE 2100"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "ME 3600",
+      "term": 6,
+      "prerequisites": [
+        "ME 2580",
+        "MATH 3740",
+        "ECE 2100"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "ME 4310",
+      "term": 6,
+      "prerequisites": [
+        "ME 2320",
+        "ME 3560"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "ME 4320",
+      "term": 6,
+      "prerequisites": [
+        "ME 2320",
+        "ME 3560"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "ECE 2110",
+      "term": 6,
+      "prerequisites": [
+        "ECE 2100"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "ME 4790",
+      "term": 7,
+      "prerequisites": [
+        "ME 3350",
+        "ME 3600"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 1,
+      "passrate": 0.0
+    },
+    {
+      "name": "ME Design Elective",
+      "term": 7,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "ME Elective 1",
+      "term": 7,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "ME Elective 2",
+      "term": 7,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "AREA 5",
+      "term": 7,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "AREA 3",
+      "term": 7,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "IEE 3090",
+      "term": 8,
+      "prerequisites": [
+        "MATH 1230"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 2,
+      "passrate": 0.0
+    },
+    {
+      "name": "ME 4800",
+      "term": 8,
+      "prerequisites": [
+        "ME 4790"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "ME Design Elective 2",
+      "term": 8,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "ME Elective 3",
+      "term": 8,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "AREA 4",
+      "term": 8,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "AREA 8",
+      "term": 8,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 2,
+      "passrate": 0.0
+    }
+  ],
+  "terms": 8
+}

@@ -1,0 +1,475 @@
+{
+  "courses": [
+    {
+      "name": "BIOS 1600",
+      "term": 1,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "MATH 1110",
+      "term": 1,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "ARAB 1000",
+      "term": 1,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "ENGL 1050",
+      "term": 1,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "BIOS 1610",
+      "term": 2,
+      "prerequisites": [
+        "BIOS 1600"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "CHEM 1100",
+      "term": 2,
+      "prerequisites": [
+        "MATH 1110"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "CHEM 1110",
+      "term": 2,
+      "prerequisites": [
+        "MATH 1110"
+      ],
+      "corequisites": [
+        "CHEM 1100"
+      ],
+      "credits": 1,
+      "passrate": 0.0
+    },
+    {
+      "name": "STAT 2600",
+      "term": 2,
+      "prerequisites": [
+        "MATH 1100"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "PHIL 3250",
+      "term": 2,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "BIOS 1620",
+      "term": 3,
+      "prerequisites": [
+        "BIOS 1600"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "CHEM 1120",
+      "term": 3,
+      "prerequisites": [
+        "CHEM 1100",
+        "CHEM 1110"
+      ],
+      "corequisites": [
+        "CHEM 1130"
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "CHEM 1130",
+      "term": 3,
+      "prerequisites": [
+        "CHEM 1100",
+        "CHEM 1110"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 1,
+      "passrate": 0.0
+    },
+    {
+      "name": "MATH 1220",
+      "term": 3,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "MUS 1480",
+      "term": 3,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "BIOS 2110",
+      "term": 4,
+      "prerequisites": [
+        "BIOS 1600",
+        "BIOS 1610"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "CHEM 3750",
+      "term": 4,
+      "prerequisites": [
+        "CHEM 1120",
+        "CHEM 1130"
+      ],
+      "corequisites": [
+        "CHEM 3760"
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "CHEM 3760",
+      "term": 4,
+      "prerequisites": [
+        "CHEM 1120",
+        "CHEM 1130"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 1,
+      "passrate": 0.0
+    },
+    {
+      "name": "RUSS 3100",
+      "term": 4,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "ARAB 1010",
+      "term": 4,
+      "prerequisites": [
+        "ARAB 1000"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "BIOS 2300",
+      "term": 5,
+      "prerequisites": [
+        "CHEM 1120",
+        "BIOS 1610"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "BIOS 2500",
+      "term": 5,
+      "prerequisites": [
+        "CHEM 1120",
+        "BIOS 1610",
+        "BIOS 1620"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "CHEM 3770",
+      "term": 5,
+      "prerequisites": [
+        "CHEM 3750",
+        "CHEM 3760"
+      ],
+      "corequisites": [
+        "CHEM 3780"
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "CHEM 3780",
+      "term": 5,
+      "prerequisites": [
+        "CHEM 3750",
+        "CHEM 3760"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 1,
+      "passrate": 0.0
+    },
+    {
+      "name": "PSCI 2000",
+      "term": 5,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "BIOS 3500",
+      "term": 6,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 5,
+      "passrate": 0.0
+    },
+    {
+      "name": "CHEM 3550",
+      "term": 6,
+      "prerequisites": [
+        "CHEM 3770",
+        "CHEM 3780"
+      ],
+      "corequisites": [
+        "CHEM 3560"
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "CHEM 3560",
+      "term": 6,
+      "prerequisites": [
+        "CHEM 3770",
+        "CHEM 3780"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 1,
+      "passrate": 0.0
+    },
+    {
+      "name": "ANTH  3390",
+      "term": 6,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "BIOS 3120",
+      "term": 7,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 5,
+      "passrate": 0.0
+    },
+    {
+      "name": "BIOS 3000",
+      "term": 7,
+      "prerequisites": [
+        "BIOS 2500"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "PHYS 1130",
+      "term": 7,
+      "prerequisites": [
+        "MATH 1110",
+        "MATH 1220"
+      ],
+      "corequisites": [
+        "PHYS 1140"
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "PHYS 1140",
+      "term": 7,
+      "prerequisites": [
+        "MATH 1110",
+        "MATH 1220"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 1,
+      "passrate": 0.0
+    },
+    {
+      "name": "BIOS 4970",
+      "term": 8,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "PHYS 1150",
+      "term": 8,
+      "prerequisites": [
+        "PHYS 1130"
+      ],
+      "corequisites": [
+        "PHYS 1160"
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "PHYS 1160",
+      "term": 8,
+      "prerequisites": [
+        "PHYS 1130"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 1,
+      "passrate": 0.0
+    },
+    {
+      "name": "PEGN 1710",
+      "term": 8,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 2,
+      "passrate": 0.0
+    },
+    {
+      "name": "ENVS 1000",
+      "term": 8,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "CS 1000",
+      "term": 8,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    }
+  ],
+  "terms": 8
+}

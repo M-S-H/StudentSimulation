@@ -1,0 +1,61 @@
+"name","complexity","blocking","delay","ttd"
+"ART - 67.json",32.0,4.0,28.0,7.276
+"Accountancy - 178.json",177.0,62.0,115.0,12.16
+"Accounting - 74.json",300.0,114.0,186.0,16.236
+"Applied Baccalaureate - 83.json",155.0,51.0,104.0,11.554
+"BBA Accounting - 21.json",166.0,60.0,106.0,11.634
+"BFA Dance - 172.json",79.0,12.0,67.0,11.117
+"BS Biochemistry - 47.json",212.0,68.0,144.0,11.881
+"Behavior Science - 120.json",148.0,41.0,107.0,11.852
+"Biochemistry  - 151.json",392.0,147.0,245.0,11.288
+"Biology - 44.json",181.0,56.0,125.0,11.953
+"Biomedical Sciences - 143.json",296.0,98.0,198.0,11.386
+"Chemical Engineering - 48.json",437.0,180.0,257.0,10.494
+"Chemistry and Biochemistry - 32.json",190.0,76.0,114.0,13.936
+"Civil Engineering - 191.json",334.0,127.0,207.0,10.967
+"Computer Information Systems - 183.json",155.0,53.0,102.0,12.125
+"Computer Science - 164.json",72.0,14.0,58.0,11.533
+"Criminal Justice - 181.json",73.0,12.0,61.0,12.336
+"EE16.0 - 41.json",430.0,183.0,247.0,13.252
+"ENGINEERING - 68.json",43.0,9.0,34.0,7.296
+"Early Childhood Education - 189.json",155.0,54.0,101.0,12.787
+"Electrical Engineering - 18.json",502.0,219.0,283.0,11.236
+"Electrical Engineering - 192.json",371.0,150.0,221.0,9.665
+"Electrical Engineering - 22.json",306.0,122.0,184.0,11.164
+"Electrical Engineering - 23.json",298.0,133.0,165.0,10.422
+"Elementary Education - 139.json",104.0,23.0,81.0,13.678
+"Engineering Design and Technology - 162.json",141.0,46.0,95.0,11.382
+"Exercise Science - 156.json",149.0,47.0,102.0,11.93
+"Film, Vedio and Media - 124.json",66.0,14.0,52.0,11.725
+"Finance - 180.json",164.0,58.0,106.0,11.674
+"General Psychology - 129.json",75.0,15.0,60.0,11.616
+"Geography - 43.json",52.0,4.0,48.0,11.788
+"Graph Design - 173.json",164.0,63.0,101.0,11.601
+"HCM - Administration Option - 69.json",260.0,90.0,170.0,14.645
+"HCM-Clinical - 70.json",169.0,54.0,115.0,13.144
+"HCM-RDSC - 71.json",140.0,47.0,93.0,12.311
+"Health Informatics - 61.json",369.0,135.0,234.0,15.666
+"Human Resource Management - 118.json",72.0,13.0,59.0,11.527
+"Information Technology - 72.json",294.0,104.0,190.0,15.384
+"Integrated Supply Management - 184.json",145.0,51.0,94.0,10.563
+"Interdisciplinary Health Services - 193.json",65.0,11.0,54.0,11.889
+"MAE_TEST - 26.json",251.0,94.0,157.0,10.779
+"ME Starting with Foundational Math - 16.json",532.0,233.0,299.0,15.282
+"ME with ENG 101 - 17.json",361.0,149.0,212.0,11.738
+"MGMT-BSBM - 75.json",287.0,102.0,185.0,14.604
+"Management - 185.json",150.0,52.0,98.0,11.165
+"Marketing - 182.json",150.0,54.0,96.0,11.844
+"Marketing - 79.json",281.0,98.0,183.0,14.627
+"Mathematics - 42.json",121.0,32.0,89.0,11.979
+"Mechanical Engineering - 15.json",314.0,143.0,171.0,10.97
+"Mechanical Engineering - 165.json",400.0,167.0,233.0,11.038
+"Mechanical Engineering 2013-14  - 51.json",380.0,172.0,208.0,10.055
+"Music Theatre Performance - 158.json",128.0,39.0,89.0,11.715
+"Music Therapy - 174.json",136.0,36.0,100.0,11.931
+"Nursing - 177.json",256.0,122.0,134.0,9.597
+"Ops Management - 80.json",280.0,99.0,181.0,15.693
+"Organizational Communication - 117.json",66.0,14.0,52.0,11.79
+"Public Relations - 125.json",78.0,18.0,60.0,11.349
+"Sales and Business - 114.json",108.0,31.0,77.0,11.956
+"Software Engineering 3.2 - 64.json",356.0,120.0,236.0,12.523
+"test 4 - 38.json",13.0,3.0,10.0,5.416

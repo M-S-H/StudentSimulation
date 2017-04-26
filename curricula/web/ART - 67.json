@@ -1,0 +1,313 @@
+{
+  "courses": [
+    {
+      "name": "ART 105",
+      "key": "ART 105",
+      "term": 1,
+      "credits": 3,
+      "passrate": 0,
+      "index": 0,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ]
+    },
+    {
+      "name": "ART 121",
+      "key": "ART 121",
+      "term": 1,
+      "credits": 3,
+      "passrate": 0,
+      "index": 1,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ]
+    },
+    {
+      "name": "ART 133",
+      "key": "ART 133",
+      "term": 1,
+      "credits": 1,
+      "passrate": 0,
+      "index": 2,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ]
+    },
+    {
+      "name": "ART 151",
+      "key": "ART 151",
+      "term": 1,
+      "credits": 3,
+      "passrate": 0,
+      "index": 3,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ]
+    },
+    {
+      "name": "ENGL 101",
+      "key": "ENGL 101",
+      "term": 1,
+      "credits": 3,
+      "passrate": 0,
+      "index": 4,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ]
+    },
+    {
+      "name": "PE",
+      "key": "PE",
+      "term": 1,
+      "credits": 1,
+      "passrate": 0,
+      "index": 5,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ]
+    },
+    {
+      "name": "ART 107",
+      "key": "ART 107",
+      "term": 2,
+      "credits": 3,
+      "passrate": 0,
+      "index": 0,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ]
+    },
+    {
+      "name": "ART 122",
+      "key": "ART 122",
+      "term": 2,
+      "credits": 4,
+      "passrate": 0,
+      "index": 1,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ]
+    },
+    {
+      "name": "ART 176",
+      "key": "ART 176",
+      "term": 2,
+      "credits": 3,
+      "passrate": 0,
+      "index": 2,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ]
+    },
+    {
+      "name": "ENGL 102",
+      "key": "ENGL 102",
+      "term": 2,
+      "credits": 3,
+      "passrate": 0,
+      "index": 3,
+      "prerequisites": [
+        "ENGL 101"
+      ],
+      "corequisites": [
+
+      ]
+    },
+    {
+      "name": "ART 131",
+      "key": "ART 131",
+      "term": 3,
+      "credits": 3,
+      "passrate": 0,
+      "index": 0,
+      "prerequisites": [
+        "ART 121"
+      ],
+      "corequisites": [
+
+      ]
+    },
+    {
+      "name": "ART 181",
+      "key": "ART 181",
+      "term": 3,
+      "credits": 3,
+      "passrate": 0,
+      "index": 1,
+      "prerequisites": [
+        "ENGL 101"
+      ],
+      "corequisites": [
+
+      ]
+    },
+    {
+      "name": "COMM 101",
+      "key": "COMM 101",
+      "term": 3,
+      "credits": 3,
+      "passrate": 0,
+      "index": 2,
+      "prerequisites": [
+        "ENGL 101"
+      ],
+      "corequisites": [
+
+      ]
+    },
+    {
+      "name": "ART 115",
+      "key": "ART 115",
+      "term": 4,
+      "credits": 3,
+      "passrate": 0,
+      "index": 0,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ]
+    },
+    {
+      "name": "Core B Elec",
+      "key": "Core B Elec",
+      "term": 4,
+      "credits": 3,
+      "passrate": 0,
+      "index": 1,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ]
+    },
+    {
+      "name": "Core C Ele",
+      "key": "Core C Ele",
+      "term": 4,
+      "credits": 3,
+      "passrate": 0,
+      "index": 2,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ]
+    },
+    {
+      "name": "Trans Ele 3",
+      "key": "Trans Ele 3",
+      "term": 4,
+      "credits": 3,
+      "passrate": 0,
+      "index": 3,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ]
+    },
+    {
+      "name": "Core B Elec",
+      "key": "Core B Elec",
+      "term": 1,
+      "credits": 3,
+      "passrate": 0,
+      "index": 6,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ]
+    },
+    {
+      "name": "GE Transfer Elec",
+      "key": "GE Transfer Elec",
+      "term": 1,
+      "credits": 3,
+      "passrate": 0,
+      "index": 7,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ]
+    },
+    {
+      "name": "Core C Elec",
+      "key": "Core C Elec",
+      "term": 2,
+      "credits": 3,
+      "passrate": 0,
+      "index": 4,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ]
+    },
+    {
+      "name": "Core C Elec 2",
+      "key": "Core C Elec 2",
+      "term": 3,
+      "credits": 3,
+      "passrate": 0,
+      "index": 3,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ]
+    },
+    {
+      "name": "Transfer Elec 2",
+      "key": "Transfer Elec 2",
+      "term": 3,
+      "credits": 3,
+      "passrate": 0,
+      "index": 4,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ]
+    }
+  ],
+  "terms": 4
+}

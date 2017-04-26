@@ -1,0 +1,613 @@
+{
+  "courses": [
+    {
+      "name": "ENGL 110",
+      "key": "ENGL 110",
+      "term": 1,
+      "credits": 3,
+      "passrate": 0.75,
+      "index": 0,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ]
+    },
+    {
+      "name": "Upper Division Elective",
+      "key": "Upper Division Elective",
+      "term": 8,
+      "credits": 3,
+      "passrate": 0.75,
+      "index": 0,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ]
+    },
+    {
+      "name": "MATH 150",
+      "key": "MATH 150",
+      "term": 1,
+      "credits": 3,
+      "passrate": 0.75,
+      "index": 1,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ]
+    },
+    {
+      "name": "CHEM 121",
+      "key": "CHEM 121",
+      "term": 1,
+      "credits": 3,
+      "passrate": 0.75,
+      "index": 2,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ]
+    },
+    {
+      "name": "CHEM 123L",
+      "key": "CHEM 123L",
+      "term": 1,
+      "credits": 1,
+      "passrate": 0.75,
+      "index": 3,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+        "CHEM 121"
+      ]
+    },
+    {
+      "name": "Social Behavioral Science",
+      "key": "Social Behavioral Science",
+      "term": 1,
+      "credits": 3,
+      "passrate": 0.75,
+      "index": 4,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ]
+    },
+    {
+      "name": "BIOL 201L",
+      "key": "BIOL 201L",
+      "term": 2,
+      "credits": 4,
+      "passrate": 0.75,
+      "index": 0,
+      "prerequisites": [
+        "CHEM 121"
+      ],
+      "corequisites": [
+
+      ]
+    },
+    {
+      "name": "CHEM 122",
+      "key": "CHEM 122",
+      "term": 2,
+      "credits": 3,
+      "passrate": 0.75,
+      "index": 1,
+      "prerequisites": [
+        "CHEM 121"
+      ],
+      "corequisites": [
+
+      ]
+    },
+    {
+      "name": "CHEM 124L",
+      "key": "CHEM 124L",
+      "term": 2,
+      "credits": 1,
+      "passrate": 0.75,
+      "index": 2,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+        "CHEM 122"
+      ]
+    },
+    {
+      "name": "MATH 180",
+      "key": "MATH 180",
+      "term": 2,
+      "credits": 3,
+      "passrate": 0.75,
+      "index": 3,
+      "prerequisites": [
+        "MATH 150"
+      ],
+      "corequisites": [
+
+      ]
+    },
+    {
+      "name": "ENGL 120",
+      "key": "ENGL 120",
+      "term": 2,
+      "credits": 3,
+      "passrate": 0.75,
+      "index": 4,
+      "prerequisites": [
+        "ENGL 110"
+      ],
+      "corequisites": [
+
+      ]
+    },
+    {
+      "name": "Second Language",
+      "key": "Second Language",
+      "term": 2,
+      "credits": 3,
+      "passrate": 0.75,
+      "index": 5,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ]
+    },
+    {
+      "name": "BIOL 202L",
+      "key": "BIOL 202L",
+      "term": 3,
+      "credits": 4,
+      "passrate": 0.75,
+      "index": 0,
+      "prerequisites": [
+        "BIOL 201L",
+        "CHEM 121",
+        "CHEM 123L"
+      ],
+      "corequisites": [
+
+      ]
+    },
+    {
+      "name": "CHEM 301",
+      "key": "CHEM 301",
+      "term": 3,
+      "credits": 3,
+      "passrate": 0.75,
+      "index": 1,
+      "prerequisites": [
+        "CHEM 122"
+      ],
+      "corequisites": [
+
+      ]
+    },
+    {
+      "name": "CHEM 303L",
+      "key": "CHEM 303L",
+      "term": 3,
+      "credits": 1,
+      "passrate": 0.75,
+      "index": 2,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+        "CHEM 301"
+      ]
+    },
+    {
+      "name": "MATH 181",
+      "key": "MATH 181",
+      "term": 3,
+      "credits": 3,
+      "passrate": 0.75,
+      "index": 3,
+      "prerequisites": [
+        "MATH 180"
+      ],
+      "corequisites": [
+
+      ]
+    },
+    {
+      "name": "ENGL 219",
+      "key": "ENGL 219",
+      "term": 3,
+      "credits": 3,
+      "passrate": 0.75,
+      "index": 4,
+      "prerequisites": [
+        "ENGL 120"
+      ],
+      "corequisites": [
+
+      ]
+    },
+    {
+      "name": "BIOL 203",
+      "key": "BIOL 203",
+      "term": 4,
+      "credits": 3,
+      "passrate": 0.75,
+      "index": 0,
+      "prerequisites": [
+        "BIOL 202L",
+        "CHEM 122"
+      ],
+      "corequisites": [
+
+      ]
+    },
+    {
+      "name": "BIOL 203L",
+      "key": "BIOL 203L",
+      "term": 4,
+      "credits": 1,
+      "passrate": 0.75,
+      "index": 1,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+        "BIOL 203",
+        "MATH 180"
+      ]
+    },
+    {
+      "name": "PHYC 151",
+      "key": "PHYC 151",
+      "term": 4,
+      "credits": 3,
+      "passrate": 0.75,
+      "index": 2,
+      "prerequisites": [
+        "MATH 180"
+      ],
+      "corequisites": [
+
+      ]
+    },
+    {
+      "name": "Minor Requirement",
+      "key": "Minor Requirement",
+      "term": 4,
+      "credits": 3,
+      "passrate": 0.75,
+      "index": 3,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ]
+    },
+    {
+      "name": "Freshman Academic Choice",
+      "key": "Freshman Academic Choice",
+      "term": 1,
+      "credits": 3,
+      "passrate": 0.75,
+      "index": 5,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ]
+    },
+    {
+      "name": "Fine Arts",
+      "key": "Fine Arts",
+      "term": 4,
+      "credits": 3,
+      "passrate": 0.75,
+      "index": 4,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ]
+    },
+    {
+      "name": "BIOL 204",
+      "key": "BIOL 204",
+      "term": 5,
+      "credits": 3,
+      "passrate": 0.75,
+      "index": 0,
+      "prerequisites": [
+        "BIOL 203",
+        "BIOL 203L",
+        "CHEM 122"
+      ],
+      "corequisites": [
+
+      ]
+    },
+    {
+      "name": "BIOL 204L",
+      "key": "BIOL 204L",
+      "term": 5,
+      "credits": 1,
+      "passrate": 0.75,
+      "index": 1,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+        "BIOL 204"
+      ]
+    },
+    {
+      "name": "BIOC 423",
+      "key": "BIOC 423",
+      "term": 5,
+      "credits": 3,
+      "passrate": 0.75,
+      "index": 2,
+      "prerequisites": [
+        "CHEM 301"
+      ],
+      "corequisites": [
+
+      ]
+    },
+    {
+      "name": "Minor Requirement",
+      "key": "Minor Requirement",
+      "term": 5,
+      "credits": 3,
+      "passrate": 0.75,
+      "index": 3,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ]
+    },
+    {
+      "name": "PHYC 152",
+      "key": "PHYC 152",
+      "term": 5,
+      "credits": 3,
+      "passrate": 0.75,
+      "index": 4,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ]
+    },
+    {
+      "name": "Humanities",
+      "key": "Humanities",
+      "term": 5,
+      "credits": 3,
+      "passrate": 0.75,
+      "index": 5,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ]
+    },
+    {
+      "name": "BIOL Elective",
+      "key": "BIOL Elective",
+      "term": 6,
+      "credits": 4,
+      "passrate": 0.75,
+      "index": 0,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ]
+    },
+    {
+      "name": "BIOL Elective",
+      "key": "BIOL Elective",
+      "term": 6,
+      "credits": 4,
+      "passrate": 0.75,
+      "index": 1,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ]
+    },
+    {
+      "name": "Minor Requirement",
+      "key": "Minor Requirement",
+      "term": 6,
+      "credits": 3,
+      "passrate": 0.75,
+      "index": 2,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ]
+    },
+    {
+      "name": "Minor Requirement",
+      "key": "Minor Requirement",
+      "term": 6,
+      "credits": 3,
+      "passrate": 0.75,
+      "index": 3,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ]
+    },
+    {
+      "name": "BIOL Elective",
+      "key": "BIOL Elective",
+      "term": 7,
+      "credits": 3,
+      "passrate": 0.75,
+      "index": 0,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ]
+    },
+    {
+      "name": "BIOL Elective",
+      "key": "BIOL Elective",
+      "term": 7,
+      "credits": 3,
+      "passrate": 0.75,
+      "index": 1,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ]
+    },
+    {
+      "name": "Upper Division BIOL Elective",
+      "key": "Upper Division BIOL Elective",
+      "term": 7,
+      "credits": 3,
+      "passrate": 0.75,
+      "index": 2,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ]
+    },
+    {
+      "name": "Minor Requirement",
+      "key": "Minor Requirement",
+      "term": 7,
+      "credits": 3,
+      "passrate": 0.75,
+      "index": 3,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ]
+    },
+    {
+      "name": "Second Language",
+      "key": "Second Language",
+      "term": 7,
+      "credits": 3,
+      "passrate": 0.75,
+      "index": 4,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ]
+    },
+    {
+      "name": "Upper Division BIOL Elective",
+      "key": "Upper Division BIOL Elective",
+      "term": 8,
+      "credits": 3,
+      "passrate": 0.75,
+      "index": 1,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ]
+    },
+    {
+      "name": "Minor Requirement",
+      "key": "Minor Requirement",
+      "term": 8,
+      "credits": 3,
+      "passrate": 0.75,
+      "index": 2,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ]
+    },
+    {
+      "name": "Humanities",
+      "key": "Humanities",
+      "term": 8,
+      "credits": 3,
+      "passrate": 0.75,
+      "index": 3,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ]
+    },
+    {
+      "name": "Upper Division Elective",
+      "key": "Upper Division Elective",
+      "term": 8,
+      "credits": 3,
+      "passrate": 0.75,
+      "index": 4,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ]
+    },
+    {
+      "name": "Social Behavioral Science",
+      "key": "Social Behavioral Science",
+      "term": 4,
+      "credits": 3,
+      "passrate": 0.75,
+      "index": 5,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ]
+    }
+  ],
+  "terms": 8
+}

@@ -1,0 +1,476 @@
+{
+  "courses": [
+    {
+      "name": "CS 151L",
+      "term": 1,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.75
+    },
+    {
+      "name": "ENGL 110",
+      "term": 1,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.75
+    },
+    {
+      "name": "MATH 162",
+      "term": 1,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.75
+    },
+    {
+      "name": "Freshman Academic Choice",
+      "term": 1,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.75
+    },
+    {
+      "name": "Core Requirement",
+      "term": 1,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.75
+    },
+    {
+      "name": "MATH 163",
+      "term": 2,
+      "prerequisites": [
+        "MATH 162"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.75
+    },
+    {
+      "name": "ENGL 120",
+      "term": 2,
+      "prerequisites": [
+        "ENGL 110"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.75
+    },
+    {
+      "name": "Minor Requirement",
+      "term": 2,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.75
+    },
+    {
+      "name": "Core Requirement",
+      "term": 2,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.75
+    },
+    {
+      "name": "Core Requirement",
+      "term": 2,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.75
+    },
+    {
+      "name": "MATH 264",
+      "term": 3,
+      "prerequisites": [
+        "MATH 163"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.75
+    },
+    {
+      "name": "MATH 327",
+      "term": 3,
+      "prerequisites": [
+        "MATH 163"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.75
+    },
+    {
+      "name": "Minor Requirement",
+      "term": 3,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.75
+    },
+    {
+      "name": "ENGL 219",
+      "term": 3,
+      "prerequisites": [
+        "ENGL 120"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.75
+    },
+    {
+      "name": "Core Requirement",
+      "term": 3,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.75
+    },
+    {
+      "name": "MATH 321",
+      "term": 4,
+      "prerequisites": [
+        "MATH 264"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.75
+    },
+    {
+      "name": "MATH 313",
+      "term": 4,
+      "prerequisites": [
+        "MATH 264"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.75
+    },
+    {
+      "name": "Core Requirement",
+      "term": 4,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.75
+    },
+    {
+      "name": "Core Requirement",
+      "term": 4,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.75
+    },
+    {
+      "name": "Minor Requirement",
+      "term": 4,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.75
+    },
+    {
+      "name": "MATH 401",
+      "term": 5,
+      "prerequisites": [
+        "MATH 264",
+        "MATH 327",
+        "MATH 321"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.75
+    },
+    {
+      "name": "MATH Elective",
+      "term": 5,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.75
+    },
+    {
+      "name": "Core Requirement",
+      "term": 5,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.75
+    },
+    {
+      "name": "Upper Division Elective",
+      "term": 5,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.75
+    },
+    {
+      "name": "Minor Requirement",
+      "term": 5,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.75
+    },
+    {
+      "name": "MATH 402",
+      "term": 6,
+      "prerequisites": [
+        "MATH 401"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.75
+    },
+    {
+      "name": "MATH 412",
+      "term": 6,
+      "prerequisites": [
+        "MATH 264",
+        "MATH 321"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.75
+    },
+    {
+      "name": "Elective",
+      "term": 6,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 2,
+      "passrate": 0.75
+    },
+    {
+      "name": "Minor Requirement",
+      "term": 6,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.75
+    },
+    {
+      "name": "Physical & Natural Sciences",
+      "term": 6,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.75
+    },
+    {
+      "name": "MATH 322",
+      "term": 7,
+      "prerequisites": [
+        "MATH 264"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.75
+    },
+    {
+      "name": "Minor Requirement",
+      "term": 7,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.75
+    },
+    {
+      "name": "Elective",
+      "term": 7,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.75
+    },
+    {
+      "name": "Upper Division Elective",
+      "term": 7,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.75
+    },
+    {
+      "name": "Upper Division Elective",
+      "term": 7,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.75
+    },
+    {
+      "name": "MATH Elective",
+      "term": 8,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.75
+    },
+    {
+      "name": "Minor Requirement",
+      "term": 8,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.75
+    },
+    {
+      "name": "Elective",
+      "term": 8,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.75
+    },
+    {
+      "name": "Elective",
+      "term": 8,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 2,
+      "passrate": 0.75
+    }
+  ],
+  "terms": 8
+}

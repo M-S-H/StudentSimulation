@@ -1,0 +1,471 @@
+{
+  "courses": [
+    {
+      "name": "BIOS1700",
+      "term": 1,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "ENGL1050",
+      "term": 1,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "ART1480",
+      "term": 1,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "HOL1000",
+      "term": 1,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "ED2900",
+      "term": 2,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "PHYS 1800",
+      "term": 2,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "MATH1500",
+      "term": 2,
+      "prerequisites": [
+        "MATH1100"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "PSCI2000",
+      "term": 2,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "ECON1000",
+      "term": 2,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "GEOG1900",
+      "term": 3,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "MATH1510",
+      "term": 3,
+      "prerequisites": [
+        "MATH1500"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "ED2500",
+      "term": 3,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "ENGL3830",
+      "term": 3,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "HIST2100",
+      "term": 4,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "MATH2650",
+      "term": 4,
+      "prerequisites": [
+        "MATH1500"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "CHEM2800",
+      "term": 4,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "HIST3020",
+      "term": 4,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "ED3090",
+      "term": 5,
+      "prerequisites": [
+        "ED2500",
+        "ED2900"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "LS3770",
+      "term": 5,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+        "ED3090"
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "HPHE3520",
+      "term": 5,
+      "prerequisites": [
+        "ED2500",
+        "HPHE1110"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 2,
+      "passrate": 0.0
+    },
+    {
+      "name": "MATH3520",
+      "term": 5,
+      "prerequisites": [
+        "MATH1500",
+        "MATH1510",
+        "MATH2650"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "ENGL 3690",
+      "term": 5,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "LS3780",
+      "term": 6,
+      "prerequisites": [
+        "LS3770"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "ED 3690",
+      "term": 6,
+      "prerequisites": [
+        "ED3090"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "ED 3500",
+      "term": 6,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "HPHE3400",
+      "term": 6,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 2,
+      "passrate": 0.0
+    },
+    {
+      "name": "ED4070",
+      "term": 6,
+      "prerequisites": [
+        "ED3090"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "ED4300",
+      "term": 7,
+      "prerequisites": [
+        "LS3780"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "EDT3470",
+      "term": 7,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "SPED4270",
+      "term": 7,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "ED 5750",
+      "term": 7,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "ED4010",
+      "term": 7,
+      "prerequisites": [
+        "ED3090"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "ED 3710",
+      "term": 8,
+      "prerequisites": [
+        "ED4070",
+        "ED4010",
+        "ED4300",
+        "MATH3520"
+      ],
+      "corequisites": [
+        "ED4500"
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "ED 4500",
+      "term": 8,
+      "prerequisites": [
+        "ED4070",
+        "ED4010",
+        "ED4300",
+        "MATH3520"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "ED 4090",
+      "term": 8,
+      "prerequisites": [
+        "ED3690"
+      ],
+      "corequisites": [
+        "ED4700"
+      ],
+      "credits": 1,
+      "passrate": 0.0
+    },
+    {
+      "name": "ED 4700",
+      "term": 8,
+      "prerequisites": [
+        "ED3690"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 5,
+      "passrate": 0.0
+    },
+    {
+      "name": "ED4100",
+      "term": 9,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+        "ED4710"
+      ],
+      "credits": 2,
+      "passrate": 0.0
+    },
+    {
+      "name": "ED4710",
+      "term": 9,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 10,
+      "passrate": 0.0
+    }
+  ],
+  "terms": 9
+}

@@ -1,0 +1,439 @@
+{
+  "courses": [
+    {
+      "name": "CHEM 1510",
+      "term": 1,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+        "CHEM 1520"
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "CHEM 1520",
+      "term": 1,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 1,
+      "passrate": 0.0
+    },
+    {
+      "name": "BIOS 1910",
+      "term": 1,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "HSV 2250",
+      "term": 1,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "SOC 2000",
+      "term": 1,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "FCS 2250",
+      "term": 1,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "CHEM 1530",
+      "term": 2,
+      "prerequisites": [
+        "CHEM 1510",
+        "CHEM 1520"
+      ],
+      "corequisites": [
+        "CHEM 1540"
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "CHEM 1540",
+      "term": 2,
+      "prerequisites": [
+        "CHEM 1510",
+        "CHEM 1520"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 1,
+      "passrate": 0.0
+    },
+    {
+      "name": "BIOS 2400",
+      "term": 2,
+      "prerequisites": [
+        "BIOS 1910"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "PSY 1000",
+      "term": 2,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "ENGL 1050",
+      "term": 2,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "NUR 2200",
+      "term": 3,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "NUR 2210",
+      "term": 3,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 5,
+      "passrate": 0.0
+    },
+    {
+      "name": "NUR 2220",
+      "term": 3,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "BIOS 2320",
+      "term": 3,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "NUR 2300",
+      "term": 4,
+      "prerequisites": [
+        "NUR 2200",
+        "NUR 2210",
+        "NUR 2220",
+        "BIOS 2320"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "NUR 2310",
+      "term": 4,
+      "prerequisites": [
+        "NUR 2200",
+        "NUR 2210",
+        "NUR 2220",
+        "BIOS 2320"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "NUR 3330",
+      "term": 4,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "NUR 3350",
+      "term": 4,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "ELECTIVE",
+      "term": 4,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "NUR 3200",
+      "term": 5,
+      "prerequisites": [
+        "NUR 2300",
+        "NUR 2310"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 5,
+      "passrate": 0.0
+    },
+    {
+      "name": "NUR 3210",
+      "term": 5,
+      "prerequisites": [
+        "NUR 2300",
+        "NUR 2310",
+        "NUR 3330",
+        "NUR 3350"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 5,
+      "passrate": 0.0
+    },
+    {
+      "name": "STAT 3660",
+      "term": 5,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "AREA 1",
+      "term": 5,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "NUR 3220",
+      "term": 6,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "NUR 3300",
+      "term": 6,
+      "prerequisites": [
+        "NUR 3200",
+        "NUR 3210",
+        "STAT 3660"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 2,
+      "passrate": 0.0
+    },
+    {
+      "name": "NUR 3310",
+      "term": 6,
+      "prerequisites": [
+        "NUR 3200",
+        "NUR 3210",
+        "STAT 3660"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 6,
+      "passrate": 0.0
+    },
+    {
+      "name": "NUR 3320",
+      "term": 6,
+      "prerequisites": [
+        "NUR 3200",
+        "NUR 3210",
+        "STAT 3660"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "NUR 4200",
+      "term": 7,
+      "prerequisites": [
+        "NUR 3300",
+        "NUR 3310",
+        "NUR 3320",
+        "NUR 3330"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 5,
+      "passrate": 0.0
+    },
+    {
+      "name": "NUR 4210",
+      "term": 7,
+      "prerequisites": [
+        "NUR 3300",
+        "NUR 3310",
+        "NUR 3320",
+        "NUR 3330"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 6,
+      "passrate": 0.0
+    },
+    {
+      "name": "AREA 4",
+      "term": 7,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "NUR 4310",
+      "term": 8,
+      "prerequisites": [
+        "NUR 4200",
+        "NUR 4210"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 6,
+      "passrate": 0.0
+    },
+    {
+      "name": "NUR 4320",
+      "term": 8,
+      "prerequisites": [
+        "NUR 4200",
+        "NUR 4210"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 6,
+      "passrate": 0.0
+    },
+    {
+      "name": "AREA 3",
+      "term": 8,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    }
+  ],
+  "terms": 8
+}

@@ -1,0 +1,592 @@
+{
+  "courses": [
+    {
+      "name": "ENGL 110",
+      "term": 1,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.75
+    },
+    {
+      "name": "MATH 162",
+      "term": 1,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.75
+    },
+    {
+      "name": "CBE 101",
+      "term": 1,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 1,
+      "passrate": 0.75
+    },
+    {
+      "name": "CHEM 121",
+      "term": 1,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.75
+    },
+    {
+      "name": "CHEM 123L",
+      "term": 1,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+        "CHEM 121"
+      ],
+      "credits": 1,
+      "passrate": 0.75
+    },
+    {
+      "name": "Humanities Core",
+      "term": 1,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.75
+    },
+    {
+      "name": "ENGL 120",
+      "term": 2,
+      "prerequisites": [
+        "ENGL 110"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.75
+    },
+    {
+      "name": "MATH 163",
+      "term": 2,
+      "prerequisites": [
+        "MATH 162"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.75
+    },
+    {
+      "name": "PHYC 160",
+      "term": 2,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+        "MATH 162"
+      ],
+      "credits": 3,
+      "passrate": 0.75
+    },
+    {
+      "name": "CHEM 122",
+      "term": 2,
+      "prerequisites": [
+        "CHEM 121",
+        "CHEM 123L"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.75
+    },
+    {
+      "name": "CHEM 124L",
+      "term": 2,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+        "CHEM 122"
+      ],
+      "credits": 1,
+      "passrate": 0.75
+    },
+    {
+      "name": "Social Science",
+      "term": 2,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.75
+    },
+    {
+      "name": "CBE 251",
+      "term": 3,
+      "prerequisites": [
+        "CHEM 122",
+        "CHEM 124L",
+        "PHYC 160"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.75
+    },
+    {
+      "name": "MATH 264",
+      "term": 3,
+      "prerequisites": [
+        "MATH 163"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.75
+    },
+    {
+      "name": "PHYC 161",
+      "term": 3,
+      "prerequisites": [
+        "PHYC 160"
+      ],
+      "corequisites": [
+        "MATH 163"
+      ],
+      "credits": 3,
+      "passrate": 0.75
+    },
+    {
+      "name": "CHEM 301",
+      "term": 3,
+      "prerequisites": [
+        "CHEM 122"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.75
+    },
+    {
+      "name": "CHEM 303L",
+      "term": 3,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+        "CHEM 301"
+      ],
+      "credits": 1,
+      "passrate": 0.75
+    },
+    {
+      "name": "CBE 253",
+      "term": 4,
+      "prerequisites": [
+        "CBE 251"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.75
+    },
+    {
+      "name": "MATH 316",
+      "term": 4,
+      "prerequisites": [
+        "MATH 163"
+      ],
+      "corequisites": [
+        "CBE 253"
+      ],
+      "credits": 3,
+      "passrate": 0.75
+    },
+    {
+      "name": "CBE 302",
+      "term": 4,
+      "prerequisites": [
+        "CBE 251"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.75
+    },
+    {
+      "name": "Advanced Science Concentration",
+      "term": 4,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.75
+    },
+    {
+      "name": "ECON 105",
+      "term": 4,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.75
+    },
+    {
+      "name": "CBE 311",
+      "term": 5,
+      "prerequisites": [
+        "CBE 253"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.75
+    },
+    {
+      "name": "CBE 317",
+      "term": 5,
+      "prerequisites": [
+        "CBE 253",
+        "MATH 316"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 2,
+      "passrate": 0.75
+    },
+    {
+      "name": "CBE 361",
+      "term": 5,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.75
+    },
+    {
+      "name": "CBE 318L",
+      "term": 5,
+      "prerequisites": [
+        "CBE 253",
+        "CBE 302"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 1,
+      "passrate": 0.75
+    },
+    {
+      "name": "ENGL 219",
+      "term": 5,
+      "prerequisites": [
+        "ENGL 120"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.75
+    },
+    {
+      "name": "Advanced Science Concentration",
+      "term": 5,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.75
+    },
+    {
+      "name": "CBE 312",
+      "term": 6,
+      "prerequisites": [
+        "CBE 311"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.75
+    },
+    {
+      "name": "CBE 321",
+      "term": 6,
+      "prerequisites": [
+        "CBE 253",
+        "CBE 302"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.75
+    },
+    {
+      "name": "Advanced Science Concentration",
+      "term": 6,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.75
+    },
+    {
+      "name": "CBE 319L",
+      "term": 6,
+      "prerequisites": [
+        "CBE 311"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 1,
+      "passrate": 0.75
+    },
+    {
+      "name": "CBE 371",
+      "term": 6,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.75
+    },
+    {
+      "name": "ENG 301",
+      "term": 6,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 1,
+      "passrate": 0.75
+    },
+    {
+      "name": "ENG 302",
+      "term": 6,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 1,
+      "passrate": 0.75
+    },
+    {
+      "name": "CBE 418",
+      "term": 7,
+      "prerequisites": [
+        "CBE 312",
+        "CBE 321"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 1,
+      "passrate": 0.75
+    },
+    {
+      "name": "CBE 461",
+      "term": 7,
+      "prerequisites": [
+        "CBE 311",
+        "CBE 317"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.75
+    },
+    {
+      "name": "CBE 493L",
+      "term": 7,
+      "prerequisites": [
+        "CBE 253",
+        "CBE 302",
+        "CBE 312",
+        "CBE 321"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.75
+    },
+    {
+      "name": "CBE 454",
+      "term": 7,
+      "prerequisites": [
+        "CBE 317"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.75
+    },
+    {
+      "name": "CBE 486",
+      "term": 7,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 2,
+      "passrate": 0.75
+    },
+    {
+      "name": "Technical Elective",
+      "term": 7,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.75
+    },
+    {
+      "name": "CBE 419L",
+      "term": 8,
+      "prerequisites": [
+        "CBE 461"
+      ],
+      "corequisites": [
+        "CBE 454"
+      ],
+      "credits": 1,
+      "passrate": 0.75
+    },
+    {
+      "name": "CBE 451",
+      "term": 8,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 1,
+      "passrate": 0.75
+    },
+    {
+      "name": "CBE 494L",
+      "term": 8,
+      "prerequisites": [
+        "CBE 493L"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.75
+    },
+    {
+      "name": "Technical Elective",
+      "term": 8,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.75
+    },
+    {
+      "name": "Fine Arts",
+      "term": 8,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.75
+    },
+    {
+      "name": "Foreign Language",
+      "term": 8,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.75
+    },
+    {
+      "name": "Humanities",
+      "term": 8,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.75
+    }
+  ],
+  "terms": 8
+}

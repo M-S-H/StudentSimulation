@@ -1,0 +1,543 @@
+{
+  "courses": [
+    {
+      "name": "Accelerated Math",
+      "term": 1,
+      "credits": 0,
+      "passrate": 0,
+      "corequisites": [
+
+      ],
+      "prerequisites": [
+
+      ]
+    },
+    {
+      "name": "ENG 101",
+      "term": 2,
+      "credits": 0,
+      "passrate": 0,
+      "corequisites": [
+
+      ],
+      "prerequisites": [
+        "Accelerated Math"
+      ]
+    },
+    {
+      "name": "ENGL 110",
+      "term": 2,
+      "credits": 0,
+      "passrate": 0,
+      "corequisites": [
+
+      ],
+      "prerequisites": [
+
+      ]
+    },
+    {
+      "name": "ME 160L",
+      "term": 2,
+      "credits": 0,
+      "passrate": 0,
+      "corequisites": [
+
+      ],
+      "prerequisites": [
+
+      ]
+    },
+    {
+      "name": "CHEM 121",
+      "term": 2,
+      "credits": 0,
+      "passrate": 0,
+      "corequisites": [
+
+      ],
+      "prerequisites": [
+
+      ]
+    },
+    {
+      "name": "CHEM 123L",
+      "term": 2,
+      "credits": 0,
+      "passrate": 0,
+      "corequisites": [
+
+      ],
+      "prerequisites": [
+
+      ]
+    },
+    {
+      "name": "MATH 162",
+      "term": 3,
+      "credits": 0,
+      "passrate": 0,
+      "corequisites": [
+
+      ],
+      "prerequisites": [
+        "ENG 101"
+      ]
+    },
+    {
+      "name": "ENGL 120",
+      "term": 3,
+      "credits": 0,
+      "passrate": 0,
+      "corequisites": [
+
+      ],
+      "prerequisites": [
+        "ENGL 110"
+      ]
+    },
+    {
+      "name": "CS 151L",
+      "term": 3,
+      "credits": 0,
+      "passrate": 0,
+      "corequisites": [
+
+      ],
+      "prerequisites": [
+
+      ]
+    },
+    {
+      "name": "PHYC 160",
+      "term": 3,
+      "credits": 0,
+      "passrate": 0,
+      "corequisites": [
+
+      ],
+      "prerequisites": [
+        "ENG 101"
+      ]
+    },
+    {
+      "name": "PHYC 160L",
+      "term": 3,
+      "credits": 0,
+      "passrate": 0,
+      "corequisites": [
+
+      ],
+      "prerequisites": [
+
+      ]
+    },
+    {
+      "name": "ME 217",
+      "term": 3,
+      "credits": 0,
+      "passrate": 0,
+      "corequisites": [
+
+      ],
+      "prerequisites": [
+
+      ]
+    },
+    {
+      "name": "MATH 163",
+      "term": 4,
+      "credits": 0,
+      "passrate": 0,
+      "corequisites": [
+
+      ],
+      "prerequisites": [
+        "MATH 162"
+      ]
+    },
+    {
+      "name": "CE 202",
+      "term": 4,
+      "credits": 0,
+      "passrate": 0,
+      "corequisites": [
+
+      ],
+      "prerequisites": [
+        "ENG 101"
+      ]
+    },
+    {
+      "name": "ME 260L",
+      "term": 4,
+      "credits": 0,
+      "passrate": 0,
+      "corequisites": [
+
+      ],
+      "prerequisites": [
+        "ME 160L",
+        "CHEM 121",
+        "CHEM 123L"
+      ]
+    },
+    {
+      "name": "PHYC 161",
+      "term": 4,
+      "credits": 0,
+      "passrate": 0,
+      "corequisites": [
+
+      ],
+      "prerequisites": [
+        "PHYC 160"
+      ]
+    },
+    {
+      "name": "Fine Arts",
+      "term": 4,
+      "credits": 0,
+      "passrate": 0,
+      "corequisites": [
+
+      ],
+      "prerequisites": [
+
+      ]
+    },
+    {
+      "name": "MATH 264",
+      "term": 5,
+      "credits": 0,
+      "passrate": 0,
+      "corequisites": [
+
+      ],
+      "prerequisites": [
+        "MATH 163"
+      ]
+    },
+    {
+      "name": "CE 302",
+      "term": 5,
+      "credits": 0,
+      "passrate": 0,
+      "corequisites": [
+
+      ],
+      "prerequisites": [
+        "CE 202"
+      ]
+    },
+    {
+      "name": "ECE 203",
+      "term": 5,
+      "credits": 0,
+      "passrate": 0,
+      "corequisites": [
+
+      ],
+      "prerequisites": [
+        "ENG 101"
+      ]
+    },
+    {
+      "name": "ME 318L",
+      "term": 5,
+      "credits": 0,
+      "passrate": 0,
+      "corequisites": [
+
+      ],
+      "prerequisites": [
+        "ENG 101"
+      ]
+    },
+    {
+      "name": "Humanities",
+      "term": 5,
+      "credits": 0,
+      "passrate": 0,
+      "corequisites": [
+
+      ],
+      "prerequisites": [
+
+      ]
+    },
+    {
+      "name": "Writing and Speaking Core",
+      "term": 5,
+      "credits": 0,
+      "passrate": 0,
+      "corequisites": [
+
+      ],
+      "prerequisites": [
+
+      ]
+    },
+    {
+      "name": "MATH 316",
+      "term": 6,
+      "credits": 0,
+      "passrate": 0,
+      "corequisites": [
+
+      ],
+      "prerequisites": [
+        "MATH 163",
+        "CS 151L"
+      ]
+    },
+    {
+      "name": "ME 306",
+      "term": 6,
+      "credits": 0,
+      "passrate": 0,
+      "corequisites": [
+
+      ],
+      "prerequisites": [
+        "CE 202",
+        "MATH 264"
+      ]
+    },
+    {
+      "name": "ME 301",
+      "term": 6,
+      "credits": 0,
+      "passrate": 0,
+      "corequisites": [
+
+      ],
+      "prerequisites": [
+        "CHEM 121",
+        "CHEM 123L",
+        "PHYC 161",
+        "MATH 264"
+      ]
+    },
+    {
+      "name": "Math Elective",
+      "term": 6,
+      "credits": 0,
+      "passrate": 0,
+      "corequisites": [
+
+      ],
+      "prerequisites": [
+
+      ]
+    },
+    {
+      "name": "ECON 105",
+      "term": 6,
+      "credits": 0,
+      "passrate": 0,
+      "corequisites": [
+
+      ],
+      "prerequisites": [
+
+      ]
+    },
+    {
+      "name": "ME 317L",
+      "term": 7,
+      "credits": 0,
+      "passrate": 0,
+      "corequisites": [
+
+      ],
+      "prerequisites": [
+        "ME 306",
+        "ME 318L",
+        "MATH 264",
+        "MATH 316"
+      ]
+    },
+    {
+      "name": "ME 360L",
+      "term": 7,
+      "credits": 0,
+      "passrate": 0,
+      "corequisites": [
+
+      ],
+      "prerequisites": [
+        "ME 260L",
+        "CE 302",
+        "MATH 264",
+        "MATH 316"
+      ]
+    },
+    {
+      "name": "ME 357",
+      "term": 7,
+      "credits": 0,
+      "passrate": 0,
+      "corequisites": [
+
+      ],
+      "prerequisites": [
+        "ME 306",
+        "MATH 316"
+      ]
+    },
+    {
+      "name": "ME 370L",
+      "term": 7,
+      "credits": 0,
+      "passrate": 0,
+      "corequisites": [
+
+      ],
+      "prerequisites": [
+        "ME 260L",
+        "CE 302"
+      ]
+    },
+    {
+      "name": "ME 352L",
+      "term": 7,
+      "credits": 0,
+      "passrate": 0,
+      "corequisites": [
+
+      ],
+      "prerequisites": [
+
+      ]
+    },
+    {
+      "name": "Second Language or ME 406L",
+      "term": 7,
+      "credits": 0,
+      "passrate": 0,
+      "corequisites": [
+
+      ],
+      "prerequisites": [
+
+      ]
+    },
+    {
+      "name": "ME 320L",
+      "term": 8,
+      "credits": 0,
+      "passrate": 0,
+      "corequisites": [
+
+      ],
+      "prerequisites": [
+        "ME 301",
+        "ME 317L",
+        "MATH 316"
+      ]
+    },
+    {
+      "name": "ME 459",
+      "term": 8,
+      "credits": 0,
+      "passrate": 0,
+      "corequisites": [
+
+      ],
+      "prerequisites": [
+        "CE 302"
+      ]
+    },
+    {
+      "name": "ME 380",
+      "term": 8,
+      "credits": 0,
+      "passrate": 0,
+      "corequisites": [
+
+      ],
+      "prerequisites": [
+        "ME 357",
+        "MATH 316"
+      ]
+    },
+    {
+      "name": "ME Technical Elective or ME 407",
+      "term": 8,
+      "credits": 0,
+      "passrate": 0,
+      "corequisites": [
+
+      ],
+      "prerequisites": [
+        "ME 357",
+        "ME 406L"
+      ]
+    },
+    {
+      "name": "Humanities",
+      "term": 8,
+      "credits": 0,
+      "passrate": 0,
+      "corequisites": [
+
+      ],
+      "prerequisites": [
+
+      ]
+    },
+    {
+      "name": "ME 460 or ME 408",
+      "term": 9,
+      "credits": 0,
+      "passrate": 0,
+      "corequisites": [
+
+      ],
+      "prerequisites": [
+        "ME 320L",
+        "ME 380",
+        "ME 459",
+        "ME 407"
+      ]
+    },
+    {
+      "name": "Technical Elective",
+      "term": 9,
+      "credits": 0,
+      "passrate": 0,
+      "corequisites": [
+
+      ],
+      "prerequisites": [
+
+      ]
+    },
+    {
+      "name": "ME Technical Elective 1",
+      "term": 9,
+      "credits": 0,
+      "passrate": 0,
+      "corequisites": [
+
+      ],
+      "prerequisites": [
+
+      ]
+    },
+    {
+      "name": "ME Technical Elective 2",
+      "term": 9,
+      "credits": 0,
+      "passrate": 0,
+      "corequisites": [
+
+      ],
+      "prerequisites": [
+
+      ]
+    }
+  ],
+  "terms": 9
+}

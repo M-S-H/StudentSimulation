@@ -1,0 +1,53 @@
+{
+  "courses": [
+    {
+      "name": "LSC 101",
+      "term": 1,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 2,
+      "passrate": 1.0
+    },
+    {
+      "name": "MA 131",
+      "term": 1,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.9
+    },
+    {
+      "name": "MA 231",
+      "term": 2,
+      "prerequisites": [
+        "MA 131"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.7
+    },
+    {
+      "name": "MA 232",
+      "term": 3,
+      "prerequisites": [
+        "MA 231"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.95
+    }
+  ],
+  "terms": 3
+}

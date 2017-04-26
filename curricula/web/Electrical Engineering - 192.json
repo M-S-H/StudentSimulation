@@ -1,0 +1,514 @@
+{
+  "courses": [
+    {
+      "name": "MATH 1220",
+      "term": 1,
+      "prerequisites": [
+        "MATH 1180"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "CHEM 1100",
+      "term": 1,
+      "prerequisites": [
+        "MATH 1110"
+      ],
+      "corequisites": [
+        "CHEM 1110"
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "CHEM 1110",
+      "term": 1,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 1,
+      "passrate": 0.0
+    },
+    {
+      "name": "IME 1020",
+      "term": 1,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "ECE 2500",
+      "term": 1,
+      "prerequisites": [
+        "MATH 1110"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "General Education- Area 8",
+      "term": 1,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 2,
+      "passrate": 0.0
+    },
+    {
+      "name": "MATH 1230",
+      "term": 2,
+      "prerequisites": [
+        "MATH 1220"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "PHYS 2050",
+      "term": 2,
+      "prerequisites": [
+        "MATH 1220"
+      ],
+      "corequisites": [
+        "PHYS 2060"
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "PHYS 2060",
+      "term": 2,
+      "prerequisites": [
+        "MATH 1220"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 1,
+      "passrate": 0.0
+    },
+    {
+      "name": "CS 1200",
+      "term": 2,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+        "MATH 1180"
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "General Education- Area 1",
+      "term": 2,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "MATH 2720",
+      "term": 3,
+      "prerequisites": [
+        "MATH 1230"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "PHYS 2070",
+      "term": 3,
+      "prerequisites": [
+        "PHYS 2050",
+        "MATH 1230"
+      ],
+      "corequisites": [
+        "PHYS 2080"
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "PHYS 2080",
+      "term": 3,
+      "prerequisites": [
+        "PHYS 2050",
+        "MATH 1230"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 1,
+      "passrate": 0.0
+    },
+    {
+      "name": "ECE 2510",
+      "term": 3,
+      "prerequisites": [
+        "CS 1200",
+        "ECE 2500"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "General Education- Area 2",
+      "term": 3,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "MATH 3740",
+      "term": 4,
+      "prerequisites": [
+        "MATH 2720"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "ECE 2100",
+      "term": 4,
+      "prerequisites": [
+        "MATH 1230",
+        "PHYS 2070"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "PHYS 3090 or CHEM 1120",
+      "term": 4,
+      "prerequisites": [
+        "PHYS 2070",
+        "MATH 2720",
+        "CHEM 1100"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "PHYS 3100 or CHEM 1130",
+      "term": 4,
+      "prerequisites": [
+        "PHYS 2070",
+        "MATH 2720",
+        "CHEM 1100"
+      ],
+      "corequisites": [
+        "PHYS 3090",
+        "CHEM 1120"
+      ],
+      "credits": 1,
+      "passrate": 0.0
+    },
+    {
+      "name": "General Education- Area 3",
+      "term": 4,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "ECE 2210",
+      "term": 5,
+      "prerequisites": [
+        "ECE 2100",
+        "PHYS 2070"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "ECE 3100",
+      "term": 5,
+      "prerequisites": [
+        "ECE 2100",
+        "MATH 3740"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "ECE 3610",
+      "term": 5,
+      "prerequisites": [
+        "ECE 2100",
+        "MATH 3740",
+        "PHYS 2070"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "Engineering Science Elective 1",
+      "term": 5,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "General Education- Area 4",
+      "term": 5,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "ECE 3200",
+      "term": 6,
+      "prerequisites": [
+        "ECE 2210",
+        "ECE 3100"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "ECE 3710",
+      "term": 6,
+      "prerequisites": [
+        "ECE 3100"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "ECE 3800",
+      "term": 6,
+      "prerequisites": [
+        "ECE 3100"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "IEE 3160",
+      "term": 6,
+      "prerequisites": [
+        "IME 1020"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "Engineering Science Elective 2",
+      "term": 6,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "ECE 4810",
+      "term": 7,
+      "prerequisites": [
+        "IEE 3160",
+        "ECE 2510",
+        "ECE 3200"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 2,
+      "passrate": 0.0
+    },
+    {
+      "name": "ECE 3300",
+      "term": 7,
+      "prerequisites": [
+        "ECE 3100",
+        "ECE 3610"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "IEE 3100",
+      "term": 7,
+      "prerequisites": [
+        "MATH 1230"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "ECE ELECTIVE 1",
+      "term": 7,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "Engineering Science Elective 3",
+      "term": 7,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "ECE 4820",
+      "term": 8,
+      "prerequisites": [
+        "ECE 4810"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "ECE ELECTIVE 2",
+      "term": 8,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "ECE ELECTIVE 3",
+      "term": 8,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "Engineering Science Elective 4",
+      "term": 8,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "General Education- Area 5",
+      "term": 8,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    }
+  ],
+  "terms": 8
+}

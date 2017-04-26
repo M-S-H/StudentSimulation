@@ -1,0 +1,450 @@
+{
+  "courses": [
+    {
+      "name": "CHEM 1100",
+      "term": 1,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+        "CHEM 1110"
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "CHEM 1110",
+      "term": 1,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 1,
+      "passrate": 0.0
+    },
+    {
+      "name": "BIOS 1600",
+      "term": 1,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "MATH 1220",
+      "term": 1,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "Area 1",
+      "term": 1,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "CHEM 1120",
+      "term": 2,
+      "prerequisites": [
+        "CHEM 1100",
+        "CHEM1110"
+      ],
+      "corequisites": [
+        "CHEM 1130"
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "CHEM 1130",
+      "term": 2,
+      "prerequisites": [
+        "CHEM 1100",
+        "CHEM 1110"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 1,
+      "passrate": 0.0
+    },
+    {
+      "name": "BIOS 1610",
+      "term": 2,
+      "prerequisites": [
+        "BIOS 1600"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "MATH 1230",
+      "term": 2,
+      "prerequisites": [
+        "MATH 1220"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "Area 2",
+      "term": 2,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "CHEM 3750",
+      "term": 3,
+      "prerequisites": [
+        "CHEM 1120",
+        "CHEM 1130"
+      ],
+      "corequisites": [
+        "CHEM 3760"
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "CHEM 3760",
+      "term": 3,
+      "prerequisites": [
+        "CHEM 1120",
+        "CHEM 1130"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 1,
+      "passrate": 0.0
+    },
+    {
+      "name": "BIOS 1620",
+      "term": 3,
+      "prerequisites": [
+        "BIOS 1600"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "MATH 2720",
+      "term": 3,
+      "prerequisites": [
+        "MATH 1230"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "PHYS 2050",
+      "term": 3,
+      "prerequisites": [
+        "MATH 1220"
+      ],
+      "corequisites": [
+        "PHYS 2060"
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "PHYS 2060",
+      "term": 3,
+      "prerequisites": [
+        "MATH 1220"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 1,
+      "passrate": 0.0
+    },
+    {
+      "name": "Area 3",
+      "term": 4,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "CHEM 3770",
+      "term": 4,
+      "prerequisites": [
+        "CHEM 3750",
+        "CHEM 3760"
+      ],
+      "corequisites": [
+        "CHEM 3780"
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "CHEM 3780",
+      "term": 4,
+      "prerequisites": [
+        "CHEM 3750",
+        "CHEM 3760"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 1,
+      "passrate": 0.0
+    },
+    {
+      "name": "PHYS 2070",
+      "term": 4,
+      "prerequisites": [
+        "PHYS 2050",
+        "MATH 2720"
+      ],
+      "corequisites": [
+        "PHYS 2080"
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "PHYS 2080",
+      "term": 4,
+      "prerequisites": [
+        "PHYS 2050",
+        "MATH 2720"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 1,
+      "passrate": 0.0
+    },
+    {
+      "name": "CHEM 2250",
+      "term": 5,
+      "prerequisites": [
+        "CHEM 1120",
+        "CHEM 1130"
+      ],
+      "corequisites": [
+        "CHEM 2260"
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "CHEM 2260",
+      "term": 5,
+      "prerequisites": [
+        "CHEM 1120",
+        "CHEM 1130"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 1,
+      "passrate": 0.0
+    },
+    {
+      "name": "CHEM 4300",
+      "term": 5,
+      "prerequisites": [
+        "PHYS 2050",
+        "PHYS 2060",
+        "PHYS 2070",
+        "PHYS 2080",
+        "CHEM 1120",
+        "CHEM1130",
+        "MATH 2720"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "BIOS 2500",
+      "term": 5,
+      "prerequisites": [
+        "CHEM 1120",
+        "BIOS 1610"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.0
+    },
+    {
+      "name": "Area 4",
+      "term": 5,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "CHEM 4360",
+      "term": 6,
+      "prerequisites": [
+        "CHEM 2250",
+        "CHEM 2260",
+        "CHEM 4300"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 2,
+      "passrate": 0.0
+    },
+    {
+      "name": "BIOS 3120",
+      "term": 6,
+      "prerequisites": [
+        "BIOS 2500",
+        "CHEM 3750",
+        "CHEM 3760"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 5,
+      "passrate": 0.0
+    },
+    {
+      "name": "Area 5",
+      "term": 6,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "Area 7",
+      "term": 6,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "CHEM 5500",
+      "term": 7,
+      "prerequisites": [
+        "CHEM 3770",
+        "CHEM 3780",
+        "CHEM 4300"
+      ],
+      "corequisites": [
+        "CHEM 5510"
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "CHEM 5510",
+      "term": 7,
+      "prerequisites": [
+        "CHEM 3770",
+        "CHEM 3780",
+        "CHEM 4300"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 2,
+      "passrate": 0.0
+    },
+    {
+      "name": "Area 8",
+      "term": 7,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "CHEM 5540",
+      "term": 8,
+      "prerequisites": [
+        "CHEM 5500"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    },
+    {
+      "name": "Elective",
+      "term": 8,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.0
+    }
+  ],
+  "terms": 8
+}

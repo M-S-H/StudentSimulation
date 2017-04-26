@@ -1,0 +1,494 @@
+{
+  "terms": 8,
+  "courses": [
+    {
+      "name": "ENGL 101",
+      "term": 1,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.9117579647031859
+    },
+    {
+      "name": "MATH 162",
+      "term": 1,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.7570857903747384
+    },
+    {
+      "name": "ECE 101",
+      "term": 1,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 1,
+      "passrate": 0.9500912964090079
+    },
+    {
+      "name": "ECE 131",
+      "term": 1,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.8534641324340895
+    },
+    {
+      "name": "PHYC 160",
+      "term": 1,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.7926494788809655
+    },
+    {
+      "name": "ENGL 102",
+      "term": 2,
+      "prerequisites": [
+        "ENGL 101"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.9240454076367389
+    },
+    {
+      "name": "MATH 163",
+      "term": 2,
+      "prerequisites": [
+        "MATH 162"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.7477970945463206
+    },
+    {
+      "name": "PHYC 161",
+      "term": 2,
+      "prerequisites": [
+        "PHYC 160"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.8496824276640791
+    },
+    {
+      "name": "PHYC 161L",
+      "term": 2,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+        "PHYC 161"
+      ],
+      "credits": 1,
+      "passrate": 0.9854077253218884
+    },
+    {
+      "name": "ECE 231",
+      "term": 2,
+      "prerequisites": [
+        "ECE 131"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.9293078055964654
+    },
+    {
+      "name": "ECE 203",
+      "term": 3,
+      "prerequisites": [
+        "ENGL 102",
+        "MATH 163"
+      ],
+      "corequisites": [
+        "PHYC 161"
+      ],
+      "credits": 3,
+      "passrate": 0.9323056300268097
+    },
+    {
+      "name": "ECE 238L",
+      "term": 3,
+      "prerequisites": [
+        "ECE 131"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.9051155115511551
+    },
+    {
+      "name": "CHEM 121",
+      "term": 3,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.8055092551978243
+    },
+    {
+      "name": "CHEM 123L",
+      "term": 3,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+        "CHEM 121"
+      ],
+      "credits": 1,
+      "passrate": 0.8943919209282338
+    },
+    {
+      "name": "ENGL 219",
+      "term": 3,
+      "prerequisites": [
+        "ENGL 102"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.9333477446317914
+    },
+    {
+      "name": "ECON 105",
+      "term": 3,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.7878170816848964
+    },
+    {
+      "name": "ECE 206L",
+      "term": 4,
+      "prerequisites": [
+        "ECE 203",
+        "ENGL 102"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 2,
+      "passrate": 0.9945848375451264
+    },
+    {
+      "name": "ECE 300",
+      "term": 4,
+      "prerequisites": [
+        "MATH 163"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 1.0,
+      "termReq": 4
+    },
+    {
+      "name": "ECE 213",
+      "term": 4,
+      "prerequisites": [
+        "ECE 203"
+      ],
+      "corequisites": [
+        "ECE 300"
+      ],
+      "credits": 3,
+      "passrate": 0.9600665557404326
+    },
+    {
+      "name": "MATH 264",
+      "term": 4,
+      "prerequisites": [
+        "MATH 163"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.8399744979279566
+    },
+    {
+      "name": "ECE 330",
+      "term": 4,
+      "prerequisites": [
+        "ECE 231"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.9948186528497409
+    },
+    {
+      "name": "ECE 321L",
+      "term": 5,
+      "prerequisites": [
+        "ECE 213"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.9722222222222222
+    },
+    {
+      "name": "MATH 327",
+      "term": 5,
+      "prerequisites": [
+        "MATH 163"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.8307692307692308
+    },
+    {
+      "name": "ECE 314",
+      "term": 5,
+      "prerequisites": [
+        "ECE 213",
+        "MATH 264"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.9334532374100719
+    },
+    {
+      "name": "ECE 340",
+      "term": 5,
+      "prerequisites": [
+        "ECE 300"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.9252669039145908
+    },
+    {
+      "name": "SPAN 101",
+      "term": 5,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.8710051733307548
+    },
+    {
+      "name": "ECE 335",
+      "term": 6,
+      "prerequisites": [
+        "ECE 330"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 1.0
+    },
+    {
+      "name": "ECE 331",
+      "term": 6,
+      "prerequisites": [
+        "ECE 231",
+        "MATH 327"
+      ],
+      "corequisites": [
+        "ECE 340"
+      ],
+      "credits": 3,
+      "passrate": 0.9693251533742331
+    },
+    {
+      "name": "ECE 344L",
+      "term": 6,
+      "prerequisites": [
+        "ECE 206L",
+        "ECE 238L",
+        "ECE 321L"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 4,
+      "passrate": 0.8978805394990366
+    },
+    {
+      "name": "PSY 105",
+      "term": 6,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.7609853910054426
+    },
+    {
+      "name": "ECE 419",
+      "term": 7,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 1.0,
+      "termReq": 5
+    },
+    {
+      "name": "ECE 437",
+      "term": 7,
+      "prerequisites": [
+        "ECE 330"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.9783783783783784
+    },
+    {
+      "name": "ECE 435",
+      "term": 7,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+        "ECE 331"
+      ],
+      "credits": 3,
+      "passrate": 1.0
+    },
+    {
+      "name": "ECE 495",
+      "term": 7,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.9843014128728415,
+      "termReq": 5
+    },
+    {
+      "name": "HIST 101",
+      "term": 7,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.82748823581639
+    },
+    {
+      "name": "ECE 420",
+      "term": 8,
+      "prerequisites": [
+        "ECE 419"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 1.0
+    },
+    {
+      "name": "ECE 440",
+      "term": 8,
+      "prerequisites": [
+        "ECE 330"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.9765258215962441
+    },
+    {
+      "name": "ECE 412",
+      "term": 8,
+      "prerequisites": [
+        "ECE 331"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.8823529411764706
+    },
+    {
+      "name": "ARTH 101",
+      "term": 8,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.8249612544443431
+    },
+    {
+      "name": "CLST 107",
+      "term": 8,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 3,
+      "passrate": 0.968226290806936
+    }
+  ]
+}

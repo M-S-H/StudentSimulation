@@ -1,0 +1,642 @@
+{
+  "courses": [
+    {
+      "name": "GEP 202",
+      "term": 1,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 0,
+      "passrate": 0.8
+    },
+    {
+      "name": "GEP 2021",
+      "term": 1,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 0,
+      "passrate": 0.8
+    },
+    {
+      "name": "E 101",
+      "term": 1,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 0,
+      "passrate": 0.8
+    },
+    {
+      "name": "GEP 206",
+      "term": 1,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 0,
+      "passrate": 0.8
+    },
+    {
+      "name": "MA 141",
+      "term": 1,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 0,
+      "passrate": 0.8
+    },
+    {
+      "name": "ENG 101",
+      "term": 1,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 0,
+      "passrate": 0.8
+    },
+    {
+      "name": "CH 101",
+      "term": 1,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 0,
+      "passrate": 0.8
+    },
+    {
+      "name": "CH 102",
+      "term": 1,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 0,
+      "passrate": 0.8
+    },
+    {
+      "name": "E 115",
+      "term": 1,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 0,
+      "passrate": 0.8
+    },
+    {
+      "name": "GC 120",
+      "term": 2,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 0,
+      "passrate": 0.8
+    },
+    {
+      "name": "PY 205",
+      "term": 2,
+      "prerequisites": [
+        "MA 141"
+      ],
+      "corequisites": [
+        "PY 206"
+      ],
+      "credits": 0,
+      "passrate": 0.8
+    },
+    {
+      "name": "PY 206",
+      "term": 2,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 0,
+      "passrate": 0.8
+    },
+    {
+      "name": "CSC 113",
+      "term": 2,
+      "prerequisites": [
+        "E 115",
+        "MA 141"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 0,
+      "passrate": 0.8
+    },
+    {
+      "name": "MA 241",
+      "term": 2,
+      "prerequisites": [
+        "MA 141"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 0,
+      "passrate": 0.8
+    },
+    {
+      "name": "GEP 206",
+      "term": 2,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 0,
+      "passrate": 0.8
+    },
+    {
+      "name": "MA 242",
+      "term": 3,
+      "prerequisites": [
+        "MA 241"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 0,
+      "passrate": 0.8
+    },
+    {
+      "name": "GEP 203",
+      "term": 3,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 0,
+      "passrate": 0.8
+    },
+    {
+      "name": "MAE 251",
+      "term": 3,
+      "prerequisites": [
+        "PY 205",
+        "MA 241"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 0,
+      "passrate": 0.8
+    },
+    {
+      "name": "MAE 206",
+      "term": 3,
+      "prerequisites": [
+        "PY 205",
+        "MA 241"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 0,
+      "passrate": 0.8
+    },
+    {
+      "name": "MAE 250",
+      "term": 3,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 0,
+      "passrate": 0.8
+    },
+    {
+      "name": "PY 208",
+      "term": 3,
+      "prerequisites": [
+        "PY 205"
+      ],
+      "corequisites": [
+        "PY 209"
+      ],
+      "credits": 0,
+      "passrate": 0.8
+    },
+    {
+      "name": "PY 209",
+      "term": 3,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 0,
+      "passrate": 0.8
+    },
+    {
+      "name": "MAE 208",
+      "term": 4,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 0,
+      "passrate": 0.8
+    },
+    {
+      "name": "MA 341",
+      "term": 4,
+      "prerequisites": [
+        "MA 242"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 0,
+      "passrate": 0.8
+    },
+    {
+      "name": "GEP 207",
+      "term": 4,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 0,
+      "passrate": 0.8
+    },
+    {
+      "name": "MAE 253",
+      "term": 4,
+      "prerequisites": [
+        "MA 341",
+        "MAE 252"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 0,
+      "passrate": 0.8
+    },
+    {
+      "name": "MAE 214",
+      "term": 4,
+      "prerequisites": [
+        "MA 242",
+        "MAE 206"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 0,
+      "passrate": 0.8
+    },
+    {
+      "name": "MAE 252",
+      "term": 4,
+      "prerequisites": [
+        "MA 341",
+        "MAE 251"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 0,
+      "passrate": 0.8
+    },
+    {
+      "name": "ELECT 1",
+      "term": 5,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 0,
+      "passrate": 0.8
+    },
+    {
+      "name": "MAE 201",
+      "term": 5,
+      "prerequisites": [
+        "MA 242",
+        "PY 208"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 0,
+      "passrate": 0.8
+    },
+    {
+      "name": "MAE 361",
+      "term": 5,
+      "prerequisites": [
+        "MA 341",
+        "MAE 208"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 0,
+      "passrate": 0.8
+    },
+    {
+      "name": "MAE 372",
+      "term": 5,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 0,
+      "passrate": 0.8
+    },
+    {
+      "name": "ENG 331",
+      "term": 5,
+      "prerequisites": [
+        "ENG 101"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 0,
+      "passrate": 0.8
+    },
+    {
+      "name": "MAE 371",
+      "term": 5,
+      "prerequisites": [
+        "MAE 251",
+        "MAE 314"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 0,
+      "passrate": 0.8
+    },
+    {
+      "name": "GEP 208",
+      "term": 6,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 0,
+      "passrate": 0.8
+    },
+    {
+      "name": "MAE 352",
+      "term": 6,
+      "prerequisites": [
+        "MA 242",
+        "MAE 208"
+      ],
+      "corequisites": [
+        "MA 341",
+        "MAE 301"
+      ],
+      "credits": 0,
+      "passrate": 0.8
+    },
+    {
+      "name": "ELECT 1",
+      "term": 6,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 0,
+      "passrate": 0.8
+    },
+    {
+      "name": "ELECT 1",
+      "term": 6,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 0,
+      "passrate": 0.8
+    },
+    {
+      "name": "MAE 351",
+      "term": 6,
+      "prerequisites": [
+        "MAE 252",
+        "MAE 301"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 0,
+      "passrate": 0.8
+    },
+    {
+      "name": "ELECT 1",
+      "term": 6,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 0,
+      "passrate": 0.8
+    },
+    {
+      "name": "MAE 451",
+      "term": 7,
+      "prerequisites": [
+        "MAE 352"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 0,
+      "passrate": 0.8
+    },
+    {
+      "name": "MAE 480",
+      "term": 7,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 0,
+      "passrate": 0.8
+    },
+    {
+      "name": "ELECT 1",
+      "term": 7,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 0,
+      "passrate": 0.8
+    },
+    {
+      "name": "MAE 405",
+      "term": 7,
+      "prerequisites": [
+        "MAE 306"
+      ],
+      "corequisites": [
+        "MAE 435"
+      ],
+      "credits": 0,
+      "passrate": 0.8
+    },
+    {
+      "name": "MAE 435",
+      "term": 7,
+      "prerequisites": [
+        "MAE 341",
+        "MAE 361"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 0,
+      "passrate": 0.8
+    },
+    {
+      "name": "ELECT 1",
+      "term": 7,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 0,
+      "passrate": 0.8
+    },
+    {
+      "name": "ELECT 1",
+      "term": 8,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 0,
+      "passrate": 0.8
+    },
+    {
+      "name": "GEP 202",
+      "term": 8,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 0,
+      "passrate": 0.8
+    },
+    {
+      "name": "GEP 208",
+      "term": 8,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 0,
+      "passrate": 0.8
+    },
+    {
+      "name": "GEP 2081",
+      "term": 8,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 0,
+      "passrate": 0.8
+    },
+    {
+      "name": "MAE 481",
+      "term": 8,
+      "prerequisites": [
+        "MAE 480"
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 0,
+      "passrate": 0.8
+    },
+    {
+      "name": "ELECT 1",
+      "term": 8,
+      "prerequisites": [
+
+      ],
+      "corequisites": [
+
+      ],
+      "credits": 0,
+      "passrate": 0.8
+    }
+  ],
+  "terms": 8
+}

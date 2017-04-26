@@ -1,0 +1,69 @@
+{
+  "terms": 4,
+  "courses": [
+    {
+      "name": "Eng 101",
+      "credits": 3,
+      "passrate": 0.64,
+      "term": 1,
+      "corequisites": [],
+      "prerequisites": []
+    },
+    {
+      "name": "Circuits 1",
+      "credits": 3,
+      "passrate": 0.932,
+      "term": 2,
+      "corequisites": [],
+      "prerequisites": ["Eng 101"]
+    },
+    {
+      "name": "Calc 1",
+      "credits": 3,
+      "passrate": 0.757,
+      "term": 2,
+      "corequisites": [],
+      "prerequisites": ["Eng 101"]
+    },
+    {
+      "name": "Prog 1",
+      "credits": 3,
+      "passrate": 0.853,
+      "term": 3,
+      "corequisites": [],
+      "prerequisites": ["Calc 1"]
+    },
+    {
+      "name": "Phyc 1",
+      "credits": 3,
+      "passrate": 0.793,
+      "term": 3,
+      "corequisites": [],
+      "prerequisites": ["Calc 1"]
+    },
+    {
+      "name": "Calc 2",
+      "credits": 3,
+      "passrate": 0.748,
+      "term": 3,
+      "corequisites": [],
+      "prerequisites": ["Calc 1"]
+    },
+    {
+      "name": "Diff Eqs",
+      "credits": 4,
+      "passrate": 0.852,
+      "term": 4,
+      "corequisites": [],
+      "prerequisites": ["Calc 2"]
+    },
+    {
+      "name": "Calc 3",
+      "credits": 3,
+      "passrate": 0.840,
+      "term": 4,
+      "corequisites": [],
+      "prerequisites": ["Calc 2"]
+    }
+  ]
+}

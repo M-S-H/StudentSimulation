@@ -1,10 +1,6 @@
-support
-students
-tests
+data
+helpers
 
 *.ipynb
 
-*.jl
-
 !server.jl
-!SimulationModel.jl
