@@ -1,5 +1,8 @@
 data
 helpers
+curricula/gen40
+curricula/gen9
+curricula/gen6
 
 *.ipynb
 
