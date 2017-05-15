@@ -19,7 +19,11 @@ function regressionPlot(Y, X, ylabel, xlabel, data)
     Xsym = Symbol(X)
     fm = Formula(Ysym, Xsym)
     ols = glm(fm, data, Normal(), IdentityLink())
-    er = round(r2_measure(data[Ysym], predict(ols)), 2)
+    er = round(r2_measure(data[Ysym], predict(ols)), 3)
+    println("---------")
+    println(er)
+    println(ols)
+    println("---------")
     
     l1 = layer(data, x=X, y=Y, Geom.point)
     
@@ -50,14 +54,26 @@ function multipleRegressionPlot(Y, features, ylabel, xlabel, data)
 
     # fm = Formula(Ysym, Xsym)
     ols = glm(fm, data, Normal(), IdentityLink())
-    er = round(r2_measure(data[Ysym], predict(ols)), 2)
+    er = round(r2_measure(data[Ysym], predict(ols)), 3)
+    
+    println("---------")
+    println(er)
+    println(ols)
+    println("---------")
 
     c = coef(ols)
     newX = zeros(size(data)[1])
+
+    println(c)
+
     # newX .+= c[1]
     for (i, f) in enumerate(features)
         newX += data[f] * -c[i+1]
     end
+
+    println(data[1,:])
+    println(newX[1])
+    println(predict(ols)[1])
 
     tempData = DataFrame()
     tempData[:Y] = data[Ysym]
@@ -84,33 +100,49 @@ function multipleRegressionPlot(Y, features, ylabel, xlabel, data)
     # return (ols, p)
 end
 
-# Simple Curriculum Plots
-# 50% Complexity
-data = readtable("./results/simple/rates/rates_50.0.csv")
-data[:gradRate5] *= 100
-ols, p = regressionPlot(:gradRate5, :complexity, "5th Term Completion Rate", "Complexity", data)
-draw(PNG("./results/simple/complexity_50.png", 1920px, 1080px), p)
+# # Simple Curriculum Plots
+# # 50% Complexity
+# data = readtable("./results/simple/rates/rates_50.0.csv")
+# data[:gradRate5] *= 100
+# ols, p = regressionPlot(:gradRate5, :complexity, "5th Term Completion Rate", "Complexity", data)
+# draw(PNG("./results/simple/complexity_50.png", 1920px, 1080px), p)
 
-# 85% Complexity
-data = readtable("./results/simple/rates/rates_80.0.csv")
-data[:gradRate5] *= 100
-ols, p = regressionPlot(:gradRate5, :complexity, "5th Term Completion Rate", "Complexity", data)
-draw(PNG("./results/simple/complexity_80.png", 1920px, 1080px), p)
+# # 80% Complexity
+# data = readtable("./results/simple/rates/rates_80.0.csv")
+# data[:gradRate5] *= 100
+# ols, p = regressionPlot(:gradRate5, :complexity, "5th Term Completion Rate", "Complexity", data)
+# draw(PNG("./results/simple/complexity_80.png", 1920px, 1080px), p)
 
-# Web Curricula Plots
-# 80% Complexity
-data = readtable("./results/web/rates/rates_80.0.csv")
+# # Web Curricula Plots
+# # 80% Complexity
+# data = readtable("./results/web/rates/rates_80.0.csv")
+# data[:gradRate10] *= 100
+# ols, p = regressionPlot(:gradRate10, :complexity, "10th Term Completion Rate", "Complexity", data)
+# draw(PNG("./results/web/complexity_80.png", 1920px, 1080px), p)
+
+# yhat = predict(ols)
+# r = yhat - data[:gradRate10]
+# p = plot(x=yhat, y=r, Guide.xlabel("Predicted 10th Term Completion"), Guide.ylabel("Residual"), Theme(theme))
+# draw(PNG("./results/web/complexity_80_residual.png", 1920px, 1080px), p)
+
+# # Web Curricula Plots
+# # 80% Complexity With Credits
+# data = readtable("./results/web/rates/rates_80.0.csv")
+# data[:gradRate10] *= 100
+# ols, p = multipleRegressionPlot(:gradRate10, [:complexity, :credits], "10th Term Completion Rate", "Complexity, Credit Hours", data)
+# draw(PNG("./results/web/complexity_credits_80.png", 1920px, 1080px), p)
+
+# Best Combination
+data = readtable("./results/web/rates/rates_80.0.csv") 
 data[:gradRate10] *= 100
-ols, p = regressionPlot(:gradRate10, :complexity, "5th Term Completion Rate", "Complexity", data)
-draw(PNG("./results/web/complexity_80.png", 1920px, 1080px), p)
+ols, p = multipleRegressionPlot(:gradRate10, [:credits,:complexity,:centrality,:reachability,:edges], "10th Term Completion Rate", "Complexity", data)
+draw(PNG("./results/web/complexity_optimal.png", 1920px, 1080px), p)
 
-# Web Curricula Plots
-# 80% Complexity With Credits
-data = readtable("./results/web/rates/rates_80.0.csv")
-data[:gradRate10] *= 100
-ols, p = multipleRegressionPlot(:gradRate10, [:complexity, :credits], "5th Term Completion Rate", "Complexity, Credit Hours", data)
-draw(PNG("./results/web/complexity_credits_80.png", 1920px, 1080px), p)
-
+# p = plot(l1,l2,Coord.cartesian(ymin=Ymin, ymax=Ymax, xmin=Xmin, xmax=Xmax), Guide.xlabel(xlabel), Guide.ylabel(ylabel), Guide.manual_color_key("", ["R^2: $(er)"], ["red"]), Theme(theme))
+# yhat = predict(ols)
+# r = yhat - data[:gradRate10]
+# p = plot(x=yhat, y=r, Guide.xlabel("Predicted 10th Term Completion"), Guide.ylabel("Residual"), Theme(theme))
+# draw(PNG("./results/web/complexity_optimal_residual.png", 1920px, 1080px), p)
 
 # # Web Curricula Plots
 # # 85% Complexity
@@ -125,3 +157,7 @@ draw(PNG("./results/web/complexity_credits_80.png", 1920px, 1080px), p)
 # data[:gradRate10] *= 100
 # ols, p = multipleRegressionPlot(:gradRate10, [:complexity, :credits], "5th Term Completion Rate", "Complexity, Credit Hours", data)
 # draw(PNG("./results/web/complexity_credits_85.png", 1920px, 1080px), p)
+
+
+
+# Instructional complexity plot

@@ -23,7 +23,7 @@ data = readtable("./results/$(curricula)/rates/rates_$(difficulty).csv");
 data[Symbol(term)] = data[Symbol(term)] * 100
 
 Y = [Symbol(term), :averageTTD]
-possible = [:credits, :complexity, :blocking, :delay, :centrality, :reachability, :term_complexity, :term_blocking, :term_delay, :term_centrality, :term_reachability, :free, :edges]
+possible = [:credits, :complexity, :blocking, :delay, :centrality, :reachability, :free, :edges]
 
 function r2_measure(y, f)
     y_hat = sum(y)/length(y)
