@@ -68,7 +68,7 @@ function multipleRegressionPlot(Y, features, ylabel, xlabel, data)
 
     # newX .+= c[1]
     for (i, f) in enumerate(features)
-        newX += data[f] * -c[i+1]
+        newX += data[f] * c[i+1]
     end
 
     println(data[1,:])
@@ -77,7 +77,7 @@ function multipleRegressionPlot(Y, features, ylabel, xlabel, data)
 
     tempData = DataFrame()
     tempData[:Y] = data[Ysym]
-    tempData[:X] = newX
+    tempData[:X] = predict(ols)
 
     regressionPlot(:Y, :X, ylabel, xlabel, tempData)
 
@@ -136,7 +136,7 @@ end
 data = readtable("./results/web/rates/rates_80.0.csv") 
 data[:gradRate10] *= 100
 ols, p = multipleRegressionPlot(:gradRate10, [:credits,:complexity,:centrality,:reachability,:edges], "10th Term Completion Rate", "Complexity", data)
-draw(PNG("./results/web/complexity_optimal.png", 1920px, 1080px), p)
+draw(PNG("./results/web/complexity_optimal_norm.png", 1920px, 1080px), p)
 
 # p = plot(l1,l2,Coord.cartesian(ymin=Ymin, ymax=Ymax, xmin=Xmin, xmax=Xmax), Guide.xlabel(xlabel), Guide.ylabel(ylabel), Guide.manual_color_key("", ["R^2: $(er)"], ["red"]), Theme(theme))
 # yhat = predict(ols)
