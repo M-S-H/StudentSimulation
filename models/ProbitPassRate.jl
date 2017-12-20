@@ -1,6 +1,6 @@
 module ProbitPassRate
     using GLM
-    using BoilingMoon
+    using CASL
     using DataFrames
 
     features = [:HSGPA, :ACTCOMP, :ACTMATH, :ACTSCIR, :ACTENGL]
